@@ -97,6 +97,14 @@
             "content": ""
           }
         },
+        "text": {
+          "type": "text",
+          "settings": {
+            "title": "Quiénes Somos",
+            "content": "<p>En <em><strong>Cocina Popular</strong></em><em>,</em> hacemos que cocinar sea fácil y accesible con productos innovadores y funcionales. Somos una comunidad comprometida con la calidad, el diseño y tu mejor experiencia. ¡Bienvenido! 💛</p>",
+            "enable_follow_on_shop": true
+          }
+        },
         "text_QRXYcJ": {
           "type": "text",
           "settings": {
@@ -111,21 +119,13 @@
             "menu": "footer",
             "show_menu_title": true
           }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "title": "Quiénes Somos",
-            "content": "<p>En <em><strong>Cocina Popular</strong></em><em>,</em> hacemos que cocinar sea fácil y accesible con productos innovadores y funcionales. Somos una comunidad comprometida con la calidad, el diseño y tu mejor experiencia. ¡Bienvenido! 💛</p>",
-            "enable_follow_on_shop": true
-          }
         }
       },
       "block_order": [
         "newsletter",
+        "text",
         "text_QRXYcJ",
-        "links",
-        "text"
+        "links"
       ],
       "settings": {
         "show_social_media": true,
