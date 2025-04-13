@@ -73,8 +73,8 @@
         "transparent_header_text_color": "#ffffff",
         "transparent_logo": "shopify://shop_images/LOGO_OFICIAL_LATAM_200_x_100_px_280_x_80_px_1945fa60-cc22-4114-b109-06d4ea44ea85.png",
         "reduce_padding": false,
-        "background_opacity": 100,
-        "background_blur_radius": 0
+        "background_opacity": 80,
+        "background_blur_radius": 20
       }
     }
   },
