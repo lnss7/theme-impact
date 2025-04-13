@@ -71,6 +71,7 @@
         "show_country_flag": true,
         "show_country_name": false,
         "transparent_header_text_color": "#ffffff",
+        "transparent_logo": "shopify://shop_images/LOGO_OFICIAL_LATAM_200_x_100_px_280_x_80_px_39fd5a88-ae57-4d8a-9662-3747cad57061.png",
         "reduce_padding": false,
         "background_opacity": 100,
         "background_blur_radius": 0
