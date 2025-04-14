@@ -37,19 +37,21 @@
         "slide-2": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/BANNERS_PC_-_TEMA_SECUNDARIO_LATAM_2000_x_450_px_2.png",
+            "mobile_image": "shopify://shop_images/111112asasaslula.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide title",
-            "heading_tag": "h0",
-            "button_text": "",
+            "subheading": "",
+            "title": "¡Artículos que hacen la diferencia en tu cocina!",
+            "heading_tag": "h2",
+            "button_text": "¡Ver artículos!",
             "button_link": "",
             "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
+            "button_background": "#ffde59",
+            "button_text_color": "#1a1a1a",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 20,
             "background": "",
             "background_gradient": ""
           }
