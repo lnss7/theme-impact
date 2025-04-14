@@ -439,7 +439,7 @@
       "type": "scrolling-text",
       "settings": {
         "full_width": true,
-        "text": "Promotion text",
+        "text": "Cocina Popular",
         "text_size": "large",
         "text_style": "fill",
         "scrolling_mode": "auto",
@@ -453,37 +453,13 @@
     "hot-spots": {
       "type": "hot-spots",
       "blocks": {
-        "1664424434f5b7d0e0-0": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 24,
-            "vertical_position": 70,
-            "horizontal_position_mobile": 24,
-            "vertical_position_mobile": 70,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.</p>"
-          }
-        },
-        "1664424434f5b7d0e0-1": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 62,
-            "vertical_position": 14,
-            "horizontal_position_mobile": 62,
-            "vertical_position_mobile": 14,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.</p>"
-          }
-        },
         "1664424434f5b7d0e0-2": {
           "type": "item",
           "settings": {
             "horizontal_position": 83,
             "vertical_position": 75,
-            "horizontal_position_mobile": 83,
-            "vertical_position_mobile": 75,
+            "horizontal_position_mobile": 50,
+            "vertical_position_mobile": 50,
             "icon_width": 32,
             "title": "Feature name",
             "content": "<p>Share useful information about your product features.</p>"
@@ -491,12 +467,11 @@
         }
       },
       "block_order": [
-        "1664424434f5b7d0e0-0",
-        "1664424434f5b7d0e0-1",
         "1664424434f5b7d0e0-2"
       ],
       "settings": {
         "full_width": true,
+        "image": "shopify://shop_images/101010.svg",
         "title": "",
         "content": "",
         "button_text": "",
