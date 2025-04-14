@@ -73,6 +73,38 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "botella-de-spray-de-aceite-de-oliva-con-control-de-pulverizacion-cocina-popular",
+          "cuenco-de-fruta-de-cristal-con-base-de-madera-cocina-popular",
+          "espremedor-triturador-manual-de-ajo-en-acero-inoxidable-cocina-popular",
+          "molinillo-de-cafe-electrico-portatil-con-carga-usb-y-ceramica-cocina-popular",
+          "pelador-de-verduras-3-en-1-con-funda-para-cuchillo-herramienta-multifuncional-cocina-popular",
+          "tabla-de-cortar-4-en-1-con-descongelacion-rapida-y-rallador-cocina-popular"
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Los más vendidos",
+        "content": "",
+        "link_url": "",
+        "link_text": "Ver todo",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -156,7 +188,7 @@
         "heading_gradient": ""
       }
     },
-    "featured-collection": {
+    "featured_collection_jmjBVc": {
       "type": "featured-collection",
       "settings": {
         "collection": "",
@@ -591,8 +623,9 @@
   },
   "order": [
     "slideshow",
-    "collection-list",
     "featured-collection",
+    "collection-list",
+    "featured_collection_jmjBVc",
     "scrolling-text",
     "impact-text",
     "image-with-text-overlay",
