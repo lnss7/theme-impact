@@ -272,7 +272,8 @@
         "item-1": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
+            "image": "shopify://shop_images/Banner_PROMO1_11zon.webp",
+            "title": "",
             "heading_tag": "h4",
             "link_url": "",
             "link_text": "",
@@ -282,7 +283,7 @@
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "background": "#000000",
             "background_gradient": "",
-            "text_color": "#ffffff",
+            "text_color": "#f2f2f2",
             "text_gradient": "",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
