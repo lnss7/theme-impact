@@ -462,6 +462,61 @@
         "background_gradient": ""
       }
     },
+    "logo_list_tEEUHb": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_zpAaqx": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_wKGCzf": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_GqhNyY": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_FQtN4p": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_zpAaqx",
+        "logo_wKGCzf",
+        "logo_GqhNyY",
+        "logo_FQtN4p"
+      ],
+      "name": "Logo list",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "@cocinapopular",
+        "content": "<h5>Lo mejor de la cocina, también en Instagram.</h5>",
+        "text_alignment": "center",
+        "items_per_row": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -524,6 +579,7 @@
     "media-grid",
     "featured_collection_jmjBVc",
     "slideshow_BFj9HE",
+    "logo_list_tEEUHb",
     "faq"
   ]
 }
