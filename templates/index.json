@@ -462,59 +462,118 @@
         "background_gradient": ""
       }
     },
-    "logo_list_tEEUHb": {
-      "type": "logo-list",
+    "rich_text_TaVaHn": {
+      "type": "rich-text",
       "blocks": {
-        "logo_zpAaqx": {
-          "type": "logo",
+        "heading_iEyNV6": {
+          "type": "heading",
           "settings": {
-            "logo_width": 120,
-            "link": ""
+            "text": "@cocinapopular",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
           }
         },
-        "logo_wKGCzf": {
-          "type": "logo",
+        "richtext_EKwtmD": {
+          "type": "richtext",
           "settings": {
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_GqhNyY": {
-          "type": "logo",
-          "settings": {
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_FQtN4p": {
-          "type": "logo",
-          "settings": {
-            "logo_width": 120,
-            "link": ""
+            "content": "<h4>Lo mejor de la cocina, también en Instagram.</h4>"
           }
         }
       },
       "block_order": [
-        "logo_zpAaqx",
-        "logo_wKGCzf",
-        "logo_GqhNyY",
-        "logo_FQtN4p"
+        "heading_iEyNV6",
+        "richtext_EKwtmD"
       ],
-      "name": "Logo list",
+      "custom_css": [
+        "div {padding: 6px;}"
+      ],
+      "name": "Rich text",
       "settings": {
         "full_width": true,
-        "stack_mobile": true,
-        "title": "@cocinapopular",
-        "content": "<h5>Lo mejor de la cocina, también en Instagram.</h5>",
-        "text_alignment": "center",
-        "items_per_row": 5,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_link_blocks_nPaYq6": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_JnVAMz": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/15_11zon.webp",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_MPWTKc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/17_11zon.webp",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_FhWYtP": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/16_11zon.webp",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_eqCMzN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/18_11zon.webp",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_JnVAMz",
+        "item_MPWTKc",
+        "item_FhWYtP",
+        "item_eqCMzN"
+      ],
+      "name": "Image link blocks",
+      "settings": {
+        "full_width": true,
+        "block_size": "large",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
         "background": "",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
+        "heading_gradient": ""
       }
     },
     "faq": {
@@ -579,7 +638,8 @@
     "media-grid",
     "featured_collection_jmjBVc",
     "slideshow_BFj9HE",
-    "logo_list_tEEUHb",
+    "rich_text_TaVaHn",
+    "image_link_blocks_nPaYq6",
     "faq"
   ]
 }
