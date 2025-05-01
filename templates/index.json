@@ -377,7 +377,15 @@
       "type": "featured-collection",
       "settings": {
         "collection": "",
-        "products": [],
+        "products": [
+          "sacacorchos-electrico-inalambrico-abridor-de-vino-automatico-cocina-popular",
+          "estante-de-condimentos-extraible-de-2-niveles-cocina-popular",
+          "dispensador-de-alimentos-giratorio-redon-cocina-popular",
+          "soporte-para-condimentos-5-en-1-cocina-popular",
+          "organizador-de-huevos-de-32-rejillas-cajon-apilable-nevera-ordenada-cocina-popular",
+          "cuenco-de-fruta-de-cristal-con-base-de-madera-cocina-popular",
+          "espumador-de-leche-inalambrico-usb-tipo-c-batidora-para-cafe-y-capuchino"
+        ],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": false,
