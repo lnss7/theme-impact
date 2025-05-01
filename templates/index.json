@@ -266,6 +266,21 @@
         "input_text_color": ""
       }
     },
+    "scrolling-text": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "Cocina Popular, innovación hecha para tu hogar.",
+        "text_size": "medium",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
+      }
+    },
     "media-grid": {
       "type": "media-grid",
       "blocks": {
@@ -447,21 +462,6 @@
         "background_gradient": ""
       }
     },
-    "scrolling-text": {
-      "type": "scrolling-text",
-      "settings": {
-        "full_width": true,
-        "text": "Cocina Popular, innovación hecha para tu hogar.",
-        "text_size": "medium",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 4,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "text_gradient": ""
-      }
-    },
     "hot-spots": {
       "type": "hot-spots",
       "blocks": {
@@ -562,10 +562,10 @@
     "featured-collection",
     "collection-list",
     "featured-product",
+    "scrolling-text",
     "media-grid",
     "featured_collection_jmjBVc",
     "slideshow_BFj9HE",
-    "scrolling-text",
     "hot-spots",
     "faq"
   ]
