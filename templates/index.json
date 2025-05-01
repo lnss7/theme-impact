@@ -469,7 +469,7 @@
           "type": "heading",
           "settings": {
             "text": "@cocinapopular",
-            "heading_tag": "h1",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -477,7 +477,7 @@
         "richtext_EKwtmD": {
           "type": "richtext",
           "settings": {
-            "content": "<h4>Lo mejor de la cocina, también en Instagram.</h4>"
+            "content": "<h5>Lo mejor de la cocina, también en Instagram.</h5>"
           }
         }
       },
