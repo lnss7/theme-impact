@@ -462,48 +462,6 @@
         "background_gradient": ""
       }
     },
-    "hot-spots": {
-      "type": "hot-spots",
-      "blocks": {
-        "1664424434f5b7d0e0-2": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 46,
-            "vertical_position": 67,
-            "horizontal_position_mobile": 50,
-            "vertical_position_mobile": 50,
-            "icon_width": 32,
-            "title": "Set Gourmet de Silicona",
-            "content": "<p><strong>Transforma tu cocina</strong> con este <a href=\"/products/juego-de-utensilios-de-cocina-de-silicona-cocina-popular\" title=\"Juego de Utensilios de Cocina de Silicona - Cocina Popular\"><em>set de utensilios</em></a> de silicona premium. Diseño moderno, <strong>resistente al calor y suave con tus ollas</strong>: todo lo que necesitas para cocinar con <strong>estilo y comodidad.</strong></p>"
-          }
-        }
-      },
-      "block_order": [
-        "1664424434f5b7d0e0-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "image": "shopify://shop_images/101010.svg",
-        "title": "",
-        "content": "",
-        "button_text": "",
-        "button_url": "",
-        "desktop_text_position": "place-self-start text-start",
-        "image_background": "",
-        "image_background_gradient": "",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "overlay_text_color": "#ffffff",
-        "overlay_button_background": "",
-        "overlay_button_text_color": "",
-        "hot_spot_dot_background": "#ffffff",
-        "hot_spot_dot_text_color": "#000000",
-        "hot_spot_content_background": "#ffffff",
-        "hot_spot_content_text_color": "#000000",
-        "hot_spot_content_opacity": 90,
-        "hot_spot_content_blur_radius": 3
-      }
-    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -566,7 +524,6 @@
     "media-grid",
     "featured_collection_jmjBVc",
     "slideshow_BFj9HE",
-    "hot-spots",
     "faq"
   ]
 }
