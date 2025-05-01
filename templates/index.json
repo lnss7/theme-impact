@@ -582,22 +582,22 @@
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "¿Cuánto tarda en llegar mi pedido?",
+            "content": "<p>Los pedidos suelen entregarse en un plazo de <strong>4 a 8 días laborables</strong> dentro de España. Recibirás un número de seguimiento por email tan pronto como tu pedido sea enviado.</p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "¿Puedo devolver un producto si no estoy satisfecho/a?",
+            "content": "<p>¡Claro! Tienes hasta <strong>30 días naturales</strong> desde la recepción para solicitar la devolución. El producto debe estar sin usar y en su embalaje original. Solo tienes que contactarnos y te guiaremos en el proceso.</p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "¿Cómo puedo rastrear mi pedido?",
+            "content": "<p>Recibirás un correo electrónico con el código de seguimiento dentro de las <strong>48 horas</strong> posteriores a tu compra. Desde ese enlace, podrás ver el estado de tu pedido en tiempo real. Si no lo recibes, contáctanos y te ayudaremos encantados.</p>"
           }
         }
       },
@@ -610,10 +610,10 @@
         "full_width": false,
         "subheading": "",
         "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "content": "<p>Resolvemos tus dudas más comunes para que compres con total confianza en <strong>Cocina Popular</strong>.</p>",
         "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
+        "support_hours": "Lunes a viernes: 8am - 7pm | Sábados, domingos y feriados: 11am - 10pm.",
+        "answer_time": "Tiempo medio de respuesta: 24h",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
