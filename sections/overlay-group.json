@@ -37,10 +37,17 @@
         "show_shipping_text": true,
         "show_view_cart_button": false,
         "show_checkout_button": true,
-        "recommendations_title": "Trending this month",
-        "products": [],
+        "recommendations_title": "Los más vendidos del mes",
+        "products": [
+          "dispensador-de-alimentos-giratorio-redon-cocina-popular",
+          "dispensador-de-agua-de-escritorio-inteligente-cocina-popular",
+          "espumador-de-leche-inalambrico-usb-tipo-c-batidora-para-cafe-y-capuchino",
+          "juego-de-utensilios-de-cocina-de-silicona-cocina-popular",
+          "protexclean®-protector-de-estufas-promocion-rayos-paga-4-obten-8",
+          "tabla-de-cortar-4-en-1-con-descongelacion-rapida-y-rallador-cocina-popular"
+        ],
         "product_card_background": "#f2f2f2",
-        "product_card_text_color": ""
+        "product_card_text_color": "#272727"
       }
     },
     "search-drawer": {
