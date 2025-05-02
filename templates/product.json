@@ -47,9 +47,9 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "hide_sold_out_variants": false,
+            "hide_sold_out_variants": true,
             "stack_blocks": true,
-            "selector_mode": "block",
+            "selector_mode": "dropdown",
             "color_mode": "color",
             "size_chart_page": ""
           }
@@ -98,12 +98,16 @@
         "liquid_PkEkci",
         "description"
       ],
+      "custom_css": [
+        "div {font-size: 15px;}",
+        "sale-price {font-size: 39px;}"
+      ],
       "settings": {
         "full_width": true,
         "show_fixed_add_to_cart": true,
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "expanded",
+        "mobile_media_size": "contained",
         "mobile_carousel_control": "floating_dots",
         "enable_video_autoplay": false,
         "enable_video_looping": true,
@@ -111,7 +115,7 @@
         "max_image_zoom_level": 3,
         "background": "",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#272727",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
