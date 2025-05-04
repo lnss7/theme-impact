@@ -27,7 +27,7 @@
       "type": "privacy-banner",
       "settings": {
         "privacy_bar_title": "Cookie policy",
-        "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.</p>"
+        "privacy_bar_content": "<p>Utilizamos cookies y tecnologías similares para brindar la mejor experiencia en nuestro sitio web. Consulte nuestra <a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Política de privacidad</a> para obtener más información.</p>"
       }
     },
     "cart-drawer": {
