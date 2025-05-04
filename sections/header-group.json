@@ -54,7 +54,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        "div {font-size: 13px; font-family: \"Poppins\";}"
+        "div {font-size: 15px; font-family: \"Poppins\";}"
       ],
       "settings": {
         "enable_sticky": true,
