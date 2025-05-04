@@ -46,7 +46,7 @@
             "title": "¡Artículos que hacen la diferencia en tu cocina!",
             "heading_tag": "h2",
             "button_text": "¡Ver artículos!",
-            "button_link": "",
+            "button_link": "shopify://collections/organizacion-cocina-popular",
             "text_color": "#ffffff",
             "button_background": "#ffde59",
             "button_text_color": "#1a1a1a",
