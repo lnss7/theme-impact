@@ -15,8 +15,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/banner_1.png",
-            "mobile_image": "shopify://shop_images/BANNERS_MOBILE_-_TEMA_SECUNDARIO_LATAM2.png",
+            "image": "shopify://shop_images/banner_1_11zon_d1c535ee-ac63-48e6-b064-329e1cc62cb9.webp",
+            "mobile_image": "shopify://shop_images/2_11zon_99b8dd1d-1095-4b40-b5d3-3652051db465.webp",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center-start text-start",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -37,8 +37,8 @@
         "slide-2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/BANNERS_PC_-_TEMA_SECUNDARIO_LATAM_2000_x_450_px_2.png",
-            "mobile_image": "shopify://shop_images/111112asasaslula.png",
+            "image": "shopify://shop_images/5_11zon_8bac48d0-db7a-4f0b-a543-735f07610157.webp",
+            "mobile_image": "shopify://shop_images/4_11zon_4262af70-9e39-49cf-8304-b74e0932e449.webp",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -427,8 +427,8 @@
         "image_y6hA7D": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/BANNERS_PC_-_TEMA_SECUNDARIO_LATAM_2000_x_450_px.png",
-            "mobile_image": "shopify://shop_images/BANNERS_MOBILE_-_TEMA_SECUNDARIO_LATAM2_7a2e837d-de6d-4aec-b501-6aba56377461.png",
+            "image": "shopify://shop_images/6_11zon_91b97c7e-2817-430e-80df-0246f6dba395.webp",
+            "mobile_image": "shopify://shop_images/5_11zon_3c322b40-7cfb-48c1-8aaf-b9b12f6d6bac.webp",
             "content_max_width": 780,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
