@@ -8,7 +8,7 @@
     means that for merchant not using the app but an app section, it may lead to add extra JS, but this is an acceptable
     performance impact as the JS and CSS are very small. 各務
     {%- endcomment -%}
-    <link rel="stylesheet" href="{{ 'apps.css' | asset_url }}" media="print" fetchpriority="low" onload="this.media='all'">
+    <link rel="stylesheet" href="{{ 'apps.aio.min.css' | asset_url }}" media="print" fetchpriority="low" onload="this.media='all'">
     <script type="module" src="{{ 'apps.js' | asset_url }}" fetchpriority="low"></script>
 
     <template id="shopify-reviews-custom-header">
