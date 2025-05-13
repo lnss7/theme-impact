@@ -3197,5 +3197,62 @@
         "zero": "{{ count }} comentaris"
       }
     }
+  },
+  "cart": {
+    "shipping_estimator": {
+      "multiple_results": "Hi ha diverses tarifes de despeses d'enviament per a la teva adreça:",
+      "error": "Es va produir un error en recuperar les tarifes de despeses d'enviament:"
+    }
+  },
+  "search": {
+    "general": {
+      "terms": "Resultats de « {{ terms }} »",
+      "posts": "Entrades de bloc",
+      "view_all_results": "Veure tots els resultats",
+      "no_results": "No s'han trobat resultats."
+    },
+    "results_count": {
+      "zero": "0 resultats per « {{ terms }} »",
+      "one": "1 resultat per « {{ terms }} »",
+      "other": "{{ count }} resultats per a « {{ terms }} »"
+    }
+  },
+  "gift_card": {
+    "general": {
+      "title": "Aquí tens la teva targeta de regal",
+      "scan": "o escaneja aquest codi QR"
+    },
+    "issued": {
+      "remaining_amount": "Import disponible",
+      "out_of_html": "de {{ initial_value }}",
+      "redeem_instructions": "Fes servir aquest codi per bescanviar la targeta de regal en finalitzar la compra:",
+      "expires_on": "Caduca el: {{ expires_on }}",
+      "expired": "La teva targeta de regal ha caducat o desactivat.",
+      "add_to_apple_wallet": "Afegir a Apple Wallet"
+    }
+  },
+  "password": {
+    "general": {
+      "follow_us": "Segueix-nos",
+      "powered_by": "Aquesta botiga ha estat creada amb",
+      "store_owner": "Ets el propietari?"
+    },
+    "storefront_access": {
+      "enter_password": "Accedeix amb la teva contrasenya",
+      "store_access": "Accés a la botiga",
+      "instructions": "Escriviu la contrasenya a continuació per accedir a la botiga",
+      "enter_store": "Entrar a la botiga"
+    }
+  },
+  "apps": {
+    "shopify_reviews": {
+      "review_info": "Aquest producte ha rebut {{ rating_value }} de {{ rating_max }} estrelles.",
+      "leave_review": "Deixar una ressenya",
+      "review_count": {
+        "zero": "Aquest producte encara no té ressenyes.",
+        "one": "Ha rebut {{ count }} ressenya.",
+        "other": "Ha rebut {{ count }} ressenyes."
+      }
+    }
   }
 }
