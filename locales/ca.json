@@ -25,7 +25,8 @@
             "custom_discount_not_honoured": "No es va complir el descompte personalitzat subministrat.",
             "unsupported_expectation": "La línia del descompte subministrat contenia una expectativa que la política no va poder interpretar.",
             "additional_requested_discount_code_discarded": "Es va descartar el codi de descompte addicional sol·licitat.",
-            "discount_title_too_long": "El títol del descompte no pot tenir més de 255 caràcters."
+            "discount_title_too_long": "El títol del descompte no pot tenir més de 255 caràcters.",
+            "allocations_mismatch": "El teu codi de descompte va canviar. Revisa el teu carret i torna-ho a intentar."
           },
           "tax": {
             "new_tax_must_be_accepted": "Els impostos associats a la teva comanda van canviar. Revisa'ls i torna-ho a intentar.",
@@ -135,6 +136,9 @@
           },
           "checkout_source": {
             "revoked": "Aquesta pantalla de pagament ja no està disponible."
+          },
+          "buyer_identity": {
+            "buyer_identity_presentment_currency_does_not_match": "Hi ha hagut un problema en processar la teva comanda. Torneu-ho a intentar en uns minuts."
           }
         },
         "full_price": "Preu regular:"
@@ -242,7 +246,21 @@
         },
         "deposit_label": "Dipòsit",
         "total_due_today_label": "Total a pagar avui",
-        "total_due_later_label": "Total a pagar més endavant"
+        "total_due_later_label": "Total a pagar més endavant",
+        "unit_price": {
+          "per_item": {
+            "single": "%{price} cada article",
+            "one": "%{price} per %{count} article",
+            "other": "%{price} per %{count} articles",
+            "many": "%{price} per %{count} articles"
+          }
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "No hi ha botigues disponibles amb el teu article",
+          "other": "No hi ha botigues disponibles amb els teus articles",
+          "many": "No hi ha botigues disponibles amb els teus articles"
+        },
+        "discount_code_allocations_mismatch": "El vostre codi de descompte <strong style=\"text-transform:uppercase\">%{code} ha</strong> canviat. Revisa el teu carret i torna-ho a intentar."
       },
       "shipping": {
         "title": "Enviament",
@@ -330,7 +348,8 @@
         "split_shipping_option_recommended": "Recomanat",
         "split_shipping_option_custom": "Personalitzat",
         "default_description": "S'envia en un dia hàbil",
-        "split_shipping_shipment_notice": "La teva comanda arribarà a %{quantity_shipments}"
+        "split_shipping_shipment_notice": "La teva comanda arribarà a %{quantity_shipments}",
+        "unbranded_default_description": "A punt per enviar"
       },
       "payment": {
         "brand_not_available": "Aquesta botiga no accepta {{brand}} . Fes servir una targeta diferent per fer el pagament.",
@@ -614,7 +633,8 @@
         "location_billing_address_label": "Adreça de facturació de la sucursal",
         "fact_billing_address_label": "Adreça de facturació",
         "location_shipping_address_label": "Adreça d'enviament de la sucursal",
-        "no_working_method_error": "Aquesta botiga no pot acceptar pagaments en aquest moment. Actualitza la pàgina o torna més tard."
+        "no_working_method_error": "Aquesta botiga no pot acceptar pagaments en aquest moment. Actualitza la pàgina o torna més tard.",
+        "payment_method_incompatible_with_payment_terms": "La forma de pagament no és compatible amb les condicions de pagament."
       },
       "pickup_point": {
         "paginator": {
@@ -650,7 +670,12 @@
         },
         "no_business_hours": "No hi ha horari comercial disponible.",
         "open_twenty_four_hours": "Obert 24 hores, 7 dies a la setmana",
-        "address_label": "Direcció"
+        "address_label": "Direcció",
+        "pickup_unavailable_banner_title": {
+          "one": "No hi ha punts de recollida disponibles per al teu article",
+          "other": "No hi ha punts de recollida disponibles pels teus articles",
+          "many": "No hi ha punts de recollida disponibles pels teus articles"
+        }
       },
       "error_page": {
         "terminal": {
@@ -895,11 +920,38 @@
         "estimated_delivery": "Data de lliurament estimada actual: ",
         "view_business_customer_account": "Veure compte",
         "thank_you_title_review": "Es va enviar la teva comanda a revisió",
-        "thank_you_confirmed_order_with_draft": "Contactarem amb tu si necessitem més informació o un cop es confirmi la comanda."
+        "thank_you_confirmed_order_with_draft": "Contactarem amb tu si necessitem més informació o un cop es confirmi la comanda.",
+        "verify_shop_account_message": "La teva informació s'ha desat a Shop. Verifica el teu compte per utilitzar-lo automàticament en milions de botigues.",
+        "verify_shop_account_confirmation": "Es va guardar la informació de pagament"
       },
       "b2b_errors": {
         "lost_permissions_subtitle": "Ja no tens permís per fer comandes B2B. Tanca sessió per fer una comanda personal.",
         "lost_permissions_title": "No hi ha permisos de sucursal"
+      },
+      "payment_errors": {
+        "name_mismatch": "Verifica la informació de la targeta. El nom de la targeta i l'adreça de facturació no coincideixen."
+      },
+      "review": {
+        "blocks": {
+          "company_location": "Ubicació de l'empresa"
+        }
+      },
+      "payment_challenge_modal": {
+        "open_app_text": "Obrir l'aplicació {{paymentMethod}}"
+      },
+      "units": {
+        "foot": "peus",
+        "yard": "id",
+        "square_foot": "peus²",
+        "item": "article"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "L'adreça no és compatible amb els membres actuals."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Anar a la botiga online"
+        }
       }
     },
     "errors": {
@@ -1076,7 +1128,8 @@
         "buyer_cannot_purchase_for_company_locations": "No es pot comprar per a aquesta sucursal",
         "only_one_added_to_cart": "A causa de la disponibilitat, només es va afegir un article a la cistella.",
         "only_n_added_to_cart": "A causa de la disponibilitat, només s'han afegit %{quantity} articles a la cistella.",
-        "maximum_available_quantity_reached": "El teu carretó ja té la quantitat màxima d'aquest article."
+        "maximum_available_quantity_reached": "El teu carretó ja té la quantitat màxima d'aquest article.",
+        "cart_attributes_error": "Els atributs de la cistella inclouen dades no vàlides."
       },
       "storefront": {
         "invalid_password": "Contrasenya incorrecta, si us plau torna a intentar-ho."
@@ -1256,8 +1309,11 @@
       "adjusted_total": "Total després de l'ajust",
       "login_card": {
         "log_in": "Inicia sessió",
-        "link_expired": "L'enllaç ha caducat"
-      }
+        "link_expired": "L'enllaç ha caducat",
+        "resend_link_with_login": "enviar nou enllaç",
+        "resend_link_without_login": "Enviar nou enllaç"
+      },
+      "link_sent": "Enllaç enviat"
     },
     "addresses": {
       "add_button": "Afegir adreça",
@@ -1296,7 +1352,9 @@
       "shipping_policy": "Política d'enviament",
       "subscription_policy": "Política de cancel·lació",
       "terms_of_sale": "Condicions de venda",
-      "terms_of_service": "Termes del Servei"
+      "terms_of_service": "Termes del Servei",
+      "legal_notice": "Avís legal",
+      "privacy_policy": "Política de privadesa"
     },
     "payment_methods": {
       "title": "Formes de pagament",
@@ -1387,6 +1445,11 @@
           "credit_card_number_invalid": "Introdueix un número de targeta vàlid",
           "credit_card_expiry_invalid": "Introdueix una data d'expiració de targeta vàlida",
           "credit_card_verification_value_blank": "Introdueix el codi de seguretat (CVV) de la targeta"
+        },
+        "unavailable": {
+          "text": "Els pagaments amb targeta de crèdit i dèbit no estan disponibles en aquest moment.",
+          "link_text": "Recarrega la pàgina",
+          "suffix": "o intenta-ho de nou més tard."
         }
       },
       "add_payment_method": {
@@ -1681,7 +1744,250 @@
             "custom": "Personalitzat"
           }
         },
-        "no_order_banner": "Crea una comanda per provar la teva extensió a la pàgina d'estat de la comanda."
+        "no_order_banner": "Crea una comanda per provar la teva extensió a la pàgina d'estat de la comanda.",
+        "location_filter_picker": {
+          "all_location": "Totes les ubicacions",
+          "current_location": "Ubicació actual",
+          "switch_view": "Canviar vista"
+        }
+      }
+    },
+    "navigation_and_structure": {
+      "country_switcher_toast_message": "S'ha canviat el país a {{countryName}}",
+      "switch_country": "Canviar país",
+      "location_switcher_toast_message": "S'ha canviat la ubicació a {{locationName}}",
+      "view_details": "Veure informació",
+      "company_location": "Ubicació de l'empresa"
+    },
+    "errors": {
+      "resend_link": {
+        "too_many_requests": "Massa sol·licituds. Torneu-ho a provar més tard.",
+        "generic": "Sol·licitud fallida"
+      },
+      "address_deletion_error": {
+        "description": "Hi ha hagut un problema en eliminar la direcció. Torneu-ho a provar o actualitzeu la pàgina."
+      },
+      "addresses_loading_issue": {
+        "description": "Error de connexió. Comproveu la connexió a internet i torneu-ho a provar."
+      },
+      "banner_title": {
+        "one": "Hi ha {{count}} error",
+        "other": "Hi ha {{count}} errors.",
+        "many": "Hi ha {{count}} errors."
+      },
+      "failed_address_creation": {
+        "description": "S'ha produït un problema en crear l'adreça. Intenta actualitzar aquesta pàgina o comprova la connexió a Internet."
+      },
+      "failed_address_update": {
+        "description": "S'ha produït un problema en actualitzar l'adreça. Intenta actualitzar aquesta pàgina o comprova la connexió a Internet."
+      },
+      "no_access_to_locations": {
+        "description": "No teniu accés a cap ubicació."
+      },
+      "not_found": {
+        "description": "Comproveu l'URL o torneu-ho a provar d'aquí a uns minuts.",
+        "title": "Hi ha hagut un problema en carregar aquesta pàgina."
+      },
+      "order_not_found": {
+        "description": "La comanda no existeix o no tens permís per veure-ho.",
+        "title": "No es troba la comanda"
+      },
+      "profile_update_error": {
+        "description": "Hi ha hagut un problema en actualitzar el perfil. Intenta actualitzar aquesta pàgina o comprova la connexió a Internet."
+      },
+      "load_orders_error": {
+        "title": "No es poden carregar les comandes",
+        "description": "Intenta-ho de nou o torna més tard."
+      },
+      "load_paypal_error": {
+        "description": "S'ha produït un problema en carregar PayPal. Intenta-ho de nou."
+      },
+      "load_extension_error": {
+        "description": "Actualitza aquesta pàgina o torna a intentar-ho en uns minuts.",
+        "refresh_button": "Actualitzar pàgina"
+      },
+      "logout_everywhere": {
+        "description": "S'ha produït un error durant el tancament de la sessió. Intenta-ho de nou."
+      }
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "Els clients poden sol·licitar i gestionar les devolucions directament.",
+        "disabled": "Els clients han de posar-se en contacte amb el comerciant per sol·licitar una devolució."
+      }
+    },
+    "B2B": {
+      "orders": {
+        "order_list_column_headers_contact": "Contacte",
+        "removed_company_contact_tooltip": "Eliminat de l'empresa",
+        "order_list_column_headers_status": "Estat"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Data de confirmació del {{date}} de la comanda {{draftOrderName}}",
+        "loading": "Carregant detalls de la comanda",
+        "loading_finished_accessibility_message": "Els detalls de la comanda es van carregar.",
+        "payment_status": {
+          "draft": {
+            "description": "Els detalls del pagament es decideixen quan es confirma la comanda.",
+            "title": "Pagament encara no vençut",
+            "in_review": {
+              "description": "Els detalls del pagament es decideixen quan es confirma la comanda.",
+              "title": "Pagament encara no vençut"
+            },
+            "submitted": {
+              "description": "Efectua el pagament per confirmar aquesta comanda.",
+              "title": "Pagar per confirmar",
+              "deposit": {
+                "title": "Pendent de pagament",
+                "due_later": "El saldo està subjecte a les condicions de {{translatedName}} i venç el {{dueDate}} .",
+                "due_on_fulfillment": "El saldo s'ha d'abonar quan tots els articles d'aquesta comanda estiguin preparats.",
+                "due_on_receipt": "Rebràs una factura per la resta del saldo.",
+                "due_on_date": "La data de pagament del saldo és el {{dueDate}} ."
+              }
+            },
+            "deposit": {
+              "due_later": "El dipòsit de {{depositAmount}} s'haurà d'abonar quan es confirmi la teva comanda. El saldo estarà a les condicions de {{translatedName}} .",
+              "due_on_fulfillment": "El dipòsit de {{depositAmount}} s'haurà d'abonar quan es confirmi la teva comanda. El saldo s'ha de pagar quan es prepari la comanda.",
+              "due_on_receipt": "El dipòsit de {{depositAmount}} s'haurà d'abonar quan es confirmi la teva comanda. La data límit de pagament del saldo se situa més endavant.",
+              "due_on_date": "El dipòsit de {{depositAmount}} s'haurà d'abonar quan es confirmi la teva comanda. La data límit de pagament del saldo és el {{dueDate}} ."
+            }
+          },
+          "paid": {
+            "description": "La comanda es va pagar íntegrament.",
+            "title": "Pagat",
+            "title_with_date": "Pagat el {{date}}"
+          },
+          "pay_now": "Pagar ara",
+          "title": "Estat del pagament",
+          "pending": {
+            "banner_overdue": {
+              "one": "El pagament va vèncer fa {{count}} dia.",
+              "other": "El pagament va vèncer fa {{count}} .",
+              "many": "El pagament va vèncer fa {{count}} ."
+            },
+            "banner_due": {
+              "one": "El pagament venç a {{count}} dia.",
+              "other": "El pagament venç a {{count}} dies.",
+              "many": "El pagament venç a {{count}} dies."
+            },
+            "banner_due_today": "El pagament venç avui.",
+            "title": "Pagament pendent",
+            "title_with_date": "El pagament venç el {{date}}",
+            "description_overdue": "El pagament porta retard.",
+            "description_partially_paid": "Es va pagar parcialment la comanda. Tens saldo restant.",
+            "description_authorized": "Es cobrarà segons la teva forma de pagament a la data de venciment, o pots pagar ara.",
+            "title_due_on_receipt": "Pagament no vençut",
+            "description_due_on_receipt": "Rebràs una factura quan el pagament venci.",
+            "title_due_on_fulfillment": "El pagament s'ha de fer en preparar la comanda",
+            "description_due_on_fulfillment": "El pagament s'ha de fer un cop preparats tots els articles de la comanda.",
+            "description_waiting_for_manual_payment": "Aquesta comanda té un pagament pendent. S'actualitzarà el saldo quan es rebi el pagament.",
+            "description_due_on_receipt_partially_paid": "Aquesta comanda es va pagar parcialment. Tens saldo restant. Rebràs una factura quan el pagament venci.",
+            "description_due_on_fulfillment_partially_paid": "Aquesta comanda es va pagar parcialment. Tens saldo restant. El pagament s'ha de fer un cop preparats tots els articles de la comanda."
+          },
+          "refund": {
+            "title": "Reemborsat",
+            "title_with_date": "Reemborsat el {{date}}",
+            "description_full_refund": "Vas rebre un reemborsament complet per aquesta comanda.",
+            "description_single_refund": "Vas rebre un reemborsament parcial per aquesta comanda.",
+            "description_multiple_refunds": "Vas rebre reemborsaments parcials per aquesta comanda."
+          },
+          "canceled": {
+            "title": "Pagament cancel·lat",
+            "description": "No se't va cobrar cap import."
+          },
+          "pay_now_accessibility_label": "Pagar ara la comanda {{orderName}}"
+        },
+        "subtitle": "Data d'enviament: {{date}}",
+        "title": "{{name}}",
+        "order_timeline": {
+          "expand_events_label": "Mostrar detalls",
+          "expand_events_accessibility_label": "Mostra els detalls de la comanda preliminar",
+          "hide_events_label": "Amagar detalls",
+          "hide_events_accessibility_label": "Amagar els detalls de la comanda preliminar"
+        }
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Aquesta forma de pagament ja no estarà disponible per a futures compres des d'aquesta sucursal.",
+          "description_with_replacement": "En eliminar aquesta forma de pagament, els pagaments preautoritzats per a aquesta sucursal es veuran afectats. Reemplaça-la per una altra forma alternativa per rebre les properes comandes."
+        },
+        "payment_details": {
+          "order_label": "{{name}}",
+          "draft_label": "Comanda preliminar {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "Afegir número d'ordre de compra",
+        "add_modal_title": "Afegir número d'ordre de compra",
+        "cancel": "Cancel·la",
+        "close_modal_accessibility_label": "Tancar finestra modal de número d'ordre de compra",
+        "discard_changes_modal_title": "Descartar els canvis?",
+        "edit_accessibility_label": "Edita número d'ordre de compra",
+        "edit_modal_title": "Edita número d'ordre de compra",
+        "empty_state": "Sense número d'ordre de compra",
+        "modal_po_number_input_label": "Número d'ordre de compra",
+        "modal_po_number_input_max_length_error": "Els números d'ordres de compra tenen un màxim de {{maxLength}} caràcters.",
+        "save": "Desa",
+        "title": "Núm. d'ordre de compra: {{poNumber}}"
+      }
+    }
+  },
+  "general": {
+    "page": "{{ page }}",
+    "home": "Inici",
+    "accessibility": {
+      "skip_to_content": "Anar al contingut",
+      "pagination": "Navegació per pàgines",
+      "go_to_page": "Anar a la pàgina {{ index }}",
+      "go_to_item": "Anar a l'article {{ index }}",
+      "item_nth_of_count": "Article {{ index }} de {{ count }}",
+      "drag": "Arrossegar",
+      "play_video": "Reproduir vídeo"
+    },
+    "label": {
+      "size": "Talla,Mida"
+    },
+    "social": {
+      "follow_on": "Segueix-nos a {{ social_media }}",
+      "share_on": "Compartir a {{ social_media }}",
+      "share_email": "Compartir per correu electrònic"
+    },
+    "newsletter": {
+      "notify_me": "Notificar-me",
+      "subscribed_successfully": "T'has subscrit al nostre butlletí."
+    },
+    "privacy_bar": {
+      "decline": "Rebutjar"
+    },
+    "on_boarding": {
+      "blog_post_category": "Categoria",
+      "blog_post_excerpt": "Escriu text sobre la teva entrada de bloc.",
+      "product_description": "Escriu text sobre el teu producte."
+    }
+  },
+  "header": {
+    "general": {
+      "open_menu": "Obrir menú de navegació",
+      "open_search": "Obrir cerca",
+      "open_account": "Obrir pàgina del compte",
+      "open_cart": "Obrir cistella"
+    }
+  },
+  "product": {
+    "general": {
+      "view_product": "Veure producte",
+      "quick_add": "+ Addició ràpida",
+      "add_to_cart_short": "+ Afegir",
+      "add_to_cart_button": "Afegir a la cistella",
+      "pre_order_button": "Comanda prèvia",
+      "added_to_cart": "Afegit a la cistella",
+      "discount_badge_html": "Estalvia {{ savings }}",
+      "taxes_excluded": "Impostos exclosos.",
+      "shipping_policy_html": "Les <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" class=\"link\">despeses d'enviament</a> es calculen en finalitzar la compra",
+      "size_chart": "Guia de talles",
+      "available_colors_count": {
+        "one": "{{ count }} color disponible",
+        "other": "{{ count }} colors disponibles"
       }
     }
   }
