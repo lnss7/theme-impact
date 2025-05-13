@@ -141,7 +141,69 @@
             "buyer_identity_presentment_currency_does_not_match": "Hi ha hagut un problema en processar la teva comanda. Torneu-ho a intentar en uns minuts."
           }
         },
-        "full_price": "Preu regular:"
+        "full_price": "Preu regular:",
+        "title": "Pantalla de pagament - {{shopName}}",
+        "full_title": "{{pageTitle}} - {{shopName}} - Pantalla de pagament",
+        "loading_title": "Pantalla de pagament - {{shopName}}",
+        "submit_order_button_label": "Enviar comanda",
+        "submit_for_review_button_label": "Enviar per revisió",
+        "submit_for_review_notice_label": "El pagament no vencerà fins que es revisi la comanda.",
+        "continue_to_payment_plans_button_label": "Continuar a plans de pagament",
+        "back_button_label": "Devolució",
+        "choose_delivery_strategy": "Trieu una forma de lliurament",
+        "autocomplete_zero_item": "No hi ha cap article disponible.",
+        "autocomplete_powered_by_google": "Tecnologia {{brandName}}",
+        "processing": "En procés...",
+        "stepper": {
+          "increase": "Augmentar {{type}}",
+          "decrease": "Reduir {{type}}",
+          "minimum_reached": "Mínim de {{value}} aconseguit",
+          "maximum_reached": "Màxim de {{value}} aconseguit"
+        },
+        "dates": {
+          "weekdays": {
+            "monday": "dilluns",
+            "tuesday": "dimarts",
+            "wednesday": "dimecres",
+            "thursday": "dijous",
+            "friday": "divendres",
+            "saturday": "dissabte",
+            "sunday": "diumenge"
+          },
+          "months": {
+            "january": "gener",
+            "february": "febrer",
+            "march": "març",
+            "may": "maig",
+            "june": "juny",
+            "july": "juliol",
+            "august": "agost",
+            "september": "setembre",
+            "november": "novembre",
+            "december": "desembre"
+          }
+        },
+        "datepicker": {
+          "show_next_month": "Mostrar el mes proper, {{month}} {{year}}",
+          "range_start": "Inici del rang",
+          "in_range": "Dins el rang",
+          "range_end": "Fi del rang"
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Grup de {{number}} marcador",
+            "other": "Grup de {{number}} marcadors",
+            "many": "Grup de {{number}} marcadors"
+          }
+        },
+        "confirm_order_button_label": "Confirmar comanda",
+        "qr_code": "Codi QR",
+        "dropzone": {
+          "add_file": "Afegeix fitxer",
+          "invalid_file_type": "El tipus de fitxer no és compatible",
+          "dragged_over": "Deixeu anar el fitxer que voleu pujar"
+        },
+        "loading": "Carregant…"
       },
       "order_summary": {
         "payment_terms_totals": {
@@ -1066,6 +1128,43 @@
         "navigation": {
           "store_logo_accessibility_label": "Anar a la botiga online"
         }
+      },
+      "contact": {
+        "title": "Informació",
+        "address_title": "Direcció",
+        "delivery_option_title": "Forma de lliurament",
+        "contact_method_title": "Contacte",
+        "email_label": "Correu electrònic",
+        "email_placeholder": "Correu electrònic",
+        "email_or_phone_label": "Email o número de telèfon mòbil",
+        "email_or_phone_placeholder": "Email o número de telèfon mòbil",
+        "stored_addresses_label": "Adreces desades",
+        "new_address_label": "Fes servir una nova adreça",
+        "first_name_label": "Nom",
+        "optional_first_name_label": "Nom (opcional)",
+        "last_name_label": "Cognoms",
+        "address1_label": "Direcció",
+        "address2_label": "Casa, apartament, etc. (opcional)",
+        "optional_address2_label": "Casa, apartament, etc. (opcional)",
+        "city_label": "Ciutat",
+        "country_label": "País / Regió",
+        "country_code": "Codi de país/regió",
+        "province_label": "Província / Estat",
+        "province_placeholder": "Província / Estat",
+        "county_label": "Comtat",
+        "county_placeholder": "Comtat",
+        "state_label": "Estat",
+        "state_placeholder": "Estat",
+        "region_label": "Regió",
+        "region_placeholder": "Regió",
+        "governorate_label": "Província",
+        "governorate_placeholder": "Província",
+        "emirate_label": "Emirat",
+        "emirate_placeholder": "Emirat",
+        "state_and_territory_label": "Estat/Territori",
+        "state_and_territory_placeholder": "Estat/Territori",
+        "phone_label": "Telèfon",
+        "optional_phone_label": "Telèfon (opcional)"
       }
     },
     "errors": {
@@ -1592,7 +1691,56 @@
         "loading": "Carregant Google Pay",
         "iframe_title_accessibility_label": "Afegir forma de pagament Google Pay",
         "loading_accessibility_message": "Carregant Google Pay"
-      }
+      },
+      "apple_pay": {
+        "loading": "Carregant Apple Pay",
+        "errors": {
+          "generic": "S'ha produït un problema amb Apple Pay. Intenta-ho de nou o utilitza una altra forma de pagament.",
+          "not_available": "Apple Pay no està disponible en aquest dispositiu.",
+          "missing_billing_address": "Apple Pay requereix una adreça de facturació. Afegeix-ne una al teu compte."
+        }
+      },
+      "add_payment_method_banner": "Afegeix una forma de pagament per agilitzar el procés de pagament o els serveis amb autorització prèvia.",
+      "edit_payment_method_button_accessibility_label": "Editar {{paymentMethodName}} que acaba a {{lastDigits}}",
+      "edit_payment_method_brand_button_accessibility_label": "Edita {{paymentMethodName}}",
+      "expiration_warning_button_accessibility_label": "Mostrar avís de venciment per {{paymentMethodName}} que acaba a {{lastDigits}}",
+      "no_payment_methods_banner": "No s'han afegit formes de pagament.",
+      "default": "Per defecte",
+      "store_credit": {
+        "label": "Crèdit a la botiga",
+        "accesibility_label": "Crèdit a la botiga: {{formattedBalance}}",
+        "expirable_amounts_button": "Veure munts que poden vèncer",
+        "details_modal": {
+          "title": "Crèdit a la botiga que pot vèncer",
+          "expiration_date_label": "Data de venciment",
+          "expirable_balance_info": "Una part del saldo venç més endavant",
+          "expirable_amount_label": "Muntanya total que pot vèncer",
+          "expirable_amounts_info": "Les sumes que vencen abans s'apliquen primer durant el pagament",
+          "expired_amounts_button": "Veure munts vençuts",
+          "pagination": {
+            "load_more_label": "Carregar més",
+            "load_more_accessibility_label": "Carregar més sumes que poden vèncer"
+          },
+          "date_label": "Data",
+          "expirable_amounts_button": "Veure",
+          "event_label": "Esdeveniment",
+          "events": {
+            "adjustment": "Ajust",
+            "order_payment": "Pagament de la comanda",
+            "order_refund": "Reemborsament de la comanda",
+            "payment_failure": "Error en el pagament",
+            "payment_returned": "Pagament tornat",
+            "order_cancellation": "Cancel·lació de la comanda",
+            "tax_finalization": "Determinació d'impostos"
+          }
+        },
+        "expirable_amounts_label": "Munts que poden vèncer"
+      },
+      "pay_pal": {
+        "iframe_title_accessibility_label": "Afegir forma de pagament PayPal",
+        "loading_accessibility_message": "Carregant PayPal"
+      },
+      "card_update_consent_subscriptions": "Aquesta forma de pagament es guardarà per a futures compres i es podrà utilitzar per a qualsevol compra recurrent o diferida."
     },
     "orders": {
       "order_status": {
@@ -2043,6 +2191,51 @@
         "modal_po_number_input_max_length_error": "Els números d'ordres de compra tenen un màxim de {{maxLength}} caràcters.",
         "save": "Desa",
         "title": "Núm. d'ordre de compra: {{poNumber}}"
+      }
+    },
+    "payment_method_brands": {
+      "maestro": "Mestre",
+      "laser": "Làser",
+      "storecredit": "Crèdit a la botiga"
+    },
+    "enable_javascript": "Per veure el compte, activa JavaScript a la configuració del navegador o inicia sessió amb un altre navegador.",
+    "ui_components": {
+      "closeNotification": "Tancar",
+      "expandNotification": "Veure més",
+      "closeModal": "Tancar",
+      "processing": "Processant...",
+      "increase": "Augmentar {{type}}",
+      "decrease": "Reduir {{type}}",
+      "minimumReached": "Mínim de {{value}} aconseguit",
+      "maximumReached": "Màxim de {{value}} aconseguit",
+      "january": "Gener",
+      "february": "Febrer",
+      "march": "Març",
+      "may": "Maig",
+      "june": "Juny",
+      "july": "Juliol",
+      "august": "agost",
+      "september": "Setembre",
+      "november": "Novembre",
+      "december": "Desembre",
+      "monday": "Dilluns",
+      "tuesday": "Dimarts",
+      "wednesday": "Dimecres",
+      "thursday": "Dijous",
+      "friday": "Divendres",
+      "saturday": "Dissabte",
+      "sunday": "Diumenge",
+      "mondayAbbreviation": "Dj.",
+      "wednesdayAbbreviation": "El meu.",
+      "thursdayAbbreviation": "Dj.",
+      "fridayAbbreviation": "Vaig veure.",
+      "saturdayAbbreviation": "Sà.",
+      "showNextMonth": "Mostrar el mes proper, {{month}} {{year}}",
+      "rangeStart": "Inici del rang",
+      "inRange": "Dins el rang",
+      "rangeEnd": "Fi del rang",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} article disponible"
       }
     }
   },
