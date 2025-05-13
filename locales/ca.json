@@ -266,6 +266,414 @@
         "other_method": {
           "zero": "No hi ha altres mètodes d'enviament disponibles",
           "one": "%{count} mètode diferent disponible per"
+        },
+        "shipping_method_combinations": {
+          "combination": "%{rest} i %{current}"
+        },
+        "shipping_used_as_billing_notice": "També s'utilitzarà com a adreça de facturació per a aquesta comanda.",
+        "address_update": "Modificar adreça",
+        "add_address": "Usar una adreça diferent",
+        "add_delivery_instructions": "Afegir instruccions de lliurament",
+        "edit": "Edita",
+        "address_more": "Més accions per a aquesta direcció",
+        "address_edit": "Editar direcció",
+        "address_delete": "Eliminar adreça",
+        "address_confirm": "Confirmes que vols eliminar aquesta adreça del compte?",
+        "address_form": {
+          "add_address": "Afegir adreça",
+          "save": "Desa",
+          "cancel": "Cancel·la",
+          "generic_error": "S'ha produït un problema en desar l'adreça. Intenta-ho de nou.",
+          "one_time_address_subtitle": "Usar una adreça una sola vegada per a aquesta comanda"
+        },
+        "different_shipping_method_summary": "Introduïu una adreça d'enviament diferent per veure els mètodes d'enviament disponibles.",
+        "invalid_shipping_method_summary": "Introduïu una adreça d'enviament vàlida per veure els mètodes d'enviament disponibles",
+        "method_summary": {
+          "incomplete_address_entered": "Introduïu una adreça d'enviament completa per veure els mètodes d'enviament disponibles.",
+          "incomplete_address_selected": "Seleccioneu una adreça d'enviament completa per veure els mètodes d'enviament disponibles."
+        },
+        "local_pickup": {
+          "search_address": "Buscar l'adreça",
+          "rollup_title": "Sucursal de la botiga"
+        },
+        "missing_shipping_address": "Manca la direcció d'enviament.",
+        "delivery_title": "Lliurament",
+        "shipping_method_first_shipment_group_title": {
+          "one": "Primer enviament",
+          "other": "Primers enviaments",
+          "many": "Primers enviaments"
+        },
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "Enviament recurrent",
+          "other": "Enviaments recurrents",
+          "many": "Enviaments recurrents"
+        },
+        "address_default": "Establir com a predeterminada",
+        "split_shipping_merchandise_quantity_label_standard": "%{quantity} articles",
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} més",
+        "split_shipping_merchandise_shipment_number": "Enviament %{number} de %{total}",
+        "pre_order_ships_now": "S'envia ara",
+        "pre_order_ships_later": "S'envia més tard",
+        "pre_order_ships_date": "S'envia el %{date}",
+        "split_shipping_shipped_by_shop": "Enviament realitzat per %{shop_name}",
+        "split_shipping_multiple_shipment_label": "Diversos enviaments",
+        "split_shipping_shipping_label": "Mètode",
+        "split_shipping_multiple_shipment_quantity_label": "%{quantity} enviaments",
+        "split_shipping_multiple_shipment_notice": "La teva comanda arribarà en diversos enviaments",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "La teva comanda arribarà a %{quantity} enviaments",
+        "split_shipping_more_shipping_options": "Més opcions d'enviament",
+        "split_shipping_shipment_number": "Enviament %{number}",
+        "split_shipping_merchandise_quantity_label_inline_primary": "Quantitat: %{quantity}",
+        "split_shipping_option_free": "Enviament gratuït",
+        "split_shipping_option_lowest_price": "Preu més baix",
+        "split_shipping_option_fastest": "Enviament més ràpid",
+        "split_shipping_option_recommended": "Recomanat",
+        "split_shipping_option_custom": "Personalitzat",
+        "default_description": "S'envia en un dia hàbil",
+        "split_shipping_shipment_notice": "La teva comanda arribarà a %{quantity_shipments}"
+      },
+      "payment": {
+        "brand_not_available": "Aquesta botiga no accepta {{brand}} . Fes servir una targeta diferent per fer el pagament.",
+        "shipping_rate_updated": "S'han actualitzat els mètodes d'enviament disponibles. Confirmeu la vostra elecció abans d'iniciar el procés de pagament.",
+        "billing_address_invalid_phone": "Actualitza el número de telèfon de la teva adreça de facturació per a {{label}} {{last_digits}} per continuar.",
+        "billing_address_invalid_phone_no_card": "Actualitzeu el número de telèfon de la vostra adreça de facturació per continuar.",
+        "preview_not_available": {
+          "title": "Vista prèvia no disponible",
+          "content": "No us preocupeu, aquest procés de pagament exprés funciona per als vostres clients.",
+          "button": "Acceptar"
+        },
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "Introduïu una data d'emissió vàlida",
+              "issue_number": "Introduïu un número d'emissió vàlid"
+            },
+            "invalid": {
+              "verification_value": "Introdueix un codi de seguretat (CVV) vàlid"
+            }
+          }
+        },
+        "simulated_checkout": "Vista prèvia properament disponible",
+        "vaulting_agreement_label": "Desa la meva informació de pagament amb %{company} per accelerar el procés de pagament.",
+        "business_customer_vaulting_payment_label": "Guarda aquesta targeta en finalitzar el procés de pagament i autoritza a %{company} que la faci servir per a futures compres en aquesta sucursal. Tots els contactes assignats a aquesta sucursal poden fer servir la targeta.",
+        "purchase_options_and_vaulting_agreement_label": "Un o més articles de la cistella és una compra diferida o una subscripció. En continuar amb el pagament, acceptes que s'aplicaran càrrecs a la teva forma de pagament automàticament segons el preu i la freqüència indicats en aquesta pàgina fins que s'acabi o la cancel·lis. Totes les cancel·lacions estan subjectes a la %{cancellation_policy_label}.",
+        "purchase_options_cancellation_policy_label": "política de cancel·lació",
+        "use_different_credit_card_label": "Usar una altra targeta",
+        "saved_credit_card": "La teva targeta de crèdit guardada",
+        "saved_credit_card_info": "Últims quatre dígits",
+        "saved_credit_cards_modal": {
+          "view_all_label": "Veure totes les targetes desades",
+          "done": "A punt",
+          "cancel": "Cancel·la"
+        },
+        "expired_cards_info": {
+          "one": "Hi ha %{count} targeta vençuda que podeu veure i editar al vostre compte.",
+          "other": "Hi ha %{count} targetes vençudes que podeu veure i editar al vostre compte.",
+          "many": "Hi ha %{count} targetes vençudes que podeu veure i editar al vostre compte."
+        },
+        "local_payment_method_receiver_notice": "Després de fer la comanda, rebràs els detalls del pagament. Realitza el pagament en un caixer automàtic o en línia en un termini de {{dueDays}} .",
+        "order_edit_banner_title": "Es requereix el pagament de {{amount_owed}}",
+        "order_edit_banner_subtitle": "La teva comanda {{order_number}} es va actualitzar. Revisa els canvis i paga per confirmar la comanda.",
+        "order_edit_banner_single_item_added": "Agregat",
+        "order_edit_banner_multiple_items_added": "S'afegir {{amount}} .",
+        "order_edit_banner_single_item_removed": "Eliminat",
+        "order_edit_banner_multiple_items_removed": "S'eliminar {{amount}} .",
+        "gift_card_wrapper": {
+          "heading": "Targeta de regal",
+          "apply_gift_card_label": "Sol·licitar una targeta de regal",
+          "payment_tag": "Targeta de regal",
+          "apply_another_gift_card_label": "Sol·licitar una altra targeta de regal",
+          "gift_card_label": "Targeta de regal %{identifier}",
+          "add_label": "Afegir una targeta de regal",
+          "manage_label": "Gestionar targetes de regal"
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "Confirmació de pagament al lloc personalitzada"
+        },
+        "markets_pro_disclaimer_label": "En fer clic a continuació i completar la comanda, acceptes la compra del teu(s) article(s) des de Global-e com a responsable del processament de pagaments de la transacció, d'acord amb els %{markets_pro_terms} i la %{privacy_policy} de Global-e. Global-e és un proveïdor internacional de serveis de logística de %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "Termes i condicions",
+        "markets_pro_disclaimer_privacy_policy": "Política de privadesa",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Termes i condicions del responsable del processament de pagaments",
+        "markets_pro_disclaimer_privacy_policy_title": "Política de privadesa del responsable del processament de pagaments",
+        "purchase_order_number": {
+          "title": "Número d'ordre de compra",
+          "label": "Número d'ordre de compra (opcional)"
+        },
+        "alternative_payment_currency_total_notice": "Nota: Se us cobrarà %{amount_due}.",
+        "waiting_on_taxes_message": "Si els vostres impostos no es calculen en els propers segons, actualitzeu la pàgina.",
+        "waiting_on_taxes_notice": "Calculant impostos",
+        "order_edit_banner_single_item_returned": "Tornat",
+        "order_edit_banner_multiple_items_returned": "Es retornar {{amount}} .",
+        "shop_pay_installments_label": "Quotes de Shop Pay",
+        "add_credit_card_modal": {
+          "title": "Afegeix targeta",
+          "cancel": "Cancel·la",
+          "save": "Desa"
+        },
+        "delete_credit_card_modal": {
+          "title": "Eliminar targeta",
+          "confirmation": "Confirmes que desitges eliminar la {{brandName}} que acaba a {{lastDigits}} ?",
+          "cancel": "Cancel·la"
+        },
+        "order_edit_banner_items_added": {
+          "one": "Agregat",
+          "other": "S'ha afegit %{count}.",
+          "many": "S'ha afegit %{count}."
+        },
+        "order_edit_banner_items_removed": {
+          "in_full": "Eliminat",
+          "with_quantities": "S'eliminar {{delta}} de {{quantity}} ."
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "Es van tornar {{quantity}}",
+          "with_quantities": "Es retornar {{delta}} de {{quantity}} ."
+        },
+        "saved_credit_card_actions": {
+          "edit": "Edita"
+        },
+        "edit_credit_card_modal": {
+          "title": "Editar targeta",
+          "done": "A punt",
+          "cancel": "Cancel·la",
+          "description": "Només podeu modificar l'adreça de facturació de la vostra targeta.",
+          "fields": {
+            "default": "Establir com a predeterminat",
+            "card_number": "Número de targeta",
+            "expiry": "Data de venciment",
+            "security_code": "Codi de seguretat",
+            "name": "Nom del titular de la targeta"
+          }
+        },
+        "payment_method": "Forma de pagament",
+        "expired_payment_method": "La forma de pagament seleccionada va expirar.",
+        "subscription_heading": "Acord de subscripció",
+        "use_order_billing_address_label": "Usar l'adreça de facturació de la comanda",
+        "use_location_billing_address_label": "Usar l'adreça de facturació de la sucursal",
+        "use_location_shipping_address_label": "Usar la direcció d'enviament de la sucursal",
+        "purchase_options_agreement_label_wallets": "En continuar amb el pagament, accepteu els càrrecs futurs que figuren en aquesta pàgina i la política de cancel·lació.",
+        "gift_card_store_credit": {
+          "add_label": "Afegir una targeta de regal o crèdit a la botiga",
+          "manage_label": "Gestionar targetes de regal o crèdit a la botiga"
+        },
+        "saved_credit_card_cvv_verification": "Per a finalitats de verificació, introduïu el codi de seguretat de la vostra targeta.",
+        "order_edit_banner_updated_order_label": "Comanda actualitzada",
+        "card_nickname_label": "Sobrenom (opcional)",
+        "order_edit_banner_items_return_line_item_removed": {
+          "in_full": "Es va eliminar de la devolució",
+          "with_quantities": "S'eliminà {{delta}} de la devolució."
+        },
+        "order_edit_banner_single_item_return_line_item_removed": "Es va eliminar de la devolució",
+        "order_edit_banner_multiple_items_return_line_item_removed": "S'eliminà {{amount}} de la devolució.",
+        "proposed_gateway_unavailable": "La passarel·la de pagament proposada no està disponible.",
+        "pay_in_installments_split_pay_short": "Quatre pagaments de %{amount}",
+        "payment_method_not_available_for_shipping_address_error": "La forma de pagament no està disponible per a l'adreça d'enviament seleccionada. Trieu una altra forma de pagament.",
+        "shop_pay_ideal_unavailable_error": "L'opció iDEAL no està disponible per a aquesta comanda. Trieu una altra forma de pagament.",
+        "amazon_payments_login_hint": "Heu d'accedir iniciant sessió a Amazon.",
+        "amazon_payments_logout": "Sortir d'Amazon Pay",
+        "amazon_payments_failed_mfa_challenge": "No s'ha pogut utilitzar el mètode de pagament seleccionat. Selecciona un mètode diferent o comunica't amb el teu banc o emissor de la targeta.",
+        "amazon_payments_abandoned_mfa_challenge": "No s'ha pogut completar el pagament. Intenta amb una forma de pagament diferent o comunica't amb el teu banc o emissor de la targeta.",
+        "amazon_payments_could_not_enqueue_authorize": "S'ha produït un error en processar el pagament. Torneu-ho a provar o utilitzeu una forma de pagament diferent.",
+        "title": "Pagament",
+        "amount_left_to_pay_label": "Pagament pendent:",
+        "discount_button_action_label": "Aplicar codi de descompte",
+        "gift_card_code_label": "Codi de targeta de regal",
+        "supported_card_brands_more_label": "i més…",
+        "detected_card_brand": "Marca de la targeta detectada: {brand}",
+        "card_number_label": "Número de targeta",
+        "card_number_placeholder": "Número de targeta",
+        "card_pay_with": "Pagar amb:",
+        "card_security_notice": "Totes les transaccions són segures i estan encriptades.",
+        "name_on_card_label": "Nom del titular com apareix a la targeta",
+        "name_on_card_placeholder": "Nom del titular",
+        "card_expiry_label": "Data de venciment (MM/AA)",
+        "card_expiry_placeholder": "Data de venciment (MM/AA)",
+        "card_verification_value_label": "Codi de seguretat",
+        "card_verification_value_placeholder": "Codi de seguretat",
+        "card_expiry_date_explanation": "Data de venciment de la targeta en format: mes, mes, any, any",
+        "card_verification_value_explanation": "Codi de seguretat de 3 dígits ubicat normalment a la part posterior de la targeta. Les targetes American Express tenen un codi de 4 dígits ubicat al front.",
+        "card_verification_value_explanation_amex": "Codi de seguretat de 4 dígits a la part frontal de la targeta",
+        "card_verification_value_explanation_other": "Codi de seguretat de 3 dígits al revers de la targeta",
+        "card_start_label": "Inici (MM/AA)",
+        "card_start_placeholder": "Inici (MM/AA)",
+        "card_issue_number_label": "Número d'expedició",
+        "card_issue_number_placeholder": "Número d'expedició",
+        "card_change_label": "Canviar",
+        "ends_with_label": "que acaba a %{last_digits}",
+        "saved_by_payment_method": "Desat amb %{payment_method}",
+        "pay_with_payment_method": "Pagar amb %{payment_method}",
+        "same_billing_address_label": "La mateixa adreça d'enviament",
+        "different_billing_address_label": "Usar una adreça de facturació diferent",
+        "free_order_notice_html": "La teva comanda és <strong>gratuïta</strong> . No cal cap pagament.",
+        "express_checkout_free_order": "No se't cobrarà per una comanda gratuïta",
+        "order_covered_by_gift_cards_notice": {
+          "one": "El cost de la teva comanda està cobert per la targeta de regal.",
+          "other": "El cost de la teva comanda està cobert per les targetes de regal."
+        }
+      },
+      "pickup_point": {
+        "paginator": {
+          "header": {
+            "other": "Mostrant %{first} - %{last} de %{count} punts",
+            "many": "Mostrant %{first} - %{last} de %{count} punts"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} de %{count} punt",
+            "other": "%{pickup_point_index} de %{count} punts",
+            "many": "%{pickup_point_index} de %{count} punts"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} de %{count} punt",
+            "other": "%{first} - %{last} de %{count} punts",
+            "many": "%{first} - %{last} de %{count} punts"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} punt de retirada a prop de la vostra ubicació",
+          "other": "%{count} punts de retirada a prop de la vostra ubicació",
+          "many": "%{count} punts de retirada a prop de la vostra ubicació"
+        },
+        "change": "Canviar ubicació",
+        "waiting_on_pickup_point_location_notice": "Buscant punts de retir…",
+        "geolocation": {
+          "shared_location_button": "Usar la meva ubicació",
+          "errors": {
+            "unsuported_by_browser": "El navegador no admet la geolocalització. Intenta-ho de nou o fes servir un altre navegador.",
+            "permission_not_allowed": "Permet compartir la vostra ubicació.",
+            "permission_denied": "No s'ha pogut obtenir la vostra ubicació. Torneu-ho a provar."
+          }
+        },
+        "no_business_hours": "No hi ha horari comercial disponible.",
+        "open_twenty_four_hours": "Obert 24 hores, 7 dies a la setmana",
+        "address_label": "Direcció"
+      },
+      "error_page": {
+        "terminal": {
+          "title": "Hi va haver un problema amb la nostra pantalla de pagament",
+          "message": "Actualitza aquesta pàgina o torna a intentar-ho en uns minuts",
+          "action": {
+            "cta": "Actualitzar la pàgina"
+          },
+          "request_id": "Identificació de sol·licitud: {{requestId}}"
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Tornar a la cistella",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} per modificar les quantitats",
+        "subscription_changed": "Una de les vostres subscripcions ha canviat.",
+        "company_location_changed": "Es va actualitzar el carretó. Revisa la teva comanda abans de fer-ho.",
+        "violations_title": "Falta {{violation}} o té un valor no vàlid",
+        "individual_violations_title": {
+          "DeliveryViolations": "Direcció d'enviament",
+          "PaymentViolations": "Adreça de facturació",
+          "OtherViolations": "Informació sobre comandes",
+          "UnhandledViolations": "Informació de la comanda"
+        },
+        "all_violations_content": "Truqui'ns o {{emailLink}} per actualitzar aquesta informació i completar la comanda:",
+        "all_violations_email_link": "envieu-nos un correu electrònic",
+        "editable_shipping_address_violations_message_title": "Afegeix aquesta informació per completar la teva comanda:",
+        "editable_shipping_address_violations_message_footer": "Per modificar permanentment l'adreça per a aquesta sucursal, {{emailLink}} .",
+        "editable_shipping_address_violations_email_link": "contacta amb nosaltres",
+        "company_location_changed_product_removed": "El carretó es va modificar perquè alguns productes no estan disponibles en aquesta sucursal. Reviseu la comanda abans d'enviar-la.",
+        "shipping_address_incomplete_title": "L'adreça d'enviament és incompleta",
+        "calculating_shipping": "Encara s'està calculant l'enviament. Torneu-ho a intentar en uns segons. No t'has cobrat.",
+        "calculating_taxes": "Encara s'estan calculant els impostos. Torneu-ho a intentar en uns segons. No t'has cobrat.",
+        "generic_processing_error": {
+          "title": "Hi ha hagut un problema en processar la comanda",
+          "body": "No t'has cobrat. Intenta-ho de nou o utilitza una altra forma de pagament."
+        }
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Revisar els",
+          "link_label": "termes i condicions de {{partnerDisplayName}}"
+        }
+      },
+      "online_store_chat": {
+        "title": "Tens alguna pregunta? Xateja amb nosaltres"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Hi ha %{count} botiga amb existències a prop de %{address}.",
+          "other": "Hi ha %{count} botigues amb existències a prop de %{address}.",
+          "many": "Hi ha %{count} botigues amb existències a prop de %{address}."
+        },
+        "toggle_location": "Canviar lloc",
+        "cancel": "Cancel·la",
+        "your_location": "la teva ubicació",
+        "search_button": "Buscar botigues",
+        "no_stores_found": "No es van trobar botigues",
+        "could_not_resolve_address": "No s'ha trobat l'adreça. Intenta-ho de nou o fes servir una altra adreça",
+        "paginator": {
+          "accessibility_label": "Paginació de retir a la botiga",
+          "previous": "Pàgina anterior",
+          "next": "Pàgina següent",
+          "label": {
+            "one": "%{first} - %{last} de %{count} botiga",
+            "other": "%{first} - %{last} de %{count} botigues",
+            "many": "%{first} - %{last} de %{count} botigues"
+          }
+        },
+        "reveal_more_label": {
+          "one": "Mostra %{count} sucursal més",
+          "other": "Mostra %{count} sucursals més",
+          "many": "Mostra %{count} sucursals més"
+        },
+        "location_address_search_label": "Direcció",
+        "all_stores_far_away": {
+          "title": "Les botigues més properes són a més de %{distance} de distància",
+          "description": "Seleccioneu una botiga o %{ship_to_address_link} al vostre lloc.",
+          "ship_to_address_link": "enviar a l'adreça"
+        }
+      },
+      "captcha": {
+        "title": "Completar el CAPTCHA per continuar",
+        "errors": {
+          "not_solved": "Completar el CAPTCHA per continuar"
+        }
+      },
+      "discount_errors": {
+        "generic_error": "La teva comanda no es va poder processar perquè el codi de descompte ja no està disponible. Revisa el total de la teva comanda i torna-ho a intentar."
+      },
+      "wallets": {
+        "return_to_store": "Tornar a la botiga",
+        "redirect_hint": "Has d'accedir iniciant sessió a {{walletName}} .",
+        "logged_in": "Connectat a {{email}}",
+        "shipping_line_label": "Enviament",
+        "payment_in_progress_title": "Pagament en curs",
+        "payment_in_progress_body": "El pagament s'està processant. La comanda es completarà de seguida.",
+        "call_to_action": "Pagar amb {{walletName}}",
+        "errors": {
+          "unavailable": {
+            "title": "{{walletName}} no està disponible",
+            "description": "{{walletName}} no estava disponible. Fes servir una forma de pagament diferent o intenta-ho més tard.",
+            "instructions": "S'ha produït un error amb {{walletName}} . Torna a la botiga per tornar-ho a intentar o paga d'una altra manera.",
+            "unavailable_for_country": "{{walletName}} no està disponible a {{countryName}} . Seleccioneu una forma de pagament diferent per completar la vostra compra."
+          },
+          "generic": "Hi va haver un problema amb {{walletName}} . Intenta-ho de nou o utilitza una altra forma de pagament.",
+          "terminal": "Hi va haver un problema amb {{walletName}} . Si us plau, utilitza una altra forma de pagament.",
+          "detour": {
+            "stock_problems": "Alguns articles ja no estan disponibles. Tanca {{walletName}} i intenta-ho de nou.",
+            "price_change": "Els preus d'alguns articles han canviat. Tanca {{walletName}} per revisar la teva comanda i intenta-ho de nou.",
+            "queue": "Us heu ubicat en una llista d'espera per procedir amb el pagament. Tanca {{walletName}} per continuar.",
+            "currency_change": "No podeu utilitzar una adreça diferent amb {{walletName}} . Utilitza l'adreça original o intenta-ho amb una altra forma de pagament."
+          },
+          "unsupported": {
+            "address": "El comerciant no pot fer lliuraments a l'adreça d'enviament seleccionada.",
+            "postal_code": "Aquesta sucursal no s'admet",
+            "wallet_is_unavailable": "{{walletName}} no es pot utilitzar amb aquesta adreça. Trieu una adreça diferent o tanqueu {{walletName}} per completar la vostra compra."
+          },
+          "outdated": {
+            "shipping_method": "Les opcions de comanda han canviat. Revisa la selecció.",
+            "payment_terms": "Les condicions de pagament van canviar. Revisa la teva comanda"
+          },
+          "invalid": {
+            "shipping_address": "Introduïu una adreça d'enviament vàlida",
+            "billing_address": "Ingressar una adreça de facturació vàlida",
+            "shipping_option": "Seleccioneu una opció d'enviament vàlida",
+            "email": "Introdueix un correu electrònic vàlid",
+            "zone": "Introdueix un estat o província vàlids",
+            "postal_code": "Introdueix un codi postal vàlid"
+          }
         }
       }
     }
