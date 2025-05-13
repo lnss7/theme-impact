@@ -1306,7 +1306,17 @@
         "order_updates_current_step_prefix": "Velocitat actual: ",
         "order_updates_past_step_prefix": "Velocitat anterior: ",
         "order_updates_upcoming_step_prefix": "Propera velocitat: ",
-        "in_transit": "En camí"
+        "in_transit": "En camí",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Després de completar el pagament, rebràs un correu electrònic de confirmació amb el teu número de comanda.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "Després de completar el pagament, rebràs un missatge de text de confirmació amb el teu número de comanda.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Després de completar el pagament, rebràs un missatge de text de confirmació amb el teu número de comanda.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Després de completar el pagament, rebràs un missatge de text de confirmació amb el teu número de comanda.",
+        "vat_invoices": {
+          "title": "Factures amb IVA"
+        },
+        "thank_you_payments_app_pending_payment_description_provider_action_required_default": "El pagament s'està processant. Rebràs un correu electrònic quan es confirmi el pagament.",
+        "verify_shop_account_title": "Verifica el teu compte de Shop",
+        "verify_shop_account_cta": "Verificar compte"
       },
       "b2b_errors": {
         "lost_permissions_subtitle": "Ja no tens permís per fer comandes B2B. Tanca sessió per fer una comanda personal.",
@@ -1319,8 +1329,36 @@
       },
       "review": {
         "blocks": {
-          "company_location": "Ubicació de l'empresa"
-        }
+          "company_location": "Ubicació de l'empresa",
+          "contact_method_title": "Contacte",
+          "billing_address_title": "Facturació",
+          "shipping_method_title": "Mètode d'enviament",
+          "payment_method_title": "Forma de pagament",
+          "change_link_label": "Canviar",
+          "change_contact_method_link_label": "Canviar informació de contacte",
+          "change_billing_address_link_label": "Canviar adreça de facturació",
+          "change_shipping_address_link_label": "Canviar adreça d'enviament",
+          "change_shipping_method_link_label": "Canviar mètode d'enviament",
+          "change_payment_method_link_label": "Canviar mètode de pagament",
+          "pick_up_in_store_shipping_method_html": "Retir a la botiga · %{location_name}",
+          "purchase_order_number_title": "Número d'ordre de compra",
+          "change_purchase_order_number_label": "Canviar número d'ordre de compra",
+          "change_delivery_method_link_label": "Canviar forma de lliurament",
+          "no_address": "(No hi ha cap adreça)",
+          "no_purchase_order_number": "(Sense número d'ordre de compra)",
+          "due_after_order_reviewed_html": "Venç una vegada revisada la comanda",
+          "review_title_free_order": "Revisar i completar la comanda",
+          "payment_method_saved_company_location": "Guardar targeta per a aquesta sucursal"
+        },
+        "review_title": "Revisar i pagar",
+        "checkout_as_guest": "Finalitzar compra com a visitant",
+        "block_title": "Revisa la teva informació",
+        "checkout_a_different_way": "Formalitzar el pagament d'una manera diferent",
+        "item_header": {
+          "change_value": "Canviar valor",
+          "section": "Secció"
+        },
+        "review_and_confirm_title": "Revisar i confirmar"
       },
       "payment_challenge_modal": {
         "open_app_text": "Obrir l'aplicació {{paymentMethod}}",
@@ -1474,7 +1512,9 @@
           "close": "Tancar",
           "expand": "Veure més",
           "processing": "En procés…"
-        }
+        },
+        "page_title": "Després de la compra",
+        "title": "Després de la compra"
       },
       "change_country": {
         "cart_updated_based_on_country": "La teva cistella s'ha actualitzat segons el país de destinació.",
@@ -1787,6 +1827,94 @@
           "one": "elimina l'article no disponible",
           "other": "elimina els articles no disponibles",
           "many": "elimina els articles no disponibles"
+        }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Enviar-me novetats i ofertes per correu electrònic",
+        "unsubscribe": {
+          "title": "Heu cancel·lat la vostra subscripció",
+          "description": "No rebrà més recordatoris de cistelles de compra nostres."
+        },
+        "accept_sms_checkbox_label": "Enviar-me novetats i ofertes per SMS",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "Política de privadesa",
+            "terms_of_service": "Termes del servei",
+            "description_html": "En registrar-te per SMS, acceptes rebre missatges automatitzats de màrqueting recurrents al número de telèfon proporcionat, incloent recordatoris de carrets. El consentiment no és una condició de compra. Respon STOP per donar-te de baixa. Respon HELP per obtenir ajuda. La freqüència dels missatges varia. Poden aplicar-se tarifes de missatges i dades. Veure la nostra %{privacy_policy_link} i els nostres %{terms_of_service_link}.",
+            "description_transactional_html": "Podeu rebre missatges de text relacionats amb la confirmació de la comanda i actualitzacions d'enviament. Respon STOP per donar-te de baixa. Respon HELP per obtenir ajuda. La freqüència dels missatges varia. Poden aplicar-se tarifes de missatges i dades. Consulta la nostra %{privacy_policy_modal_link} i els nostres %{terms_of_service_modal_link}."
+          },
+          "mobile_phone_number": "Número de telèfon mòbil",
+          "get_offers_by_text": "Obtenir ofertes per text"
+        },
+        "post_accept_marketing_checkbox_label": "Estàs subscrit per rebre notícies i ofertes per correu electrònic",
+        "pending_accept_marketing_checkbox_label": "Revisa el teu correu electrònic i confirma la subscripció a les notícies i ofertes",
+        "accept_shop_pay_marketing_checkbox_label": "Registra'm per rebre notícies i ofertes d'aquesta botiga",
+        "disclaimer": {
+          "privacy_policy": "Política de privadesa",
+          "terms_of_service": "Termes del Servei"
+        }
+      },
+      "shop_policies": {
+        "refund_policy": "Política de reemborsament",
+        "privacy_policy": "Política de privadesa",
+        "terms_of_service": "Termes del servei",
+        "legal_notice": "Avís legal",
+        "shipping_policy": "Política d'enviament",
+        "terms_of_sale": "Condicions de venda",
+        "subscription_policy": "Política de cancel·lació",
+        "purchase_options_policy": "Política d'opcions de compra",
+        "contact_information": "Informació de contacte",
+        "purchase_options_cancellation_policy": "Política de cancel·lació",
+        "cookie_preferences": "Preferències de cookies"
+      },
+      "notifications": {
+        "title": "Notificacions"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Munto a pagar per la comanda %{order_name}",
+        "changes_summary": {
+          "added": {
+            "one": "Agregat",
+            "other": "S'ha afegit %{count}.",
+            "many": "S'ha afegit %{count}."
+          },
+          "subtracted": "S'ha eliminat %{count}.",
+          "returned": "Es va tornar %{count}.",
+          "return_line_item_removed": "Es va eliminar %{count} de la devolució."
+        },
+        "additional_payment_requested": "Es requereix el pagament de %{total_outstanding}",
+        "checkout_review_and_pay": "La vostra comanda %{order_name} s'ha actualitzat. Revisa aquests canvis, després paga per confirmar la teva comanda.",
+        "order_updated_on": "La teva comanda es va actualitzar a %{last_edited_at}.",
+        "order_review_and_pay": "La teva comanda es va actualitzar. Revisa i paga per confirmar la teva comanda.",
+        "pay_now": "Pagar ara"
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "Es cobrarà %{amount} a la targeta de crèdit",
+        "payment_total_label": "Total del pagament",
+        "change_currency_link": "Canvia a %{currency_name}",
+        "card_provider_fx_charges_warning": "És possible que el vostre proveïdor de targeta cobri algun càrrec per transaccions a %{currency_code}.",
+        "currency_not_supported_by_shop": "La moneda que heu seleccionat ja no està disponible. Tots els preus estan ara a %{currency_code}."
+      },
+      "tips": {
+        "title": "Afegir propina",
+        "description": "Dóna una mostra de suport a l'equip de %{shop_name}",
+        "presets_description": "Selecciona un percentatge de propina",
+        "custom_label": "Propina personalitzada",
+        "add_tip": "Afegir propina",
+        "update_tip": "Actualitzar propina",
+        "message": "Moltes gràcies.",
+        "no_tip_label": "Cap"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "one": "Comprar %{product_name} i %{count} article més",
+          "other": "Comprar %{product_name} i %{count} articles més",
+          "many": "Comprar %{product_name} i %{count} articles més"
+        }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Informació addicional"
         }
       }
     },
