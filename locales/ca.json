@@ -2235,8 +2235,88 @@
       "inRange": "Dins el rang",
       "rangeEnd": "Fi del rang",
       "autocompleteOptionsAvailable": {
-        "one": "{{count}} article disponible"
+        "one": "{{count}} article disponible",
+        "other": "{{count}} articles disponibles",
+        "many": "{{count}} articles disponibles"
+      },
+      "month": {
+        "other": "mesos",
+        "many": "mesos"
+      },
+      "mapClusterTitle": {
+        "one": "Grup de {{number}} marcador",
+        "other": "Grup de {{number}} marcadors",
+        "many": "Grup de {{number}} marcadors"
+      },
+      "qrCode": "Codi QR",
+      "addFile": "Afegeix fitxer",
+      "dropzoneInvalidFileType": "El tipus de fitxer no és compatible.",
+      "dropzoneDraggedOver": "Deixeu anar el fitxer per pujar-lo",
+      "clipboardCopied": "Copiat",
+      "clipboardFailedToCopy": "Error en copiar"
+    },
+    "profile_preview_bar": {
+      "customize_button": "Personalitzar",
+      "hide_bar": "Amagar barra",
+      "navigate_to_admin": "Navegar fins al tauler de control",
+      "previewing": "Vista prèvia de:",
+      "saved_at": "Desat el {{date}} a les {{time}}",
+      "viewing": "Estàs veient:",
+      "not_available": "Dades del perfil no disponibles",
+      "close_preview": "Tancar vista prèvia",
+      "actions_button": "Accions"
+    },
+    "settings": {
+      "loading_accessibility_message": "Carregant pàgina de configuració",
+      "title": "Configuració",
+      "log_out_everywhere": {
+        "title": "Tancar totes les sessions",
+        "description": "Si heu perdut un dispositiu o teniu inquietuds relacionades amb la seguretat, tanqueu totes les sessions per garantir la seguretat del vostre compte.",
+        "button": "Tancar totes les sessions",
+        "warning_message": "També es tancarà la sessió en aquest dispositiu."
       }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneMinuteAgo": "Ara",
+        "yesterday": "Ahir a la(es) {{time}}",
+        "today": "Avui a la(es) {{time}}",
+        "tomorrow": "Matí a la(es) {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "Fa {{count}} minut",
+          "other": "Fa {{count}} minuts",
+          "many": "Fa {{count}} minuts"
+        }
+      }
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "Seleccioneu l'extensió anomenada \" {{extensionName}} \"",
+        "unselect": "Suprimeix la selecció de l'extensió anomenada \" {{extensionName}} \"",
+        "move_down": "Mou l'extensió a la propera posició",
+        "move_up": "Mou l'extensió a la posició anterior",
+        "remove": "Elimina l'extensió",
+        "move_down_tooltip": "Mou a la posició següent",
+        "move_up_tooltip": "Mou a la posició anterior"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "Aquest enllaç no es pot obrir dins de l'editor. S'obrirà en una finestra nova ( {{resolved_to_link}} ). Feu clic a D'acord per continuar."
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "message": "Massa intents",
+        "description": "Torneu-ho a intentar en uns minuts"
+      }
+    },
+    "shop_ads": {
+      "title": "Ofertes exclusives de Shop",
+      "subtitle": "Disponible per temps limitat",
+      "button": "Explora a Shop",
+      "next_button": "Següent"
+    },
+    "privacy_banner": {
+      "cookie_preferences_link": "Preferències de cookies"
     }
   },
   "general": {
@@ -2249,10 +2329,14 @@
       "go_to_item": "Anar a l'article {{ index }}",
       "item_nth_of_count": "Article {{ index }} de {{ count }}",
       "drag": "Arrossegar",
-      "play_video": "Reproduir vídeo"
+      "play_video": "Reproduir vídeo",
+      "close": "Tancar",
+      "next": "Següent",
+      "read_more": "Llegir més"
     },
     "label": {
-      "size": "Talla,Mida"
+      "size": "Talla,Mida",
+      "white": "Blanc"
     },
     "social": {
       "follow_on": "Segueix-nos a {{ social_media }}",
@@ -2261,15 +2345,28 @@
     },
     "newsletter": {
       "notify_me": "Notificar-me",
-      "subscribed_successfully": "T'has subscrit al nostre butlletí."
+      "subscribed_successfully": "T'has subscrit al nostre butlletí.",
+      "email": "Correu electrònic",
+      "subscribe": "Subscriure's"
     },
     "privacy_bar": {
-      "decline": "Rebutjar"
+      "decline": "Rebutjar",
+      "accept": "Acceptar"
     },
     "on_boarding": {
       "blog_post_category": "Categoria",
       "blog_post_excerpt": "Escriu text sobre la teva entrada de bloc.",
-      "product_description": "Escriu text sobre el teu producte."
+      "product_description": "Escriu text sobre el teu producte.",
+      "blog_post_title": "Article",
+      "product_vendor": "Proveïdor",
+      "product_title": "Producte",
+      "collection_title": "Col·lecció"
+    },
+    "rating": {
+      "info": "{{ rating_value }} de {{ rating_max }} estrelles"
+    },
+    "form": {
+      "max_characters": "{{ max_chars }} caràcters màx."
     }
   },
   "header": {
@@ -2277,7 +2374,8 @@
       "open_menu": "Obrir menú de navegació",
       "open_search": "Obrir cerca",
       "open_account": "Obrir pàgina del compte",
-      "open_cart": "Obrir cistella"
+      "open_cart": "Obrir cistella",
+      "account": "Compte"
     }
   },
   "product": {
@@ -2295,6 +2393,53 @@
       "available_colors_count": {
         "one": "{{ count }} color disponible",
         "other": "{{ count }} colors disponibles"
+      },
+      "description": "Descripció",
+      "sold_out_button": "Esgotat",
+      "sold_out_badge": "Esgotat",
+      "variant": "Variant",
+      "view_in_space": "Veure al teu espai",
+      "taxes_included": "Impostos inclosos."
+    },
+    "price": {
+      "sale_price": "Preu d'oferta"
+    },
+    "quantity": {
+      "label": "Quantitat"
+    },
+    "store_availability": {
+      "view_store_info": "Veure informació de la botiga"
+    }
+  },
+  "404": {
+    "general": {
+      "title": "Pàgina no trobada",
+      "continue_shopping": "Seguir comprant"
+    }
+  },
+  "collection": {
+    "general": {
+      "all_collections": "Totes les col·leccions",
+      "continue_shopping": "Seguir comprant"
+    },
+    "products_count": {
+      "other": "{{ count }} productes"
+    },
+    "faceting": {
+      "filter_and_sort": "Filtrar i ordenar",
+      "clear_filters": "Esborrar-ho tot"
+    }
+  },
+  "blog": {
+    "general": {
+      "view": "Veure"
+    },
+    "comments": {
+      "name": "Nom",
+      "email": "Correu electrònic",
+      "message": "Missatge",
+      "count": {
+        "zero": "{{ count }} comentaris"
       }
     }
   }
