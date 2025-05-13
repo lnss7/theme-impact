@@ -3194,14 +3194,27 @@
       "email": "Correu electrònic",
       "message": "Missatge",
       "count": {
-        "zero": "{{ count }} comentaris"
+        "zero": "{{ count }} comentaris",
+        "one": "{{ count }} comentari",
+        "other": "{{ count }} comentaris"
       }
     }
   },
   "cart": {
     "shipping_estimator": {
       "multiple_results": "Hi ha diverses tarifes de despeses d'enviament per a la teva adreça:",
-      "error": "Es va produir un error en recuperar les tarifes de despeses d'enviament:"
+      "error": "Es va produir un error en recuperar les tarifes de despeses d'enviament:",
+      "province": "Província",
+      "zip": "Codi postal"
+    },
+    "general": {
+      "continue_shopping": "Seguir comprant",
+      "save_note": "Desa"
+    },
+    "order": {
+      "product": "Producte",
+      "quantity": "Quantitat",
+      "remove": "Treure"
     }
   },
   "search": {
@@ -3209,7 +3222,14 @@
       "terms": "Resultats de « {{ terms }} »",
       "posts": "Entrades de bloc",
       "view_all_results": "Veure tots els resultats",
-      "no_results": "No s'han trobat resultats."
+      "no_results": "No s'han trobat resultats.",
+      "title": "Cerca",
+      "products": "Productes",
+      "suggestions": "Suggeriments",
+      "collections": "Col·leccions",
+      "pages": "Pàgines",
+      "clear": "Esborrar",
+      "view_all": "Veure-ho tot"
     },
     "results_count": {
       "zero": "0 resultats per « {{ terms }} »",
@@ -3220,7 +3240,8 @@
   "gift_card": {
     "general": {
       "title": "Aquí tens la teva targeta de regal",
-      "scan": "o escaneja aquest codi QR"
+      "scan": "o escaneja aquest codi QR",
+      "back_to_store": "Tornar a la botiga"
     },
     "issued": {
       "remaining_amount": "Import disponible",
@@ -3228,20 +3249,29 @@
       "redeem_instructions": "Fes servir aquest codi per bescanviar la targeta de regal en finalitzar la compra:",
       "expires_on": "Caduca el: {{ expires_on }}",
       "expired": "La teva targeta de regal ha caducat o desactivat.",
-      "add_to_apple_wallet": "Afegir a Apple Wallet"
+      "add_to_apple_wallet": "Afegir a Apple Wallet",
+      "code": "Codi de targeta de regal"
+    },
+    "recipient": {
+      "checkbox": "Vull enviar això com un regal.",
+      "email_label": "Correu electrònic de la persona destinatària",
+      "name_label": "Nom de la persona destinatària (opcional)",
+      "message_label": "Missatge (opcional)"
     }
   },
   "password": {
     "general": {
       "follow_us": "Segueix-nos",
       "powered_by": "Aquesta botiga ha estat creada amb",
-      "store_owner": "Ets el propietari?"
+      "store_owner": "Ets el propietari?",
+      "login": "Inicia sessió"
     },
     "storefront_access": {
       "enter_password": "Accedeix amb la teva contrasenya",
       "store_access": "Accés a la botiga",
       "instructions": "Escriviu la contrasenya a continuació per accedir a la botiga",
-      "enter_store": "Entrar a la botiga"
+      "enter_store": "Entrar a la botiga",
+      "password": "Contrasenya"
     }
   },
   "apps": {
@@ -3253,6 +3283,83 @@
         "one": "Ha rebut {{ count }} ressenya.",
         "other": "Ha rebut {{ count }} ressenyes."
       }
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "Nom",
+      "email": "Correu electrònic",
+      "message": "Missatge"
+    }
+  },
+  "customer": {
+    "account": {
+      "orders": "Comandes",
+      "addresses": "Adreces",
+      "logout": "Tancar sessió",
+      "continue_shopping": "Seguir comprant"
+    },
+    "login": {
+      "title": "Inicia sessió",
+      "email": "Correu electrònic",
+      "password": "Contrasenya",
+      "submit": "Inicia sessió"
+    },
+    "recover_password": {
+      "email": "Correu electrònic"
+    },
+    "register": {
+      "first_name": "Nom",
+      "last_name": "Cognoms",
+      "email": "Correu electrònic",
+      "password": "Contrasenya",
+      "submit": "Crear compte",
+      "login": "Inicia sessió"
+    },
+    "activate_account": {
+      "title": "Activar compte",
+      "password": "Contrasenya",
+      "cancel": "Cancel·la"
+    },
+    "reset_password": {
+      "title": "Restablir contrasenya",
+      "password": "Contrasenya",
+      "submit": "Restablir"
+    },
+    "order": {
+      "order": "Comanda",
+      "order_name": "{{name}}",
+      "view_details": "Veure detalls de la comanda",
+      "date": "Data",
+      "payment_status": "Estat del pagament",
+      "product": "Producte",
+      "quantity": "Quantitat",
+      "discount": "Descompte",
+      "shipping_address": "Direcció d'enviament",
+      "billing_address": "Adreça de facturació"
+    },
+    "addresses": {
+      "edit_address": "Editar direcció",
+      "save_address": "Desar direcció",
+      "edit": "Edita",
+      "default_address": "Adreça predeterminada",
+      "first_name": "Nom",
+      "last_name": "Cognoms",
+      "phone": "Número de telèfon",
+      "city": "Ciutat",
+      "zip": "Codi postal",
+      "province": "Província",
+      "set_default": "Establir com a adreça predeterminada"
+    }
+  },
+  "pagefly": {
+    "products": {
+      "product": {
+        "on_sale": "Surt"
+      }
+    },
+    "comments": {
+      "moderated": "Si us plau, consulteu comments must be approved before they are published"
     }
   }
 }
