@@ -675,6 +675,255 @@
             "postal_code": "Introdueix un codi postal vàlid"
           }
         }
+      },
+      "thank_you": {
+        "in_transit_title": "La teva comanda està en camí",
+        "in_transit_description": "Rebràs notificacions sobre el teu progrés.",
+        "in_transit_description_days": "Hauries de rebre la teva comanda en els propers %{number} dies.",
+        "in_transit_description_today": "Hauries de rebre la teva comanda avui.",
+        "in_transit_description_tomorrow": "Hauries de rebre la teva comanda en un termini d'un dia.",
+        "no_tracking_number": "No hi ha número de seguiment per a aquesta comanda.",
+        "out_for_delivery": "Enviat al destinatari",
+        "out_for_delivery_title": "La teva comanda està en procés de lliurament",
+        "out_for_delivery_description_html": "La teva comanda està en camí i hauria d'arribar-hi avui. Si no es lliura en els propers dos dies, %{contact_us}.",
+        "attempted_delivery": "Intent de lliurament",
+        "attempted_delivery_title": "Es va intentar lliurar la teva comanda",
+        "attempted_delivery_description_html": "Es va intentar lliurar la teva comanda sense èxit. %{contact_us} per programar una altra entrega.",
+        "delivered": "Lliurat",
+        "delivered_title": "La teva comanda s'ha lliurat",
+        "delivered_description_html": "La teva comanda s'ha lliurat a l'adreça que vas indicar. Si encara no l'heu rebut o si teniu cap altre problema, %{contact_us}.",
+        "contact_us": "Posa't en contacte amb nosaltres",
+        "contact_us_lowercase": "Posa't en contacte amb nosaltres",
+        "contact_us_html": "Necessites ajuda? %{contact_us}",
+        "updated_time": "Actualitzat fa %{time_ago}",
+        "failure": "No lliurat",
+        "failed_title": "No s'ha pogut lliurar la comanda",
+        "failed_contact_merchant": "Poseu-vos en contacte amb %{company} per organitzar el lliurament.",
+        "failed_contact_merchant_no_company": "Posa't en contacte amb nosaltres per organitzar el lliurament.",
+        "non_shippable_title": "La comanda està completa",
+        "login_title": "pot ajudar-te a sessió per veure tots els detalls de la comanda",
+        "login_description": "Pots trobar el teu número de comanda a la factura que va rebre mitjançant correu electrònic.",
+        "login_description_phone": "Pots trobar el número de la teva comanda a la factura que vas rebre mitjançant un missatge de text.",
+        "login_not_customer_html": "No %{name}? Podeu %{link}",
+        "login_reorder_link_text": {
+          "one": "comprar aquest producte també",
+          "other": "comprar aquests productes també",
+          "many": "comprar aquests productes també"
+        },
+        "customer_information_hidden_fields_message": "pot ajudar-te a la sessió per veure tota la informació del client.",
+        "cancelled_title": "La teva comanda ha estat cancel·lada",
+        "cancelled_description": "La teva comanda va ser cancel·lada el %{date}. Posa't en contacte amb nosaltres si tens alguna pregunta.",
+        "order_number_label": "Número de comanda",
+        "customer_validation_error": "Introduïu un correu electrònic o un número de comanda vàlid.",
+        "customer_validation_error_phone": "Introduïu un número de telèfon o de comanda vàlid.",
+        "login": "Inicia sessió",
+        "unfulfilled_items_title": "En preparació per a l'enviament",
+        "unfulfilled_items_description": "Actualment estem preparant aquests articles per a l'enviament.",
+        "marker": {
+          "current": "Ubicació actual de l'enviament",
+          "shipping": "Direcció d'enviament"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "Articles en aquest enviament",
+          "unfulfilled_table_title": "Articles en preparació per a enviament",
+          "product_image_label": "Imatge del producte",
+          "description_label": "Descripció",
+          "quantity_label": "Quantitat"
+        },
+        "order_updates_description_missing": "No esteu rebent actualitzacions de l'estatus d'enviament.",
+        "order_updates_subscribe_to_email_notifications": "Rep actualitzacions de l'estat del teu enviament",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Rebeu actualitzacions d'enviaments per correu electrònic o missatge de text.",
+        "order_updates_subscribe_to_phone_notifications": "Rep actualitzacions d'enviaments per missatge de text.",
+        "track_shipment": "Rastrejar enviament",
+        "order_status_confirmed_order_with_email_pick_up": "Rebràs un correu electrònic quan la teva comanda estigui preparada per ser retirada.",
+        "order_status_confirmed_order_with_phone_pick_up": "Rebràs un missatge de text quan la teva comanda estigui preparada per ser retirada.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "Rebràs un correu electrònic i un missatge de text quan la teva comanda estigui preparada per ser retirada.",
+        "pick_up_in_store_marker": {
+          "current": "Ubicació actual de l'enviament",
+          "shipping": "Lloc de retir"
+        },
+        "thank_you_confirmed_order_with_email_pick_up": "Rebràs un correu electrònic quan la teva comanda estigui preparada per ser retirada.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Rebràs un missatge de text quan la teva comanda estigui preparada per retirar.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Rebràs un correu electrònic quan la teva comanda estigui preparada per ser retirada.",
+        "ready_for_pickup_title": "La comanda està llesta per retirar-la",
+        "ready_for_pickup_description": "La teva comanda està llesta per ser retirada. Si us plau, porta la teva confirmació de comanda quan vinguis a retirar-ho.",
+        "picked_up_title": "La comanda es va retirar",
+        "picked_up_description_html": "La teva comanda es va recollir a %{location_name} al %{date}.",
+        "other_options": "Altres opcions",
+        "shop_phone_description": "Rebràs un missatge de text amb un enllaç a l'aplicació Shop per ajudar-te a fer el seguiment de la teva comanda.",
+        "ready_for_delivery_title": "La comanda està llesta per al lliurament",
+        "ready_for_delivery_description": "Ja preparem la comanda.",
+        "order_status_confirmed_order_local": "Estem preparant la teva comanda per al lliurament.",
+        "delivery_information_label": "Informació de lliurament:",
+        "gift_card_sent_confirmation": "Targetes de regal enviades",
+        "out_for_delivery_local_title": "La teva comanda està en procés de lliurament",
+        "out_for_delivery_local_description_html": "La teva comanda encara ha d'arribar.",
+        "delivered_local_title": "La teva comanda s'ha lliurat",
+        "delivered_local_description_html": "No has rebut la teva comanda? %{let_us_know}.",
+        "let_us_know": "Informa'ns",
+        "qr_code": {
+          "title": "Fes el seguiment des del telèfon",
+          "send_link_to_phone": "O envia un enllaç al teu telèfon"
+        },
+        "gift_card_confirmation_by_text": "Si no ho vas rebre, torna a enviar el missatge o contacta'ns.",
+        "gift_card_confirmation_by_email": "Si no ho vas rebre, torna a enviar el correu electrònic o contacta'ns.",
+        "gift_card_title": "Targetes de regal",
+        "resend_gift_cards": "Reenviar targetes de regal",
+        "attempted_delivery_local_title": "No es va poder rebre el lliurament",
+        "attempted_delivery_local_description_html": "No vam poder lliurar la teva comanda. Per reprogramar el lliurament, %{contact_us}.",
+        "thank_you_title_payment": "El teu pagament està confirmat",
+        "thank_you_confirmed_order_with_email_payment": "Has fet un pagament de la teva comanda el %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Has fet un pagament a la teva comanda %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Has fet un pagament a la teva comanda %{date}.",
+        "order_status_confirmed_order_with_email_payment": "Has fet un pagament de la teva comanda el %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "Has fet un pagament a la teva comanda %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Has fet un pagament a la teva comanda %{date}.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Escaneja amb el telèfon"
+          },
+          "sms": {
+            "title": "O envia un enllaç al teu telèfon"
+          }
+        },
+        "estimated_delivery": "Data de lliurament estimada actual: ",
+        "view_business_customer_account": "Veure compte",
+        "thank_you_title_review": "Es va enviar la teva comanda a revisió",
+        "thank_you_confirmed_order_with_draft": "Contactarem amb tu si necessitem més informació o un cop es confirmi la comanda."
+      }
+    },
+    "errors": {
+      "shop_404": {
+        "ctas": {
+          "store_owner": {
+            "shopify_support_link_text": "atenció al client de Shopify"
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Error en restablir la contrasenya",
+        "no_account_found": "No s'ha trobat cap compte amb aquesta adreça electrònica.",
+        "invalid_credentials": "Correu electrònic o contrasenya incorrectes.",
+        "denylisted_reset_password": "No es pot accedir al vostre compte perquè la contrasenya actual no és segura. Rebràs un correu electrònic per actualitzar la teva contrasenya.",
+        "signup_disabled": "S'ha desactivat la creació del compte de client.",
+        "subscribe_error": "Error de subscripció",
+        "unsubscribe_error": "Error en cancel·lar la subscripció"
+      },
+      "address": {
+        "updated": "Adreça actualitzada amb èxit.",
+        "error_updating": "Error en actualitzar l'adreça.",
+        "created": "Adreça creada amb èxit",
+        "error_creating": "Error en crear la direcció.",
+        "deleted": "Adreça eliminada amb èxit.",
+        "error_deleting": "Error en eliminar la direcció."
+      },
+      "order": {
+        "not_available": "Aquesta comanda no està disponible.",
+        "financial_status": {
+          "authorized": "Autoritzada",
+          "pending": "Pendent",
+          "voided": "Anul·lada",
+          "partially_paid": "Pagada parcialment",
+          "partially_refunded": "Reemborsada parcialment",
+          "refunded": "Reemborsada",
+          "expired": "Vençut"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Conclosa",
+          "unfulfilled": "No realitzada",
+          "restocked": "Recanvi"
+        },
+        "transaction_status": {
+          "success": "Èxit",
+          "pending": "Pendent",
+          "failure": "Fallada"
+        },
+        "cancel_reason": {
+          "declined": "Pagament rebutjat",
+          "inventory": "Articles no disponibles",
+          "fraud": "Comanda fraudulent",
+          "customer": "El client va canviar/cancel·lar comanda",
+          "other": "Un altre",
+          "many": "Un altre",
+          "staff": "Error d'un empleat"
+        },
+        "cash_on_delivery": "Pagament contra lliurament"
+      },
+      "cart": {
+        "only_n_items_available": "Només podeu afegir %{count} %{name} a la cistella.",
+        "too_many_items_in_cart": "No podeu afegir més %{name} a la cistella.",
+        "all_items_in_cart": "La teva cistella conté: %{count} %{name}.",
+        "empty_update": "No es pot actualitzar un carret buit",
+        "missing_parameters": "Identificació o paràmetre lineal no vàlids",
+        "generic_error": "Error al carret",
+        "too_many_line_items_error": "El carretó no pot contenir més de %{max} articles.",
+        "link_expired": "L'enllaç ha caducat",
+        "link_no_longer_exists": "L'enllaç ja no existeix.",
+        "stock_problems_html": "Un o més articles ja no estan disponibles. Hem actualitzat la teva <a href=\"%{link}\">cistella</a> .",
+        "changed": "El carretó s'ha modificat",
+        "items_changed": "S'han canviat un o més articles.",
+        "product_sold_out": "L'article '%{name}' ja està esgotat.",
+        "variant_not_found": "No s'ha trobat la variant",
+        "variant_requires_selling_plan": "La variant només es pot comprar amb un pla de vendes.",
+        "shipping_address_not_required": "Aquest carretó no requereix enviament",
+        "shipping_address_invalid": "Hi va haver un problema en calcular les tarifes d'enviament. Continua amb el pagament per seleccionar una tarifa d'enviament abans de completar la comanda.",
+        "selling_plan_not_applicable": "No es pot aplicar el pla de venda a la variant",
+        "selling_plan_not_available_for_company_locations": "Només s'admeten compres úniques per a les comandes B2B.",
+        "digital_product_not_available_for_company_locations": "Aquest article no es pot afegir a una comanda B2B",
+        "product_not_available": "El producte no està disponible",
+        "less_than_minimum": "Aquest article té un mínim de %{min}.",
+        "more_than_maximum": "Aquest article té un màxim de %{max}.",
+        "not_respect_step": "Només podeu afegir aquest article en increments de %{step}.",
+        "bundle_requires_components": "El producte %{name} del paquet no es pot afegir a la cistella.",
+        "gift_card_with_components_not_supported": "El producte %{name} del paquet no es pot afegir a la cistella.",
+        "view_lines_limit_reached": "Les línies han de ser menys de %{limit}.",
+        "merchandise_line_transformers": {
+          "run_error": "S'ha produït un error a la cistella."
+        },
+        "gift_card_price_must_be_greater_than_zero": "El producte %{name} del paquet no es pot afegir a la cistella.",
+        "cart_too_large": "El carretó és massa gran.",
+        "gift_card_recipient_validation_error": "La targeta de regal especificada no és vàlida",
+        "invalid_input": "El paràmetre %{parameter} no és vàlid.",
+        "buyer_cannot_purchase_for_company_locations": "No es pot comprar per a aquesta sucursal",
+        "only_one_added_to_cart": "A causa de la disponibilitat, només es va afegir un article a la cistella.",
+        "only_n_added_to_cart": "A causa de la disponibilitat, només s'han afegit %{quantity} articles a la cistella.",
+        "maximum_available_quantity_reached": "El teu carretó ja té la quantitat màxima d'aquest article."
+      },
+      "storefront": {
+        "invalid_password": "Contrasenya incorrecta, si us plau torna a intentar-ho."
+      },
+      "tags": {
+        "add_articles": "Refinar cerca als articles que també tenen l'etiqueta %{tag}",
+        "add_products": "Refinar selecció als productes que coincideixen amb l'etiqueta %{tag}",
+        "remove_articles": "Ampliar cerca als articles que no estan etiquetats amb %{tag}"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "S'ha afegit %{delta}",
+          "increment_item": "S'ha afegit %{delta}",
+          "decrement_item": "S'ha eliminat %{delta} de %{total}",
+          "decrement_fulfilled_line_item": "Es va tornar %{delta} de %{total}",
+          "decrement_return_line_item": "Es va eliminar %{delta} de la devolució"
+        }
+      }
+    },
+    "page_titles": {
+      "products": "Productes",
+      "shopping_cart": "El teu carret",
+      "account": "Compte",
+      "create_account": "Crear compte",
+      "reset_account": "Restablir compte",
+      "addresses": "Adreces",
+      "order": "Comanda%{name}",
+      "search": "Cerca",
+      "collections": "Col·leccions",
+      "not_found": "404 No trobat",
+      "challenge": "Desafiament",
+      "checkpoint": "Punt de control",
+      "search_results": {
+        "one": "Cerca: %{count} resultat trobat per a \"%{terms}\""
       }
     }
   }
