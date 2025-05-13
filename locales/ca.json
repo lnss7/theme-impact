@@ -3157,13 +3157,39 @@
       "taxes_included": "Impostos inclosos."
     },
     "price": {
-      "sale_price": "Preu d'oferta"
+      "sale_price": "Preu d'oferta",
+      "regular_price": "Preu normal",
+      "from_price_html": "Des de {{ price_min }}"
     },
     "quantity": {
-      "label": "Quantitat"
+      "label": "Quantitat",
+      "increase_quantity": "Augmentar quantitat",
+      "decrease_quantity": "Reduir quantitat"
     },
     "store_availability": {
-      "view_store_info": "Veure informació de la botiga"
+      "view_store_info": "Veure informació de la botiga",
+      "check_other_stores": "Comprovar la disponibilitat a altres botigues",
+      "pick_up_available": "Recollida disponible",
+      "pick_up_currently_unavailable": "Recollida no disponible actualment",
+      "pick_up_available_at": "Recollida disponible a {{ location_name }}",
+      "pick_up_unavailable_at": "Recollida no disponible actualment a {{ location_name }}"
+    },
+    "gallery": {
+      "close": "Tancar galeria",
+      "error": "No es pot carregar la imatge"
+    },
+    "rating_count": {
+      "zero": "No hi ha ressenyes",
+      "one": "{{ count }} ressenya",
+      "other": "{{ count }} ressenyes"
+    },
+    "inventory": {
+      "oversell_stock": "Disponible en breu",
+      "incoming_stock": "Disponible el {{ next_incoming_date }}",
+      "low_stock_with_quantity_count": {
+        "one": "Només queda {{count}} unitat",
+        "other": "Només queden {{count}} unitats"
+      }
     }
   },
   "404": {
@@ -3175,19 +3201,33 @@
   "collection": {
     "general": {
       "all_collections": "Totes les col·leccions",
-      "continue_shopping": "Seguir comprant"
+      "continue_shopping": "Seguir comprant",
+      "empty_collection": "Aquesta col·lecció és buida",
+      "no_collections": "Aquesta botiga no té cap col·lecció."
     },
     "products_count": {
-      "other": "{{ count }} productes"
+      "other": "{{ count }} productes",
+      "zero": "0 productes",
+      "one": "1 producte"
     },
     "faceting": {
       "filter_and_sort": "Filtrar i ordenar",
-      "clear_filters": "Esborrar-ho tot"
+      "clear_filters": "Esborrar-ho tot",
+      "filters": "Filtres",
+      "sort_by": "Ordenar per",
+      "remove_filter": "Treure filtre « {{ name }} »",
+      "no_results": "No hi ha productes que coincideixin amb els filtres.",
+      "price_filter_from": "Preu mínim",
+      "price_filter_to": "Preu màxim",
+      "availability_label": "Només mostrar disponibles"
     }
   },
   "blog": {
     "general": {
-      "view": "Veure"
+      "view": "Veure",
+      "empty_blog": "Aquest bloc és buit",
+      "back_to_home": "Tornar a inici",
+      "all_posts": "Totes les entrades"
     },
     "comments": {
       "name": "Nom",
@@ -3197,7 +3237,16 @@
         "zero": "{{ count }} comentaris",
         "one": "{{ count }} comentari",
         "other": "{{ count }} comentaris"
-      }
+      },
+      "leave_comment": "Deixar un comentari",
+      "moderated": "Tots els comentaris es revisen abans de la publicació.",
+      "comment_sent": "S'ha enviat el teu comentari.",
+      "comment_published": "Heu publicat el vostre comentari."
+    },
+    "post": {
+      "written_by": "De {{ author }}",
+      "tags": "Etiquetes",
+      "continue_reading": "Potser t'interessi"
     }
   },
   "cart": {
@@ -3205,16 +3254,39 @@
       "multiple_results": "Hi ha diverses tarifes de despeses d'enviament per a la teva adreça:",
       "error": "Es va produir un error en recuperar les tarifes de despeses d'enviament:",
       "province": "Província",
-      "zip": "Codi postal"
+      "zip": "Codi postal",
+      "estimate_shipping": "Calcular despeses d'enviament",
+      "no_results": "No fem enviaments a la teva adreça.",
+      "one_result": "Hi ha una tarifa de despeses d'enviament per a la teva adreça:"
     },
     "general": {
       "continue_shopping": "Seguir comprant",
-      "save_note": "Desa"
+      "save_note": "Desa",
+      "title": "Cistella",
+      "empty": "La cistella és buida",
+      "weight": "Pes",
+      "taxes_and_shipping_policy_at_checkout_html": "Els impostos i <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" class=\"link\">despeses d'enviament</a> es calculen a la pantalla de pagament",
+      "taxes_included_but_shipping_at_checkout": "Impost inclòs i les despeses d'enviament es calculen a la pantalla de pagament",
+      "taxes_included_and_shipping_policy_html": "Impost inclòs. Les <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" class=\"link\">despeses d'enviament</a> es calculen a la pantalla de pagament.",
+      "taxes_and_shipping_at_checkout": "Els impostos i despeses d'enviament es calculen a la pantalla de pagament",
+      "add_order_note": "Afegir nota a la comanda",
+      "edit_order_note": "Edita nota de la comanda",
+      "order_note": "Nota de la comanda",
+      "view_cart": "Veure cistella",
+      "checkout": "Finalitzar compra",
+      "we_accept": "Acceptem"
     },
     "order": {
       "product": "Producte",
       "quantity": "Quantitat",
-      "remove": "Treure"
+      "remove": "Treure",
+      "change_quantity": "Canviar quantitat",
+      "increase_quantity": "Augmentar quantitat",
+      "decrease_quantity": "Reduir quantitat"
+    },
+    "free_shipping_bar": {
+      "limit_unreached_html": "Gasta {{ remaining_amount }} més i aconsegueix enviament gratuït!",
+      "limit_reached_html": "La teva comanda compleix els requisits d'enviament gratuïts."
     }
   },
   "search": {
@@ -3289,7 +3361,9 @@
     "form": {
       "name": "Nom",
       "email": "Correu electrònic",
-      "message": "Missatge"
+      "message": "Missatge",
+      "submit": "Enviar missatge",
+      "success_message": "El teu missatge s'ha enviat."
     }
   },
   "customer": {
@@ -3297,16 +3371,24 @@
       "orders": "Comandes",
       "addresses": "Adreces",
       "logout": "Tancar sessió",
-      "continue_shopping": "Seguir comprant"
+      "continue_shopping": "Seguir comprant",
+      "welcome": "Hola, {{first_name}}",
+      "tagline": "Aquí pots veure totes les comandes i gestionar la informació del compte.",
+      "no_orders": "Encara no has fet cap comanda."
     },
     "login": {
       "title": "Inicia sessió",
       "email": "Correu electrònic",
       "password": "Contrasenya",
-      "submit": "Inicia sessió"
+      "submit": "Inicia sessió",
+      "forgot_password": "Has oblidat la contrasenya?",
+      "sign_up": "Registre"
     },
     "recover_password": {
-      "email": "Correu electrònic"
+      "email": "Correu electrònic",
+      "title": "Recuperar contrasenya",
+      "back_to_login": "Tornar a inici de sessió",
+      "success_message": "T'hem enviat un correu electrònic amb instruccions per restablir la contrasenya."
     },
     "register": {
       "first_name": "Nom",
@@ -3314,17 +3396,23 @@
       "email": "Correu electrònic",
       "password": "Contrasenya",
       "submit": "Crear compte",
-      "login": "Inicia sessió"
+      "login": "Inicia sessió",
+      "title": "Registre",
+      "accepts_marketing": "Subscriu-te al nostre butlletí"
     },
     "activate_account": {
       "title": "Activar compte",
       "password": "Contrasenya",
-      "cancel": "Cancel·la"
+      "cancel": "Cancel·la",
+      "instructions": "Escriu una contrasenya per crear el teu compte:",
+      "password_confirmation": "Confirmació de contrasenya",
+      "submit": "Activa"
     },
     "reset_password": {
       "title": "Restablir contrasenya",
       "password": "Contrasenya",
-      "submit": "Restablir"
+      "submit": "Restablir",
+      "password_confirmation": "Confirmació de contrasenya"
     },
     "order": {
       "order": "Comanda",
@@ -3336,7 +3424,18 @@
       "quantity": "Quantitat",
       "discount": "Descompte",
       "shipping_address": "Direcció d'enviament",
-      "billing_address": "Adreça de facturació"
+      "billing_address": "Adreça de facturació",
+      "back": "Tornar",
+      "fulfillment_status": "Estat de preparació",
+      "cancelled_on": "Cancel·lat el {{date}} . Motiu: {{reason}}",
+      "fulfillment_with_number": "La teva comanda es va enviar el {{date}} . Fes un seguiment de l'enviament amb el número {{tracking_number}} .",
+      "fulfillment": "La teva comanda es va enviar el {{date}} .",
+      "track_shipment": "Seguiment de l'enviament",
+      "shipping": "Despeses d'enviament",
+      "taxes_included": "Impostos inclosos",
+      "taxes_excluded": "Impostos exclosos",
+      "total_duties": "Taxes de duanes",
+      "refunded_amount": "Import reemborsat"
     },
     "addresses": {
       "edit_address": "Editar direcció",
@@ -3349,7 +3448,14 @@
       "city": "Ciutat",
       "zip": "Codi postal",
       "province": "Província",
-      "set_default": "Establir com a adreça predeterminada"
+      "set_default": "Establir com a adreça predeterminada",
+      "no_addresses": "Encara no heu desat cap adreça.",
+      "add_address": "Afegir adreça",
+      "address_title": "Adreça {{ position }}",
+      "delete_confirm": "Esteu segur que voleu suprimir aquesta adreça? Un cop eliminada, no podràs recuperar-la.",
+      "fill_form": "Completa les dades següents:",
+      "address1": "Línia 1 de direcció",
+      "address2": "Línia 2 de direcció"
     }
   },
   "pagefly": {
