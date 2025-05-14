@@ -30,6 +30,7 @@
         },
         "bk_reviews_bk_reviews_star_section_C6WRfP": {
           "type": "shopify://apps/bk-reviews/blocks/bk-reviews-star-section/592f39b6-a0c6-4829-a095-8e5558e58026",
+          "disabled": true,
           "settings": {}
         },
         "payment_terms": {
