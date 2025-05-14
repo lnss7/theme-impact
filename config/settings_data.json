@@ -45,7 +45,7 @@
     "show_page_transition": true,
     "heading_apparition": "split_rotation",
     "color_swatch_style": "rectangle",
-    "show_product_rating": true,
+    "show_product_rating": false,
     "discount_mode": "percentage",
     "product_color_display": "swatch",
     "product_image_aspect_ratio": "natural",
@@ -62,11 +62,6 @@
     "checkout_button_color": "#1a1a1a",
     "content_for_index": [],
     "blocks": {
-      "8329602812678528339": {
-        "type": "shopify://apps/bk-reviews/blocks/bk-reviews-embed/592f39b6-a0c6-4829-a095-8e5558e58026",
-        "disabled": false,
-        "settings": {}
-      },
       "1935445597218932304": {
         "type": "shopify://apps/avada-seo-suite/blocks/avada-seo/15507c6e-1aa3-45d3-b698-7e175e033440",
         "disabled": false,
@@ -74,6 +69,11 @@
       },
       "pagefly-page-builder": {
         "type": "shopify://apps/pagefly-page-builder/blocks/app-embed/83e179f7-59a0-4589-8c66-c0dddf959200",
+        "disabled": false,
+        "settings": {}
+      },
+      "8329602812678528339": {
+        "type": "shopify://apps/bk-reviews/blocks/bk-reviews-embed/592f39b6-a0c6-4829-a095-8e5558e58026",
         "disabled": false,
         "settings": {}
       }
