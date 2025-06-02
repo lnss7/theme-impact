@@ -12,50 +12,73 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "slide-1": {
+        "image_iJcacJ": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/BANNER_OFICIAL_PC_1_11zon.webp",
+            "mobile_image": "shopify://shop_images/BANNER_OFICIAL_MOBILE_1_11zon.webp",
             "content_max_width": 780,
-            "mobile_text_position": "place-self-center-start text-start",
+            "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "¡A TODA ESPAÑA!",
-            "title": "Envío Gratis",
+            "subheading": "Tell your story",
+            "title": "Slide title",
             "heading_tag": "h0",
             "button_text": "",
-            "button_link": "shopify://collections/all",
+            "button_link": "",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
-            "background": "#ffffff",
-            "background_gradient": ""
-          }
-        },
-        "slide-2": {
-          "type": "image",
-          "settings": {
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "¡Artículos que hacen la diferencia en tu cocina!",
-            "heading_tag": "h2",
-            "button_text": "¡Ver artículos!",
-            "button_link": "shopify://collections/organizacion-cocina-popular",
-            "text_color": "#ffffff",
-            "button_background": "#ffde59",
-            "button_text_color": "#1a1a1a",
-            "overlay_color": "#000000",
-            "overlay_opacity": 20,
             "background": "",
             "background_gradient": ""
           }
         }
       },
       "block_order": [
-        "slide-1",
-        "slide-2"
+        "image_iJcacJ"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": true,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
+      }
+    },
+    "slideshow_8Nxbkx": {
+      "type": "slideshow",
+      "blocks": {
+        "image_QU7aMK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_OFICIAL_PC_2_11zon.webp",
+            "mobile_image": "shopify://shop_images/BANNER_OFICIAL_MOBILE_2_11zon.webp",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide title",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_QU7aMK"
       ],
       "settings": {
         "full_width": true,
@@ -69,367 +92,24 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
-    "featured-collection": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "",
-        "products": [
-          "botella-de-spray-de-aceite-de-oliva-con-control-de-pulverizacion-cocina-popular",
-          "cuenco-de-fruta-de-cristal-con-base-de-madera-cocina-popular",
-          "espremedor-triturador-manual-de-ajo-en-acero-inoxidable-cocina-popular",
-          "molinillo-de-cafe-electrico-portatil-con-carga-usb-y-ceramica-cocina-popular",
-          "pelador-de-verduras-3-en-1-con-funda-para-cuchillo-herramienta-multifuncional-cocina-popular",
-          "tabla-de-cortar-4-en-1-con-descongelacion-rapida-y-rallador-cocina-popular"
-        ],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": true,
-        "products_count": 6,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "Lo Más Queridos",
-        "content": "",
-        "link_url": "",
-        "link_text": "Ver todo",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
-    "collection-list": {
-      "type": "collection-list",
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "decoracion",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h3",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "limpieza-cocina-popular",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h3",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "collection_znYfHh": {
-          "type": "collection",
-          "settings": {
-            "collection": "organizacion-cocina-popular",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h3",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "collection-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "utensilios-de-cocina-cocina-popular",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h3",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "collection-1",
-        "collection-2",
-        "collection_znYfHh",
-        "collection-3"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_collections": false,
-        "collections_per_row": 3,
-        "show_progress_bar": true,
-        "subheading": "",
-        "title": "Colecciones",
-        "content": "",
-        "link_url": "",
-        "link_text": "Ver todo",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
-    "featured-product": {
-      "type": "featured-product",
-      "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h3"
-          }
-        },
-        "badges": {
-          "type": "badges",
-          "settings": {}
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "rating": {
-          "type": "rating",
-          "disabled": true,
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "separator": {
-          "type": "separator",
-          "settings": {}
-        },
-        "variant-picker": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_mode": "dropdown",
-            "color_mode": "block",
-            "size_chart_page": ""
-          }
-        },
-        "buy-buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": false,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "title",
-        "badges",
-        "price",
-        "rating",
-        "separator",
-        "variant-picker",
-        "buy-buttons"
-      ],
-      "settings": {
-        "full_width": false,
-        "product": "protexclean®-protector-de-estufas-promocion-rayos-paga-4-obten-8",
-        "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "contained",
-        "mobile_carousel_control": "thumbnails",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
-      }
-    },
-    "scrolling-text": {
-      "type": "scrolling-text",
-      "settings": {
-        "full_width": true,
-        "text": "Innovación que transforma tu cocina con calidad.",
-        "text_size": "xsmall",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 7,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "text_gradient": ""
-      }
-    },
-    "media-grid": {
-      "type": "media-grid",
-      "blocks": {
-        "item-1": {
-          "type": "image",
-          "settings": {
-            "title": "Almacenamiento y Organización",
-            "heading_tag": "h4",
-            "link_url": "shopify://collections/organizacion-cocina-popular",
-            "link_text": "",
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 15
-          }
-        },
-        "item-2": {
-          "type": "image",
-          "settings": {
-            "title": "Molinillo de Café",
-            "heading_tag": "h6",
-            "link_url": "shopify://products/molinillo-de-cafe-electrico-portatil-con-carga-usb-y-ceramica-cocina-popular",
-            "link_text": "",
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item-3": {
-          "type": "image",
-          "settings": {
-            "title": "Sacacorchos Eléctrico",
-            "heading_tag": "h6",
-            "link_url": "shopify://products/sacacorchos-electrico-inalambrico-abridor-de-vino-automatico-cocina-popular",
-            "link_text": "",
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "29246d34-c6e0-4373-84f6-b15e57736a00": {
-          "type": "image",
-          "settings": {
-            "title": "Detalles que inspiran",
-            "heading_tag": "h4",
-            "link_url": "shopify://collections/decoracion",
-            "link_text": "",
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 10
-          }
-        }
-      },
-      "block_order": [
-        "item-1",
-        "item-2",
-        "item-3",
-        "29246d34-c6e0-4373-84f6-b15e57736a00"
-      ],
-      "settings": {
-        "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
-        "background": "",
-        "background_gradient": ""
-      }
-    },
-    "featured_collection_jmjBVc": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "",
-        "products": [
-          "sacacorchos-electrico-inalambrico-abridor-de-vino-automatico-cocina-popular",
-          "estante-de-condimentos-extraible-de-2-niveles-cocina-popular",
-          "dispensador-de-alimentos-giratorio-redon-cocina-popular",
-          "soporte-para-condimentos-5-en-1-cocina-popular",
-          "organizador-de-huevos-de-32-rejillas-cajon-apilable-nevera-ordenada-cocina-popular",
-          "cuenco-de-fruta-de-cristal-con-base-de-madera-cocina-popular",
-          "espumador-de-leche-inalambrico-usb-tipo-c-batidora-para-cafe-y-capuchino"
-        ],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 6,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "Tu Rincón Soñado",
-        "content": "",
-        "link_url": "",
-        "link_text": "Ver todo",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
-    "slideshow_BFj9HE": {
+    "slideshow_M4G3rE": {
       "type": "slideshow",
       "blocks": {
-        "image_y6hA7D": {
+        "image_jim4yT": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/BANNER_OFICIAL_PC_3_11zon.webp",
+            "mobile_image": "shopify://shop_images/BANNER_OFICIAL_MOBILE_4_11zon.webp",
             "content_max_width": 780,
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h6",
-            "button_text": "",
-            "button_link": "shopify://collections/los-mas-vendidos-cocina-popular",
+            "mobile_text_position": "place-self-center-end text-end",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide title",
+            "heading_tag": "h1",
+            "button_text": "aaaaaaa",
+            "button_link": "",
             "text_color": "#ffffff",
-            "button_background": "#ffde59",
+            "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
@@ -439,194 +119,69 @@
         }
       },
       "block_order": [
-        "image_y6hA7D"
+        "image_jim4yT"
+      ],
+      "custom_css": [
+        "button {padding: 10px 20px !important; font-size: 14px !important;}"
       ],
       "settings": {
         "full_width": true,
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
         "image_size": "auto",
         "controls_type": "dots",
         "transition_type": "fade_with_text",
-        "autoplay": false,
+        "autoplay": true,
         "cycle_speed": 6,
         "background": "#f2f2f2",
-        "background_gradient": ""
+        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
-    "rich_text_TaVaHn": {
-      "type": "rich-text",
+    "slideshow_WegGEz": {
+      "type": "slideshow",
       "blocks": {
-        "heading_iEyNV6": {
-          "type": "heading",
+        "image_e3UMqr": {
+          "type": "image",
           "settings": {
-            "text": "@cocinapopular",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_EKwtmD": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h5>Lo mejor de la cocina, también en Instagram.</h5>"
+            "image": "shopify://shop_images/BANNER_OFICIAL_PC_4_11zon.webp",
+            "mobile_image": "shopify://shop_images/BANNER_OFICIAL_MOBILE_3_11zon.webp",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide title",
+            "heading_tag": "h0",
+            "button_text": "aaaaaa",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
           }
         }
       },
       "block_order": [
-        "heading_iEyNV6",
-        "richtext_EKwtmD"
+        "image_e3UMqr"
       ],
-      "custom_css": [
-        "div {padding: 6px;}"
-      ],
-      "name": "Rich text",
       "settings": {
         "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "image_link_blocks_nPaYq6": {
-      "type": "image-link-blocks",
-      "blocks": {
-        "item_JnVAMz": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "https://www.instagram.com/p/DIWjm_JP0i4/",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_MPWTKc": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "https://www.instagram.com/p/DJMoWCCst4M/",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_FhWYtP": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "https://www.instagram.com/p/DIg9o5lhhQ1/",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_eqCMzN": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "item_JnVAMz",
-        "item_MPWTKc",
-        "item_FhWYtP",
-        "item_eqCMzN"
-      ],
-      "name": "Image link blocks",
-      "settings": {
-        "full_width": true,
-        "block_size": "large",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
-    "faq": {
-      "type": "faq",
-      "blocks": {
-        "166442457738b23caf-0": {
-          "type": "item",
-          "settings": {
-            "title": "¿Cuánto tarda en llegar mi pedido?",
-            "content": "<p>Los pedidos suelen entregarse en un plazo de <strong>4 a 8 días laborables</strong> dentro de España. Recibirás un número de seguimiento por email tan pronto como tu pedido sea enviado.</p>"
-          }
-        },
-        "166442457738b23caf-1": {
-          "type": "item",
-          "settings": {
-            "title": "¿Puedo devolver un producto si no estoy satisfecho/a?",
-            "content": "<p>¡Claro! Tienes hasta <strong>30 días naturales</strong> desde la recepción para solicitar la devolución. El producto debe estar sin usar y en su embalaje original. Solo tienes que contactarnos y te guiaremos en el proceso.</p>"
-          }
-        },
-        "166442457738b23caf-2": {
-          "type": "item",
-          "settings": {
-            "title": "¿Cómo puedo rastrear mi pedido?",
-            "content": "<p>Recibirás un correo electrónico con el código de seguimiento dentro de las <strong>48 horas</strong> posteriores a tu compra. Desde ese enlace, podrás ver el estado de tu pedido en tiempo real. Si no lo recibes, contáctanos y te ayudaremos encantados.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "166442457738b23caf-0",
-        "166442457738b23caf-1",
-        "166442457738b23caf-2"
-      ],
-      "settings": {
-        "full_width": false,
-        "subheading": "",
-        "title": "FAQ",
-        "content": "<p>Resolvemos tus dudas más comunes para que compres con total confianza en <strong>Cocina Popular</strong>.</p>",
-        "team_avatar_width": 160,
-        "support_hours": "Lunes a viernes: 8am - 7pm | Sábados, domingos y feriados: 11am - 10pm.",
-        "answer_time": "Tiempo medio de respuesta: 24h",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "start",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
+        "allow_transparent_header": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": true,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     }
   },
   "order": [
     "slideshow",
-    "featured-collection",
-    "collection-list",
-    "featured-product",
-    "scrolling-text",
-    "media-grid",
-    "featured_collection_jmjBVc",
-    "slideshow_BFj9HE",
-    "rich_text_TaVaHn",
-    "image_link_blocks_nPaYq6",
-    "faq"
+    "slideshow_8Nxbkx",
+    "slideshow_M4G3rE",
+    "slideshow_WegGEz"
   ]
 }
