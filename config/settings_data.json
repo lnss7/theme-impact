@@ -23,7 +23,7 @@
     "success_color": "#00bf63",
     "warning_color": "#e37e16",
     "error_color": "#aa2826",
-    "header_background": "#ffffff",
+    "header_background": "#5c8cb4",
     "header_text_color": "#272727",
     "footer_background": "#f2f2f2",
     "footer_text_color": "#272727",
@@ -60,24 +60,7 @@
     "favicon": "shopify://shop_images/favcon-cp_44f44278-d406-49d0-824a-318f32bc03ec.png",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
-    "content_for_index": [],
-    "blocks": {
-      "1935445597218932304": {
-        "type": "shopify://apps/avada-seo-suite/blocks/avada-seo/15507c6e-1aa3-45d3-b698-7e175e033440",
-        "disabled": false,
-        "settings": {}
-      },
-      "pagefly-page-builder": {
-        "type": "shopify://apps/pagefly-page-builder/blocks/app-embed/83e179f7-59a0-4589-8c66-c0dddf959200",
-        "disabled": false,
-        "settings": {}
-      },
-      "8329602812678528339": {
-        "type": "shopify://apps/bk-reviews/blocks/bk-reviews-embed/592f39b6-a0c6-4829-a095-8e5558e58026",
-        "disabled": false,
-        "settings": {}
-      }
-    }
+    "content_for_index": []
   },
   "presets": {
     "Sound": {

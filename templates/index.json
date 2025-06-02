@@ -15,8 +15,6 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/banner_1_a7f54abb-6a2a-4d4b-8f7b-9a0927077b9b.png",
-            "mobile_image": "shopify://shop_images/2_bca46d7b-bc89-40db-a400-7b2d238fc565.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center-start text-start",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -30,15 +28,13 @@
             "button_text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
-            "background": "",
+            "background": "#ffffff",
             "background_gradient": ""
           }
         },
         "slide-2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/5_47b5cc29-6495-4cf2-841d-a921fa9a5176.png",
-            "mobile_image": "shopify://shop_images/4_5a9e619c-138f-48bc-b78e-a26638482345.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -63,7 +59,7 @@
       ],
       "settings": {
         "full_width": true,
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
         "image_size": "auto",
         "controls_type": "dots",
         "transition_type": "fade_with_text",
@@ -288,7 +284,6 @@
         "item-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/1_11zon_0691591f-8554-4f00-bacc-e99831039804.webp",
             "title": "Almacenamiento y Organización",
             "heading_tag": "h4",
             "link_url": "shopify://collections/organizacion-cocina-popular",
@@ -310,7 +305,6 @@
         "item-2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2_11zon_7a104737-066e-49c6-8521-1c0021dc074f.webp",
             "title": "Molinillo de Café",
             "heading_tag": "h6",
             "link_url": "shopify://products/molinillo-de-cafe-electrico-portatil-con-carga-usb-y-ceramica-cocina-popular",
@@ -332,7 +326,6 @@
         "item-3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/3_11zon_3fb3605d-cc4c-47ab-93e1-03181c3774c0.webp",
             "title": "Sacacorchos Eléctrico",
             "heading_tag": "h6",
             "link_url": "shopify://products/sacacorchos-electrico-inalambrico-abridor-de-vino-automatico-cocina-popular",
@@ -354,7 +347,6 @@
         "29246d34-c6e0-4373-84f6-b15e57736a00": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/teste_11zon.webp",
             "title": "Detalles que inspiran",
             "heading_tag": "h4",
             "link_url": "shopify://collections/decoracion",
@@ -428,8 +420,6 @@
         "image_y6hA7D": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/6_434cc9e4-2e7a-413b-8d83-44386736a3d9.png",
-            "mobile_image": "shopify://shop_images/5_866bb53e-51b7-4ea2-9d6b-1c17aba2ab6d.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
@@ -505,7 +495,6 @@
         "item_JnVAMz": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/15_11zon.webp",
             "stretch_image": true,
             "link_text": "",
             "link_url": "https://www.instagram.com/p/DIWjm_JP0i4/",
@@ -518,7 +507,6 @@
         "item_MPWTKc": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/17_11zon.webp",
             "stretch_image": true,
             "link_text": "",
             "link_url": "https://www.instagram.com/p/DJMoWCCst4M/",
@@ -531,7 +519,6 @@
         "item_FhWYtP": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/16_11zon.webp",
             "stretch_image": true,
             "link_text": "",
             "link_url": "https://www.instagram.com/p/DIg9o5lhhQ1/",
@@ -544,7 +531,6 @@
         "item_eqCMzN": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/18_11zon.webp",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",

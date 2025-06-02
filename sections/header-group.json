@@ -39,7 +39,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        "div {font-size: 15px; font-family: \"Poppins\";}"
+        "div {color: white;}"
       ],
       "settings": {
         "enable_sticky": true,
@@ -59,8 +59,8 @@
         "show_country_flag": true,
         "show_country_name": false,
         "transparent_header_text_color": "#ffffff",
-        "reduce_padding": false,
-        "background_opacity": 80,
+        "reduce_padding": true,
+        "background_opacity": 100,
         "background_blur_radius": 16
       }
     }
