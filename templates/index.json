@@ -345,7 +345,10 @@
         "buy_buttons_jzjTJg",
         "pickup_availability_et8Lan"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "sale-price {font-size: 20px; direction: column-reverse}",
+        "price-list {font-size: 20px; direction: column-reverse}"
+      ],
       "name": "Featured product",
       "settings": {
         "full_width": true,
