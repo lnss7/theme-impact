@@ -346,8 +346,8 @@
         "pickup_availability_et8Lan"
       ],
       "custom_css": [
-        "sale-price {font-size: 30px; flex-direction: column; margin-bottom: -20px;}",
-        "price-list {font-size: 30px; flex-direction: column;}"
+        "sale-price {font-size: 26px; font-weight: bold; flex-direction: column; margin-bottom: -20px; color: #5c8cb4;}",
+        "price-list {font-weight: normal; font-size: 22px; flex-direction: column;}"
       ],
       "name": "Featured product",
       "settings": {
@@ -356,7 +356,7 @@
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_bottom",
         "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
+        "mobile_carousel_control": "thumbnails",
         "enable_video_autoplay": true,
         "enable_video_looping": false,
         "enable_image_zoom": true,
