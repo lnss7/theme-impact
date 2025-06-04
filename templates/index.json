@@ -346,8 +346,8 @@
         "pickup_availability_et8Lan"
       ],
       "custom_css": [
-        "sale-price {font-size: 20px; direction: column-reverse}",
-        "price-list {font-size: 20px; direction: column-reverse}"
+        "sale-price {font-size: 30px; flex-direction: column; margin-bottom: -20px;}",
+        "price-list {font-size: 30px; flex-direction: column;}"
       ],
       "name": "Featured product",
       "settings": {
