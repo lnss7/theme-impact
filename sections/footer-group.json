@@ -108,8 +108,8 @@
           "type": "tab",
           "settings": {
             "title": "Tab 1",
-            "content": "<p>Use this text to share information about your brand with your customers.</p>",
-            "page": ""
+            "content": "",
+            "page": "contact"
           }
         },
         "tab_k8wpTa": {
