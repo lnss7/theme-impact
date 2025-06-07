@@ -627,6 +627,46 @@
         "testimonial_card_background": "",
         "testimonial_card_text_color": ""
       }
+    },
+    "slideshow_rFrEjU": {
+      "type": "slideshow",
+      "blocks": {
+        "image_jYrXPV": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 2",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_jYrXPV"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
     }
   },
   "order": [
@@ -639,6 +679,7 @@
     "featured_product_X7DazC",
     "featured_product_n6z9kH",
     "featured_product_G969HJ",
-    "testimonials_V9fLJq"
+    "testimonials_V9fLJq",
+    "slideshow_rFrEjU"
   ]
 }
