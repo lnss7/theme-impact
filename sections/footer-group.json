@@ -58,7 +58,7 @@
         "tab_fL6nUD"
       ],
       "custom_css": [
-        "div {margin-bottom: -3px;}"
+        "div {margin-bottom: 0px;}"
       ],
       "name": "Tabs",
       "settings": {
