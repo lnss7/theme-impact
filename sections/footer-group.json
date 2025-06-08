@@ -31,8 +31,8 @@
           "type": "tab",
           "settings": {
             "title": "Unser Erbe",
-            "content": "<p><a href=\"/pages/uber-uns\" title=\"Über uns\">Über uns</a></p>",
-            "page": "contact"
+            "content": "<ul><li><a href=\"/pages/uber-uns\" title=\"Über uns\">Über uns</a></li><li><a href=\"/pages/verantwortung-umwelt\" title=\"Verantwortung & Umwelt\">Verantwortung & Umwelt</a></li><li><a href=\"/pages/richtige-entsorgung\" title=\"Richtige Entsorgung\">Richtige Entsorgung</a></li></ul>",
+            "page": ""
           }
         },
         "tab_k8wpTa": {
