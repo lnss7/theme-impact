@@ -28,10 +28,6 @@
             "show_taxes_notice": false
           }
         },
-        "payment_terms": {
-          "type": "payment_terms",
-          "settings": {}
-        },
         "separator": {
           "type": "separator",
           "settings": {}
@@ -43,10 +39,10 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "hide_sold_out_variants": true,
+            "hide_sold_out_variants": false,
             "stack_blocks": true,
-            "selector_mode": "dropdown",
-            "color_mode": "color",
+            "selector_mode": "block",
+            "color_mode": "dropdown",
             "size_chart_page": ""
           }
         },
@@ -91,7 +87,6 @@
         "liquid_U7HjfC",
         "badges",
         "price",
-        "payment_terms",
         "separator",
         "quantity_selector",
         "variant_picker",
