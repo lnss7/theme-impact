@@ -30,8 +30,8 @@
         "tab_FLnKnp": {
           "type": "tab",
           "settings": {
-            "title": "Tab 1",
-            "content": "<p><a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">AaAAAa</a></p>",
+            "title": "Unser Erbe",
+            "content": "<p>Über uns</p>",
             "page": "contact"
           }
         },
