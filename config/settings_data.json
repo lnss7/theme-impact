@@ -48,7 +48,7 @@
     "heading_apparition": "split_rotation",
     "color_swatch_style": "rectangle",
     "show_product_rating": false,
-    "show_discount": false,
+    "show_discount": true,
     "discount_mode": "percentage",
     "product_color_display": "swatch",
     "product_image_aspect_ratio": "natural",

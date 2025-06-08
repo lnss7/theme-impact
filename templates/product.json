@@ -110,10 +110,10 @@
         "image_BEf8Xw"
       ],
       "custom_css": [
-        ".product-info__price {font-size: 15px; font-family: \"Poppins\"; background-color: red;}",
-        "sale-price {font-size: 32px; font-weight: bold; flex-direction: column; margin-bottom: -20px; color: #5c8cb4; }",
-        " price-list {font-weight: normal; font-size: 26px; flex-direction: column; }",
-        " on-sale-badge {margin-left: 12px; font-size: 12px; width: 120px; height: 35px; border-radius: 0px; background-color: #5c8cb4; }"
+        "div {font-size: 14px; font-family: \"Poppins\";}",
+        "sale-price {font-size: 32px; font-weight: bold; flex-direction: column; margin-bottom: -20px; color: #5c8cb4;}",
+        "price-list {font-weight: normal; font-size: 26px; flex-direction: column;}",
+        "on-sale-badge {margin-left: 12px; font-size: 12px; width: 120px; height: 35px; border-radius: 0px; background-color: #5c8cb4;}"
       ],
       "settings": {
         "full_width": true,
