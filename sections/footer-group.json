@@ -72,6 +72,56 @@
         "heading_gradient": ""
       }
     },
+    "accordion_content_8zkgXM": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_aLtrbf": {
+          "type": "item",
+          "settings": {
+            "title": "Unser Erbe",
+            "content": "<ul><li><a href=\"/pages/uber-uns\" target=\"_blank\" title=\"Über uns\">Über uns</a></li><li><a href=\"/pages/verantwortung-umwelt\" target=\"_blank\" title=\"Verantwortung & Umwelt\">Verantwortung & Umwelt</a></li><li><a href=\"/pages/richtige-entsorgung\" target=\"_blank\" title=\"Richtige Entsorgung\">Richtige Entsorgung</a></li></ul>"
+          }
+        },
+        "item_q4dTaM": {
+          "type": "item",
+          "settings": {
+            "title": "Kundenerlebnis",
+            "content": "<ul><li><a href=\"/policies/refund-policy\" target=\"_blank\" title=\"Refund Policy\">Garantie & Rückgabe</a></li><li><a href=\"/pages/haufige-fragen-faq\" target=\"_blank\" title=\"Häufige Fragen (FAQ)\">Häufige Fragen</a></li><li><a href=\"/pages/wasserfest-haftungsausschluss\" target=\"_blank\" title=\"Wasserfest – Haftungsausschluss\">Wasserfest</a></li><li><a href=\"/pages/kontaktieren-sie-uns\" target=\"_blank\" title=\"Kontaktieren Sie uns\">Kontaktieren Sie uns</a></li></ul>"
+          }
+        },
+        "item_N6VEVP": {
+          "type": "item",
+          "settings": {
+            "title": "Datenschutz & Rechtliches",
+            "content": "<ul><li><a href=\"/policies/legal-notice\" target=\"_blank\" title=\"Legal Notice\">Impressum</a></li><li><a href=\"/policies/terms-of-service\" title=\"Terms of Service\">Allgemeine Geschäftsbedingungen</a></li><li><a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Datenschutzerklärung</a></li><li><a href=\"/pages/cookie-richtlinie\" target=\"_blank\" title=\"Cookie-Richtlinie\">Cookie-Richtlinie</a></li><li><a href=\"/policies/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">Lieferbedingungen</a></li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "item_aLtrbf",
+        "item_q4dTaM",
+        "item_N6VEVP"
+      ],
+      "name": "Accordion content",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#000000",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "#ffffff",
+        "button_text_color": "#ffffff",
+        "accordion_background": "#000000",
+        "accordion_text_color": "#ffffff"
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -104,6 +154,7 @@
   "order": [
     "custom_html_NXM7TY",
     "tabs_WUkicr",
+    "accordion_content_8zkgXM",
     "footer"
   ]
 }
