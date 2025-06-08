@@ -24,54 +24,6 @@
         "text_color": ""
       }
     },
-    "tabs_WUkicr": {
-      "type": "tabs",
-      "blocks": {
-        "tab_FLnKnp": {
-          "type": "tab",
-          "settings": {
-            "title": "Unser Erbe",
-            "content": "<ul><li><a href=\"/pages/uber-uns\" target=\"_blank\" title=\"Über uns\">Über uns</a></li><li><a href=\"/pages/verantwortung-umwelt\" target=\"_blank\" title=\"Verantwortung & Umwelt\">Verantwortung & Umwelt</a></li><li><a href=\"/pages/richtige-entsorgung\" target=\"_blank\" title=\"Richtige Entsorgung\">Richtige Entsorgung</a></li></ul>",
-            "page": ""
-          }
-        },
-        "tab_k8wpTa": {
-          "type": "tab",
-          "settings": {
-            "title": "Kundenerlebnis",
-            "content": "<ul><li><a href=\"/policies/refund-policy\" target=\"_blank\" title=\"Refund Policy\">Garantie & Rückgabe</a></li><li><a href=\"/pages/haufige-fragen-faq\" target=\"_blank\" title=\"Häufige Fragen (FAQ)\">Häufige Fragen</a></li><li><a href=\"/pages/wasserfest-haftungsausschluss\" target=\"_blank\" title=\"Wasserfest – Haftungsausschluss\">Wasserfest</a></li><li><a href=\"/pages/kontaktieren-sie-uns\" target=\"_blank\" title=\"Kontaktieren Sie uns\">Kontaktieren Sie uns</a></li></ul>",
-            "page": ""
-          }
-        },
-        "tab_fL6nUD": {
-          "type": "tab",
-          "settings": {
-            "title": "Datenschutz & Rechtliches",
-            "content": "<ul><li><a href=\"/policies/legal-notice\" target=\"_blank\" title=\"Legal Notice\">Impressum</a></li><li><a href=\"/policies/terms-of-service\" title=\"Terms of Service\">Allgemeine Geschäftsbedingungen</a></li><li><a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Datenschutzerklärung</a></li><li><a href=\"/pages/cookie-richtlinie\" target=\"_blank\" title=\"Cookie-Richtlinie\">Cookie-Richtlinie</a></li><li><a href=\"/policies/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">Lieferbedingungen</a></li></ul>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "tab_FLnKnp",
-        "tab_k8wpTa",
-        "tab_fL6nUD"
-      ],
-      "custom_css": [],
-      "name": "Tabs",
-      "settings": {
-        "full_width": true,
-        "content_size": "medium",
-        "subheading": "",
-        "title": "",
-        "first_tab_open": false,
-        "background": "#000000",
-        "background_gradient": "",
-        "text_color": "#ffffff",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
     "accordion_content_8zkgXM": {
       "type": "accordion-content",
       "blocks": {
@@ -122,6 +74,54 @@
         "accordion_text_color": "#ffffff"
       }
     },
+    "tabs_WUkicr": {
+      "type": "tabs",
+      "blocks": {
+        "tab_FLnKnp": {
+          "type": "tab",
+          "settings": {
+            "title": "Unser Erbe",
+            "content": "<ul><li><a href=\"/pages/uber-uns\" target=\"_blank\" title=\"Über uns\">Über uns</a></li><li><a href=\"/pages/verantwortung-umwelt\" target=\"_blank\" title=\"Verantwortung & Umwelt\">Verantwortung & Umwelt</a></li><li><a href=\"/pages/richtige-entsorgung\" target=\"_blank\" title=\"Richtige Entsorgung\">Richtige Entsorgung</a></li></ul>",
+            "page": ""
+          }
+        },
+        "tab_k8wpTa": {
+          "type": "tab",
+          "settings": {
+            "title": "Kundenerlebnis",
+            "content": "<ul><li><a href=\"/policies/refund-policy\" target=\"_blank\" title=\"Refund Policy\">Garantie & Rückgabe</a></li><li><a href=\"/pages/haufige-fragen-faq\" target=\"_blank\" title=\"Häufige Fragen (FAQ)\">Häufige Fragen</a></li><li><a href=\"/pages/wasserfest-haftungsausschluss\" target=\"_blank\" title=\"Wasserfest – Haftungsausschluss\">Wasserfest</a></li><li><a href=\"/pages/kontaktieren-sie-uns\" target=\"_blank\" title=\"Kontaktieren Sie uns\">Kontaktieren Sie uns</a></li></ul>",
+            "page": ""
+          }
+        },
+        "tab_fL6nUD": {
+          "type": "tab",
+          "settings": {
+            "title": "Datenschutz & Rechtliches",
+            "content": "<ul><li><a href=\"/policies/legal-notice\" target=\"_blank\" title=\"Legal Notice\">Impressum</a></li><li><a href=\"/policies/terms-of-service\" title=\"Terms of Service\">Allgemeine Geschäftsbedingungen</a></li><li><a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Datenschutzerklärung</a></li><li><a href=\"/pages/cookie-richtlinie\" target=\"_blank\" title=\"Cookie-Richtlinie\">Cookie-Richtlinie</a></li><li><a href=\"/policies/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">Lieferbedingungen</a></li></ul>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_FLnKnp",
+        "tab_k8wpTa",
+        "tab_fL6nUD"
+      ],
+      "custom_css": [],
+      "name": "Tabs",
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "subheading": "",
+        "title": "",
+        "first_tab_open": false,
+        "background": "#000000",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -153,8 +153,8 @@
   },
   "order": [
     "custom_html_NXM7TY",
-    "tabs_WUkicr",
     "accordion_content_8zkgXM",
+    "tabs_WUkicr",
     "footer"
   ]
 }
