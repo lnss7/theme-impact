@@ -47,7 +47,7 @@
           "type": "tab",
           "settings": {
             "title": "Datenschutz & Rechtliches",
-            "content": "<p>Share information about your shipping rates, return policy or contact information.</p>",
+            "content": "<ul><li><a href=\"/policies/legal-notice\" target=\"_blank\" title=\"Legal Notice\">Impressum</a></li><li><a href=\"/policies/terms-of-service\" title=\"Terms of Service\">Allgemeine Geschäftsbedingungen</a></li><li><a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Datenschutzerklärung</a></li><li><a href=\"/pages/cookie-richtlinie\" target=\"_blank\" title=\"Cookie-Richtlinie\">Cookie-Richtlinie</a></li></ul>",
             "page": ""
           }
         }
