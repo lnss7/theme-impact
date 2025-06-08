@@ -28,11 +28,6 @@
             "show_taxes_notice": false
           }
         },
-        "bk_reviews_bk_reviews_star_section_C6WRfP": {
-          "type": "shopify://apps/bk-reviews/blocks/bk-reviews-star-section/592f39b6-a0c6-4829-a095-8e5558e58026",
-          "disabled": true,
-          "settings": {}
-        },
         "payment_terms": {
           "type": "payment_terms",
           "settings": {}
@@ -83,13 +78,19 @@
           "settings": {
             "collapse_content": false
           }
+        },
+        "image_BEf8Xw": {
+          "type": "image",
+          "settings": {
+            "alignment": "start",
+            "max_width": 150
+          }
         }
       },
       "block_order": [
         "title",
         "badges",
         "price",
-        "bk_reviews_bk_reviews_star_section_C6WRfP",
         "payment_terms",
         "separator",
         "quantity_selector",
@@ -97,7 +98,8 @@
         "buy_buttons",
         "liquid_Kwdg6h",
         "liquid_PkEkci",
-        "description"
+        "description",
+        "image_BEf8Xw"
       ],
       "custom_css": [
         "div {font-size: 15px; font-family: \"Poppins\";}",
@@ -107,7 +109,7 @@
         "full_width": true,
         "show_fixed_add_to_cart": true,
         "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
+        "desktop_media_layout": "grid_highlight",
         "mobile_media_size": "contained",
         "mobile_carousel_control": "thumbnails",
         "enable_video_autoplay": false,
@@ -123,15 +125,6 @@
     },
     "1746147346041d1da6": {
       "type": "apps",
-      "blocks": {
-        "bk_reviews_bk_reviews_review_section_dVpmaW": {
-          "type": "shopify://apps/bk-reviews/blocks/bk-reviews-review-section/592f39b6-a0c6-4829-a095-8e5558e58026",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "bk_reviews_bk_reviews_review_section_dVpmaW"
-      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
