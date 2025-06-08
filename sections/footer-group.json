@@ -31,22 +31,22 @@
           "type": "tab",
           "settings": {
             "title": "Unser Erbe",
-            "content": "<p>Über uns</p>",
+            "content": "<p><a href=\"/pages/uber-uns\" title=\"Über uns\">Über uns</a></p>",
             "page": "contact"
           }
         },
         "tab_k8wpTa": {
           "type": "tab",
           "settings": {
-            "title": "Tab 2",
-            "content": "<p>Describe a product, share announcements, or welcome customers to your store.</p>",
+            "title": "Kundenerlebnis",
+            "content": "<p><a href=\"/policies/refund-policy\" title=\"Refund Policy\">Garantie & Rückgabe</a></p>",
             "page": ""
           }
         },
         "tab_fL6nUD": {
           "type": "tab",
           "settings": {
-            "title": "Tab 3",
+            "title": "Datenschutz & Rechtliches",
             "content": "<p>Share information about your shipping rates, return policy or contact information.</p>",
             "page": ""
           }
@@ -75,14 +75,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "title": "Quiénes Somos",
-            "content": "<p>En <em><strong>Cocina Popular</strong></em><em>,</em> hacemos que cocinar sea fácil y accesible con productos innovadores y funcionales. Somos una comunidad comprometida con la calidad, el diseño y tu mejor experiencia. ¡Bienvenido! 💛</p>",
-            "enable_follow_on_shop": true
-          }
-        },
         "text_QRXYcJ": {
           "type": "text",
           "settings": {
@@ -102,7 +94,6 @@
         }
       },
       "block_order": [
-        "text",
         "text_QRXYcJ",
         "newsletter"
       ],
