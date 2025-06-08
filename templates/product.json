@@ -28,13 +28,6 @@
             "show_taxes_notice": false
           }
         },
-        "liquid_NPLzNb": {
-          "type": "liquid",
-          "name": "bagdage",
-          "settings": {
-            "liquid": "<style>\n.css-hiceek {\n    box-sizing: border-box;\n    margin: 0;\n    min-width: 0;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    position: relative;\n    margin-left: 1.25rem;\n    font-size: 0.675rem;\n    white-space: nowrap;\n    width: 14px;\n    height: 32px;\n}\n</style>\n\n<svg class=\"css-hiceek\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 20 45\">\n    <linearGradient id=\"tag-gradient-:r2:\" x1=\"0%\" x2=\"0%\" y1=\"0%\" y2=\"100%\">\n        <stop offset=\"0%\" style=\"stop-color: rgb(60, 60, 60); stop-opacity: 1\"></stop>\n        <stop offset=\"100%\" style=\"stop-color: rgb(26, 26, 26); stop-opacity: 1\"></stop>\n    </linearGradient>\n    <path fill=\"url(#tag-gradient-:r2:)\" fill-rule=\"evenodd\"\n        d=\"M0 32.065V13.45L14.071 0h85.965v45.62h-87.4L0 32.065zm9.798-13.35a3.51 3.51 0 1 0-.002 7.018 3.51 3.51 0 0 0 .002-7.018z\"\n        clip-rule=\"evenodd\"></path>\n</svg>"
-          }
-        },
         "payment_terms": {
           "type": "payment_terms",
           "settings": {}
@@ -98,7 +91,6 @@
         "liquid_U7HjfC",
         "badges",
         "price",
-        "liquid_NPLzNb",
         "payment_terms",
         "separator",
         "quantity_selector",
@@ -113,7 +105,7 @@
         "div {font-size: 14px; font-family: \"Poppins\";}",
         "sale-price {font-size: 32px; font-weight: bold; flex-direction: column; margin-bottom: -20px; color: #5c8cb4;}",
         "price-list {font-weight: normal; font-size: 26px; flex-direction: column;}",
-        "on-sale-badge {margin-left: 12px; font-size: 12px; width: 120px; height: 35px; border-radius: 0px; background-color: #5c8cb4;}"
+        "on-sale-badge {height: 32px; width: 120px; font-size: 13px;}"
       ],
       "settings": {
         "full_width": true,
