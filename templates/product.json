@@ -104,7 +104,8 @@
       "custom_css": [
         "div {font-size: 15px; font-family: \"Poppins\";}",
         "sale-price {font-size: 32px; font-weight: bold; flex-direction: column; margin-bottom: -20px; color: #5c8cb4;}",
-        "price-list {font-weight: normal; font-size: 26px; flex-direction: column;}"
+        "price-list {font-weight: normal; font-size: 26px; flex-direction: column;}",
+        "on-sale-badge {font-size: 12px; width: 120px; height: 35px; border-radius: 0px; background-color: #5c8cb4;}"
       ],
       "settings": {
         "full_width": true,
