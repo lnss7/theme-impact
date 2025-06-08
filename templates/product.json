@@ -32,6 +32,16 @@
           "type": "separator",
           "settings": {}
         },
+        "liquid_tRVrm9": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .css-1yz7e9k {\n    list-style: disc; /* Define os pontos como círculos */\n    color: black; /* Define a cor do texto como preto */\n    margin-left: 0.55rem; /* Ajusta o espaçamento entre os pontinhos e a borda esquerda */\n  }\n\n  .css-1yz7e9k li::marker {\n    color: rgb( 92, 140, 180); /* Define a cor dos pontinhos como preto */\n  }\n</style>\n<p class=\"css-7kt5vk\"><span>O Pacote Dome Pro inclui tudo o que você precisa para um barbear bem-sucedido. A rotina consiste em três etapas simples: preparar a cabeça para o barbear, depois barbear e, por fim, condicionar a pele.</span></p>\n<h3 class=\"css-1vkmlfd\"><span style=\"color: rgb(92, 140, 180);\">O PACOTE INCLUI:</span></h3>\n<ul class=\"css-1yz7e9k\">\n<li class=\"css-1yz7e9k\"><span>O barbeador de cabeça Dome Shaver™ Pro</span></li>\n<li class=\"css-1yz7e9k\"><span>Power Shave Gel gel de barbear para cabeça e rosto</span></li>\n<li class=\"css-1yz7e9k\"><span>Dome Soother Bálsamo Pós-Barba para a Cabeça</span></li>\n<li class=\"css-1yz7e9k\"><span>tampa protetora</span></li>\n<li class=\"css-1yz7e9k\"><span>estojo de armazenamento</span></li>\n<li class=\"css-1yz7e9k\"><span>Cabo USB-C</span></li>\n</ul>"
+          }
+        },
+        "separator_6EpN6X": {
+          "type": "separator",
+          "settings": {}
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -72,7 +82,7 @@
         "description": {
           "type": "description",
           "settings": {
-            "collapse_content": false
+            "collapse_content": true
           }
         },
         "image_BEf8Xw": {
@@ -88,6 +98,8 @@
         "badges",
         "price",
         "separator",
+        "liquid_tRVrm9",
+        "separator_6EpN6X",
         "quantity_selector",
         "variant_picker",
         "buy_buttons",
