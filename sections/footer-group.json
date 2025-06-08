@@ -31,7 +31,7 @@
           "type": "tab",
           "settings": {
             "title": "Unser Erbe",
-            "content": "<ul><li><a href=\"/pages/uber-uns\" title=\"Über uns\">Über uns</a></li><li><a href=\"/pages/verantwortung-umwelt\" title=\"Verantwortung & Umwelt\">Verantwortung & Umwelt</a></li><li><a href=\"/pages/richtige-entsorgung\" title=\"Richtige Entsorgung\">Richtige Entsorgung</a></li></ul>",
+            "content": "<ul><li><a href=\"/pages/uber-uns\" target=\"_blank\" title=\"Über uns\">Über uns</a></li><li><a href=\"/pages/verantwortung-umwelt\" target=\"_blank\" title=\"Verantwortung & Umwelt\">Verantwortung & Umwelt</a></li><li><a href=\"/pages/richtige-entsorgung\" target=\"_blank\" title=\"Richtige Entsorgung\">Richtige Entsorgung</a></li></ul>",
             "page": ""
           }
         },
@@ -39,7 +39,7 @@
           "type": "tab",
           "settings": {
             "title": "Kundenerlebnis",
-            "content": "<p><a href=\"/policies/refund-policy\" title=\"Refund Policy\">Garantie & Rückgabe</a></p><p><a href=\"/pages/haufige-fragen-faq\" title=\"Häufige Fragen (FAQ)\">Häufige Fragen</a></p><p><a href=\"/pages/wasserfest-haftungsausschluss\" title=\"Wasserfest – Haftungsausschluss\">Wasserfest</a></p>",
+            "content": "<ul><li><a href=\"/policies/refund-policy\" target=\"_blank\" title=\"Refund Policy\">Garantie & Rückgabe</a></li><li><a href=\"/pages/haufige-fragen-faq\" target=\"_blank\" title=\"Häufige Fragen (FAQ)\">Häufige Fragen</a></li><li><a href=\"/pages/wasserfest-haftungsausschluss\" target=\"_blank\" title=\"Wasserfest – Haftungsausschluss\">Wasserfest</a></li><li><a href=\"/pages/kontaktieren-sie-uns\" target=\"_blank\" title=\"Kontaktieren Sie uns\">Kontaktieren Sie uns</a></li></ul>",
             "page": ""
           }
         },
