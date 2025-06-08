@@ -39,7 +39,7 @@
           "type": "tab",
           "settings": {
             "title": "Kundenerlebnis",
-            "content": "<p><a href=\"/policies/refund-policy\" title=\"Refund Policy\">Garantie & Rückgabe</a></p>",
+            "content": "<p><a href=\"/policies/refund-policy\" title=\"Refund Policy\">Garantie & Rückgabe</a></p><p><a href=\"/pages/haufige-fragen-faq\" title=\"Häufige Fragen (FAQ)\">Häufige Fragen</a></p><p><a href=\"/pages/wasserfest-haftungsausschluss\" title=\"Wasserfest – Haftungsausschluss\">Wasserfest</a></p>",
             "page": ""
           }
         },
