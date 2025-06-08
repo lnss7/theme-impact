@@ -643,7 +643,7 @@
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
-            "button_background": "#ffffff",
+            "button_background": "#000000",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
