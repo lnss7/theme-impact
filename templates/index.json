@@ -617,11 +617,11 @@
         "link_text": "",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#17334d",
         "heading_color": "",
         "heading_gradient": "",
-        "testimonial_card_background": "",
-        "testimonial_card_text_color": ""
+        "testimonial_card_background": "#f6f8fc",
+        "testimonial_card_text_color": "#17334d"
       }
     },
     "slideshow_6yHCH3": {
