@@ -151,7 +151,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/BANNER_OFICIAL_PC_4_11zon.webp",
-            "mobile_image": "shopify://shop_images/BANNER_OFICIAL_MOBILE_3_11zon.webp",
+            "mobile_image": "shopify://shop_images/BANNER_OFICIAL_MOBILE_3_11zon_1.webp",
             "content_max_width": 780,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
