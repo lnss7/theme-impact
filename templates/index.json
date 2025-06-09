@@ -65,14 +65,14 @@
             "content_max_width": 780,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide title",
-            "heading_tag": "h0",
-            "button_text": "",
+            "subheading": "Einer für jedes Detail. Einer für alles.",
+            "title": "Der Absolute",
+            "heading_tag": "h1",
+            "button_text": "Übernimm die Kontrolle",
             "button_link": "",
             "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
+            "button_background": "#5c8cb4",
+            "button_text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
             "background": "",
@@ -82,6 +82,10 @@
       },
       "block_order": [
         "image_QU7aMK"
+      ],
+      "custom_css": [
+        "p {position: relative; top: 20px; margin: 0px; margin-bottom: -5px;}",
+        "button {position: relative; top: 8px; padding: 10px 20px; font-size: 14px;}"
       ],
       "settings": {
         "full_width": true,
@@ -125,7 +129,8 @@
         "image_jim4yT"
       ],
       "custom_css": [
-        "button {padding: 10px 20px !important; font-size: 14px !important;}"
+        "p {position: relative; top: 20px; margin: 0px; margin-bottom: -5px;}",
+        "button {position: relative; top: 8px; padding: 10px 20px; font-size: 14px;}"
       ],
       "settings": {
         "full_width": true,
@@ -167,6 +172,10 @@
       },
       "block_order": [
         "image_e3UMqr"
+      ],
+      "custom_css": [
+        "p {position: relative; top: 20px; margin: 0px; margin-bottom: -5px;}",
+        "button {position: relative; top: 8px; padding: 10px 20px; font-size: 14px;}"
       ],
       "settings": {
         "full_width": true,
