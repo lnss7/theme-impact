@@ -59,7 +59,7 @@
         "tab_fL6nUD"
       ],
       "custom_css": [
-        "div {margin-top: 0px;}"
+        "div {margin-top: 0px; font-size: 14px;}"
       ],
       "name": "Tabs",
       "settings": {
