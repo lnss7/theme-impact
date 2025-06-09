@@ -40,7 +40,7 @@
       ],
       "custom_css": [
         "p {position: relative; top: 20px; margin: 0px; margin-bottom: -5px;}",
-        "button {position: relative; top: 8px; padding: 10px 20px; font-size: 14px;}"
+        ".button {position: relative; top: 8px; padding: 10px 20px; font-size: 14px;}"
       ],
       "settings": {
         "full_width": true,
@@ -85,7 +85,7 @@
       ],
       "custom_css": [
         "p {position: relative; top: 20px; margin: 0px; margin-bottom: -5px;}",
-        "button {position: relative; top: 8px; padding: 10px 20px; font-size: 14px;}"
+        ".button {position: relative; top: 8px; padding: 10px 20px; font-size: 14px;}"
       ],
       "settings": {
         "full_width": true,
@@ -130,7 +130,7 @@
       ],
       "custom_css": [
         "p {position: relative; top: 20px; margin: 0px; margin-bottom: -5px;}",
-        "button {position: relative; top: 8px; padding: 10px 20px; font-size: 14px;}"
+        ".button {position: relative; top: 8px; padding: 10px 20px; font-size: 14px;}"
       ],
       "settings": {
         "full_width": true,
@@ -175,7 +175,7 @@
       ],
       "custom_css": [
         "p {position: relative; top: 20px; margin: 0px; margin-bottom: -5px;}",
-        "button {position: relative; top: 8px; padding: 10px 20px; font-size: 14px;}"
+        ".button {position: relative; top: 8px; padding: 10px 20px; font-size: 14px;}"
       ],
       "settings": {
         "full_width": true,
@@ -187,46 +187,6 @@
         "cycle_speed": 6,
         "background": "#f2f2f2",
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
-      }
-    },
-    "rich_text_LRA6gz": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_FnPALT": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_xpGGMp": {
-          "type": "heading",
-          "settings": {
-            "text": "Heading",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_BTkRMJ": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_FnPALT",
-        "heading_xpGGMp",
-        "richtext_BTkRMJ"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "shop_the_look_wBtPpq": {
@@ -664,44 +624,49 @@
         "testimonial_card_text_color": ""
       }
     },
-    "slideshow_rFrEjU": {
+    "slideshow_6yHCH3": {
       "type": "slideshow",
       "blocks": {
-        "image_jYrXPV": {
+        "image_QFgPR3": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Blog_Banner_5__11zon.webp",
+            "mobile_image": "shopify://shop_images/Blog_Banner_50_-_Mobile_11zon.webp",
             "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
+            "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide 2",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
+            "subheading": "Mehr als nur ein Rasiermesser.",
+            "title": "Identität und Fürsorge",
+            "heading_tag": "h1",
+            "button_text": "Erfahren Sie mehr",
+            "button_link": "shopify://pages/uber-uns",
             "text_color": "#ffffff",
-            "button_background": "#000000",
-            "button_text_color": "#000000",
+            "button_background": "#5c8cb4",
+            "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 0,
             "background": "",
             "background_gradient": ""
           }
         }
       },
       "block_order": [
-        "image_jYrXPV"
+        "image_QFgPR3"
       ],
-      "name": "Slideshow",
+      "custom_css": [
+        "p {position: relative; top: 20px; margin: 0px; margin-bottom: -5px;}",
+        ".button {position: relative; top: 8px; padding: 10px 20px; font-size: 14px;}"
+      ],
       "settings": {
         "full_width": true,
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
         "image_size": "auto",
         "controls_type": "dots",
         "transition_type": "fade_with_text",
-        "autoplay": false,
+        "autoplay": true,
         "cycle_speed": 6,
         "background": "#f2f2f2",
-        "background_gradient": ""
+        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     }
   },
@@ -710,12 +675,11 @@
     "slideshow_8Nxbkx",
     "slideshow_M4G3rE",
     "slideshow_WegGEz",
-    "rich_text_LRA6gz",
     "shop_the_look_wBtPpq",
     "featured_product_X7DazC",
     "featured_product_n6z9kH",
     "featured_product_G969HJ",
     "testimonials_V9fLJq",
-    "slideshow_rFrEjU"
+    "slideshow_6yHCH3"
   ]
 }
