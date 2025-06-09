@@ -20,14 +20,14 @@
             "content_max_width": 780,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide title",
-            "heading_tag": "h0",
-            "button_text": "",
+            "subheading": "Für Männer, die das Beste verlangen.",
+            "title": "Maximale Power",
+            "heading_tag": "h1",
+            "button_text": "Beherrsche Deinen Stil",
             "button_link": "",
             "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
+            "button_background": "#5c8cb4",
+            "button_text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
             "background": "",
@@ -38,7 +38,10 @@
       "block_order": [
         "image_iJcacJ"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "p {position: relative; top: 20px; margin: 0px; margin-bottom: -5px;}",
+        "button {position: relative; top: 8px; padding: 10px 20px; font-size: 14px;}"
+      ],
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
