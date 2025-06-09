@@ -589,9 +589,9 @@
             "round_avatar": true,
             "show_rating": false,
             "rating": 4,
-            "author": "John S.",
-            "title": "Testimonial 1",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "author": "Markus H.",
+            "title": "Endlich ohne Angst",
+            "content": "<p>Früher hatte ich immer Angst vor kleinen Unfällen da unten. Mit dem Buschtrimmer? Kein Stress mehr. Die Klingen sind sanft, die Handhabung super. Meine Freundin meinte sogar, es sei besser geworden – also doppelter Gewinn.</p>"
           }
         },
         "testimonial_PetbYn": {
@@ -600,9 +600,9 @@
             "round_avatar": true,
             "show_rating": false,
             "rating": 5,
-            "author": "Mary U.",
-            "title": "Testimonial 2",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "author": "Thomas K.",
+            "title": "Jeden Cent wert",
+            "content": "<p>Ich bin jemand, der normalerweise alles im Laden kauft, deshalb war ich zuerst skeptisch. Aber dieser Rasierer hat eine Qualität, die ich selbst in großen Geschäften nicht finde. Funktioniert einwandfrei und liegt hochwertig in der Hand. Nicht günstig – aber jeden Cent wert.</p>"
           }
         },
         "testimonial_hzd6bE": {
@@ -611,24 +611,48 @@
             "round_avatar": true,
             "show_rating": false,
             "rating": 4,
-            "author": "Joshua A.",
-            "title": "Testimonial 3",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "author": "Sebastian L.",
+            "title": "Sanft zur Haut, stark im Ergebnis",
+            "content": "<p>Ich habe immer Rasierklingen benutzt, aber meine Haut war danach oft gereizt. Das ist mein erster Premium-Rasierer und ehrlich gesagt: Ich gehe nie wieder zurück. Die Haut ist glatt, ohne Rötungen. Würde ich sofort weiterempfehlen.</p>"
+          }
+        },
+        "testimonial_FFrTt3": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": false,
+            "rating": 4,
+            "author": "Jan M.",
+            "title": "10 von 10, ohne Übertreibung",
+            "content": "<p>Dieser Trimmer ist eine der besten Investitionen, die ich je in meine Körperpflege gemacht habe. Er schneidet präzise, zieht nicht und verletzt die Haut nicht. Er ist leise, was perfekt für den Intimbereich ist. Der Akku hält lange und das Design ist robust. Ein Premium-Produkt, das jeden Cent wert ist.</p>"
+          }
+        },
+        "testimonial_hk4KJp": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": false,
+            "rating": 4,
+            "author": "Lukas B.",
+            "title": "Pflegt die „Juwelen“ mit Präzision und Sicherheit",
+            "content": "<p>Ich war auf der Suche nach einem Trimmer, der speziell für die „Juwelen“ gemacht ist – und der Buschtrimmer hat mich überzeugt. Er ist sanft zur empfindlichen Haut, schneidet genau und sicher, ohne zu ziehen oder zu schneiden. Endlich ein Gerät, dem ich dort unten voll vertrauen kann. Absolute Empfehlung für echte Pflegeprofis.</p>"
           }
         }
       },
       "block_order": [
         "testimonial_zAUUHm",
         "testimonial_PetbYn",
-        "testimonial_hzd6bE"
+        "testimonial_hzd6bE",
+        "testimonial_FFrTt3",
+        "testimonial_hk4KJp"
       ],
       "name": "Testimonials",
       "settings": {
         "full_width": true,
-        "stack_testimonials": true,
+        "stack_testimonials": false,
         "subheading": "",
-        "title": "Testimonials",
-        "content": "",
+        "title": "",
+        "content": "<h2>Echte Bewertungen. Ohne Umschweife.</h2>",
         "link_url": "",
         "link_text": "",
         "background": "",
