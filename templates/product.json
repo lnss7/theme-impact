@@ -78,16 +78,6 @@
           "settings": {
             "liquid": "<div class=\"product-info__liquid\">\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600&display=swap');\n\n        body {\n            font-family: 'Maven Pro', sans-serif;\n            font-size: 11px;\n        }\n\n        .seraphina-copyright {\n            width: 100%;\n            background-color: #f4f4f4;\n            margin: 0 auto;\n            padding: 20px;\n            margin-bottom: 20px;\n            border: 1px solid #f2f2f2;\n            border-radius: 6px;\n        }\n\n        .padd {\n            display: flex;\n            align-items: center;\n            border-bottom: 2px solid #e9e9e9;\n            padding-bottom: 7px;\n            margin-bottom: 7px;\n        }\n\n        .shipping-options {\n            margin-left: 10px;\n        }\n\n        .shipping-options p {\n            font-size: 11px;\n            color: black; /* Define o texto como preto */\n            font-weight: bold;\n        }\n\n        .shipping-option {\n            padding: 7px 0;\n        }\n\n        .shipping-title-container {\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n            width: 100%;\n        }\n\n        .shipping-title {\n            font-weight: bold;\n            font-size: 11px;\n            color: #d3d3d3;\n        }\n\n        .shipping-title.correios {\n            color: black;\n        }\n\n        .free-shipping-container,\n        .price-container {\n            display: flex;\n            align-items: center;\n        }\n\n        .shipping-subtitle {\n            color: #d3d3d3;\n            margin-top: 3px;\n            font-size: 11px;\n        }\n\n        .shipping-subtitle.black {\n            color: black;\n        }\n\n        .free-shipping {\n            font-weight: bold;\n            color: #4a4a4a;\n            font-size: 11px;\n        }\n\n        .price-strike {\n            font-weight: bold;\n            color: #808080;\n            text-decoration: line-through;\n            margin-right: 7px;\n            font-size: 11px;\n        }\n\n        .price-black {\n            font-weight: bold;\n            color: #d3d3d3;\n            font-size: 11px;\n        }\n\n        .pickup-in-store {\n            border-top: 2px solid #e9e9e9;\n            padding-top: 14px;\n        }\n    </style>\n\n    <div class=\"seraphina-copyright\">\n        <div class=\"padd\">\n            <img width=\"28\" height=\"28\" src=\"https://pester.com.br/cdn/shop/files/das.png?v=1722481897&amp;width=50\">\n            <div class=\"shipping-options\">\n                <p>Opciones de envío para su región: <strong>Envío en 24 horas</strong></p>\n            </div>\n        </div>\n\n        <div class=\"shipping-option\">\n            <div class=\"shipping-title-container\">\n                <div class=\"shipping-title correios\">CORREO POSTAL</div>\n                <div class=\"free-shipping-container\">\n                    <span class=\"price-strike\">€10.00</span>\n                    <span class=\"free-shipping\">Envío gratis</span>\n                </div>\n            </div>\n            <div class=\"shipping-subtitle black\">Plazo de entrega: 4 a 8 días</div>\n        </div>\n\n        <div class=\"shipping-option pickup-in-store\">\n            <div class=\"shipping-title-container\">\n                <div class=\"shipping-title\">RECOGIDA EN TIENDA</div>\n                <div class=\"price-container\">\n                    <span class=\"price-black\">€0.00</span>\n                </div>\n            </div>\n            <div class=\"shipping-subtitle\">No disponible en tu región</div>\n        </div>\n    </div>\n</div>"
           }
-        },
-        "separator_j4NNKE": {
-          "type": "separator",
-          "settings": {}
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
         }
       },
       "block_order": [
@@ -101,9 +91,7 @@
         "variant_picker",
         "buy_buttons",
         "liquid_Kwdg6h",
-        "liquid_PkEkci",
-        "separator_j4NNKE",
-        "description"
+        "liquid_PkEkci"
       ],
       "custom_css": [
         "div {font-size: 14px; font-family: \"Poppins\";}",
@@ -115,7 +103,7 @@
         "full_width": true,
         "show_fixed_add_to_cart": true,
         "desktop_media_width": 55,
-        "desktop_media_layout": "grid_highlight",
+        "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "contained",
         "mobile_carousel_control": "thumbnails",
         "enable_video_autoplay": false,
@@ -127,6 +115,370 @@
         "text_color": "#272727",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "slideshow_rAnwyt": {
+      "type": "slideshow",
+      "blocks": {
+        "image_KxzLjb": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 1",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_KxzLjb"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
+    "slideshow_y9KKdY": {
+      "type": "slideshow",
+      "blocks": {
+        "image_G4kmkj": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 1",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_G4kmkj"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
+    "media_with_text_BhJb33": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_gpEK8m": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#17334d",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_gpEK8m"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": true,
+        "spacing": "small"
+      }
+    },
+    "faq_rEWzGr": {
+      "type": "faq",
+      "blocks": {
+        "item_iGdXpC": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "item_yWEhhA": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_MfmAej": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_iGdXpC",
+        "item_yWEhhA",
+        "item_MfmAej"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "#e0e7f4",
+        "background_gradient": "",
+        "text_color": "#17334d",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "feature_chart_Fqpqk4": {
+      "type": "feature-chart",
+      "blocks": {
+        "headings_A8DbWJ": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Heading 1",
+            "heading_2": "Heading 2",
+            "heading_3": "Heading 3",
+            "heading_4": "Heading 4",
+            "heading_5": "",
+            "heading_6": "",
+            "heading_7": "",
+            "heading_8": "",
+            "heading_9": "",
+            "heading_10": "",
+            "heading_11": "",
+            "heading_12": "",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": ""
+          }
+        },
+        "values_pPdUta": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p>Yes</p>",
+            "value_2": "<p>Yes</p>",
+            "value_3": "<p>No</p>",
+            "value_4": "<p>No</p>",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "values_r3WXjc": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p>No</p>",
+            "value_2": "<p>Yes</p>",
+            "value_3": "<p>Yes</p>",
+            "value_4": "<p>No</p>",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_A8DbWJ",
+        "values_pPdUta",
+        "values_r3WXjc"
+      ],
+      "name": "Feature chart",
+      "settings": {
+        "full_width": true,
+        "subheading": "Compare",
+        "title": "Product specification",
+        "content": "<p>Give your customers useful information about your products and showcase differences between them.</p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "max_rows": 5,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "view_product": "View",
+        "viewing_product": "",
+        "show_product_swatch": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "slideshow_aiHarV": {
+      "type": "slideshow",
+      "blocks": {
+        "image_E3C6HE": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 1",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_E3C6HE"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
+    "slideshow_qpg6nV": {
+      "type": "slideshow",
+      "blocks": {
+        "image_pxCHzY": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 1",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_pxCHzY"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
       }
     },
     "1746147346041d1da6": {
@@ -182,6 +534,13 @@
   },
   "order": [
     "main",
+    "slideshow_rAnwyt",
+    "slideshow_y9KKdY",
+    "media_with_text_BhJb33",
+    "faq_rEWzGr",
+    "feature_chart_Fqpqk4",
+    "slideshow_aiHarV",
+    "slideshow_qpg6nV",
     "1746147346041d1da6",
     "related-products"
   ]
