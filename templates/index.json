@@ -151,7 +151,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/BANNER_OFICIAL_PC_4_11zon.webp",
-            "mobile_image": "shopify://shop_images/BANNER_OFICIAL_MOBILE_3_11zon_1.webp",
+            "mobile_image": "shopify://shop_images/BANNER_OFICIAL_MOBILE_3_11zon.webp",
             "content_max_width": 780,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
@@ -222,7 +222,6 @@
         "product_NYz49d",
         "product_bU7V4Y"
       ],
-      "name": "Shop the look",
       "settings": {
         "full_width": true,
         "stack_mobile": true,
@@ -321,7 +320,6 @@
         "sale-price {font-size: 26px; font-weight: bold; flex-direction: column; margin-bottom: -20px; color: #5c8cb4;}",
         "price-list {font-weight: normal; font-size: 22px; flex-direction: column;}"
       ],
-      "name": "Featured product",
       "settings": {
         "full_width": true,
         "product": "teste",
@@ -421,7 +419,6 @@
         "sale-price {font-size: 26px; font-weight: bold; flex-direction: column; margin-bottom: -20px; color: #5c8cb4;}",
         "price-list {font-weight: normal; font-size: 22px; flex-direction: column;}"
       ],
-      "name": "Featured product",
       "settings": {
         "full_width": true,
         "product": "teste",
@@ -521,7 +518,6 @@
         "sale-price {font-size: 26px; font-weight: bold; flex-direction: column; margin-bottom: -20px; color: #5c8cb4;}",
         "price-list {font-weight: normal; font-size: 22px; flex-direction: column;}"
       ],
-      "name": "Featured product",
       "settings": {
         "full_width": true,
         "product": "teste",
@@ -606,7 +602,6 @@
         "testimonial_FFrTt3",
         "testimonial_hk4KJp"
       ],
-      "name": "Testimonials",
       "settings": {
         "full_width": true,
         "stack_testimonials": false,
