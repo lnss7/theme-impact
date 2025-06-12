@@ -123,7 +123,6 @@
         "image_KxzLjb": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/S4aa001f1ce004640aac2e2ed4a3b590ag.webp",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
