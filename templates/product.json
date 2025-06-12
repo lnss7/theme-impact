@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "text_rdj8MU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share some content to your customers about your products.</p>"
+          }
+        },
         "liquid_U7HjfC": {
           "type": "liquid",
           "settings": {
@@ -89,6 +95,7 @@
         }
       },
       "block_order": [
+        "text_rdj8MU",
         "liquid_U7HjfC",
         "bk_reviews_bk_reviews_star_section_nNWq7i",
         "price",
