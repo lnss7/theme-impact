@@ -117,82 +117,70 @@
         "input_text_color": ""
       }
     },
-    "slideshow_rAnwyt": {
-      "type": "slideshow",
-      "blocks": {
-        "image_KxzLjb": {
-          "type": "image",
-          "settings": {
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide 1",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_KxzLjb"
-      ],
+    "revealed_image_on_scroll_hG8MFp": {
+      "type": "revealed-image-on-scroll",
+      "name": "Revealed image on scroll",
       "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
+        "image": "shopify://shop_images/BANNER_OFICIAL_PC_3_11zon.webp",
+        "subheading": "",
+        "title": "Reveal text on scroll",
+        "background": "",
+        "text_color_inside": "#ffffff",
+        "text_color_outside": "#000000"
       }
     },
-    "slideshow_y9KKdY": {
-      "type": "slideshow",
+    "image_with_text_overlay_HKJ4EC": {
+      "type": "image-with-text-overlay",
       "blocks": {
-        "image_G4kmkj": {
-          "type": "image",
+        "subheading_REzRw6": {
+          "type": "subheading",
           "settings": {
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide 1",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "text": "Subheading"
+          }
+        },
+        "heading_4wYmML": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_mBDVha": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_FXgbC4": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Button text",
+            "url": "",
             "background": "",
-            "background_gradient": ""
+            "text_color": ""
           }
         }
       },
       "block_order": [
-        "image_G4kmkj"
+        "subheading_REzRw6",
+        "heading_4wYmML",
+        "richtext_mBDVha",
+        "button_FXgbC4"
       ],
+      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
+        "enable_parallax": true,
         "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
+        "image": "shopify://shop_images/BANNER_OFICIAL_PC_1_11zon.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
     "media_with_text_BhJb33": {
@@ -396,82 +384,112 @@
         "chart_true_false_color": ""
       }
     },
-    "slideshow_aiHarV": {
-      "type": "slideshow",
+    "image_with_text_overlay_f7wRUN": {
+      "type": "image-with-text-overlay",
       "blocks": {
-        "image_E3C6HE": {
-          "type": "image",
+        "subheading_NhVArd": {
+          "type": "subheading",
           "settings": {
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide 1",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "text": "Subheading"
+          }
+        },
+        "heading_d8HPbU": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_LMpJhB": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_FHNQmF": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Button text",
+            "url": "",
             "background": "",
-            "background_gradient": ""
+            "text_color": ""
           }
         }
       },
       "block_order": [
-        "image_E3C6HE"
+        "subheading_NhVArd",
+        "heading_d8HPbU",
+        "richtext_LMpJhB",
+        "button_FHNQmF"
       ],
+      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
+        "enable_parallax": true,
         "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
+        "image": "shopify://shop_images/BANNER_OFICIAL_PC_1_11zon.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
-    "slideshow_qpg6nV": {
-      "type": "slideshow",
+    "image_with_text_overlay_W7bVgi": {
+      "type": "image-with-text-overlay",
       "blocks": {
-        "image_pxCHzY": {
-          "type": "image",
+        "subheading_6pEHGb": {
+          "type": "subheading",
           "settings": {
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide 1",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "text": "Subheading"
+          }
+        },
+        "heading_6ABqrX": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_XTYE9g": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_q8a8E7": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Button text",
+            "url": "",
             "background": "",
-            "background_gradient": ""
+            "text_color": ""
           }
         }
       },
       "block_order": [
-        "image_pxCHzY"
+        "subheading_6pEHGb",
+        "heading_6ABqrX",
+        "richtext_XTYE9g",
+        "button_q8a8E7"
       ],
+      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
+        "enable_parallax": true,
         "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
+        "image": "shopify://shop_images/BANNER_OFICIAL_PC_1_11zon.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
     "1746147346041d1da6": {
@@ -527,13 +545,13 @@
   },
   "order": [
     "main",
-    "slideshow_rAnwyt",
-    "slideshow_y9KKdY",
+    "revealed_image_on_scroll_hG8MFp",
+    "image_with_text_overlay_HKJ4EC",
     "media_with_text_BhJb33",
     "faq_rEWzGr",
     "feature_chart_Fqpqk4",
-    "slideshow_aiHarV",
-    "slideshow_qpg6nV",
+    "image_with_text_overlay_f7wRUN",
+    "image_with_text_overlay_W7bVgi",
     "1746147346041d1da6",
     "related-products"
   ]
