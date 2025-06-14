@@ -150,7 +150,7 @@
         "richtext_mBDVha": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Übernimm die Kontrolle über dein Revier mit chirurgischer Präzision. Die Steinzeit ist vorbei, dein Körper verdient das nächste Level.</p>"
+            "content": "<h6><em>Übernimm die Kontrolle über dein Revier mit chirurgischer Präzision. Die Steinzeit ist vorbei, dein Körper verdient das nächste Level.</em></h6>"
           }
         },
         "button_FXgbC4": {
@@ -172,7 +172,7 @@
         "button_FXgbC4"
       ],
       "custom_css": [
-        ".h1 {margin-top: 0px;}"
+        ".h1 {margin-top: 0px; margin-bottom: -10px; }"
       ],
       "name": "Image with text overlay",
       "settings": {
