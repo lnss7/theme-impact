@@ -143,14 +143,14 @@
         "heading_4wYmML": {
           "type": "heading",
           "settings": {
-            "text": "Image with text overlay",
+            "text": "Tschüss, Dschungel.",
             "heading_tag": "h1"
           }
         },
         "richtext_mBDVha": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "content": "<p>Übernimm die Kontrolle über dein Revier mit chirurgischer Präzision. Die Steinzeit ist vorbei, dein Körper verdient das nächste Level.</p>"
           }
         },
         "button_FXgbC4": {
@@ -215,7 +215,7 @@
         "image_gpEK8m"
       ],
       "custom_css": [
-        "media-with-text {font-size: 14px; font-family: 'Poppins', sans-serif;}"
+        "media-with-text {font-size: 14px; font-family: \"Poppins\", sans-serif;}"
       ],
       "settings": {
         "full_width": true,
