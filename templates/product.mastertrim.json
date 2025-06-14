@@ -199,7 +199,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Tschüss, Dschungel.",
-            "content": "<h6><em>Übernimm die Kontrolle über dein Revier mit chirurgischer Präzision. Die Steinzeit ist vorbei, dein Körper verdient das nächste Level.</em></h6>",
+            "content": "<p>Übernimm die Kontrolle über dein Revier mit chirurgischer Präzision. Die Steinzeit ist vorbei, dein Körper verdient das nächste Level.</p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -214,7 +214,9 @@
       "block_order": [
         "image_gpEK8m"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "media-with-text {font-size: 14px; font-family: 'Poppins', sans-serif;}"
+      ],
       "settings": {
         "full_width": true,
         "spacing": "small"
