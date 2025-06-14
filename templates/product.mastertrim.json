@@ -119,14 +119,16 @@
     },
     "revealed_image_on_scroll_hG8MFp": {
       "type": "revealed-image-on-scroll",
+      "custom_css": [],
       "name": "Revealed image on scroll",
       "settings": {
-        "image": "shopify://shop_images/BANNER_OFICIAL_PC_3_11zon.webp",
+        "image": "shopify://shop_images/mnbvcxzasdf_11zon.webp",
+        "mobile_image": "shopify://shop_images/Design_sem_nomeyt_11zon.webp",
         "subheading": "",
-        "title": "Reveal text on scroll",
+        "title": "Maximale Power",
         "background": "",
         "text_color_inside": "#ffffff",
-        "text_color_outside": "#000000"
+        "text_color_outside": "#17334d"
       }
     },
     "image_with_text_overlay_HKJ4EC": {
@@ -175,7 +177,8 @@
         "allow_transparent_header": false,
         "enable_parallax": true,
         "image_size": "auto",
-        "image": "shopify://shop_images/BANNER_OFICIAL_PC_1_11zon.webp",
+        "image": "shopify://shop_images/Revelar_ao_Scroll_Copy_1_-_MasterTrim_11zon.webp",
+        "mobile_image": "shopify://shop_images/Revelar_ao_Scroll_Copy_1_-_MasterTrim_MOBILE_11zon.webp",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -211,6 +214,7 @@
       "block_order": [
         "image_gpEK8m"
       ],
+      "custom_css": [],
       "settings": {
         "full_width": true,
         "spacing": "small"
@@ -266,6 +270,114 @@
         "button_text_color": "",
         "accordion_background": "",
         "accordion_text_color": ""
+      }
+    },
+    "image_with_text_overlay_f7wRUN": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_NhVArd": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_d8HPbU": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_LMpJhB": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_FHNQmF": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_NhVArd",
+        "heading_d8HPbU",
+        "richtext_LMpJhB",
+        "button_FHNQmF"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": true,
+        "image_size": "auto",
+        "image": "shopify://shop_images/BANNER_OFICIAL_PC_1_11zon.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_with_text_overlay_W7bVgi": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_6pEHGb": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_6ABqrX": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_XTYE9g": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_q8a8E7": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_6pEHGb",
+        "heading_6ABqrX",
+        "richtext_XTYE9g",
+        "button_q8a8E7"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": true,
+        "image_size": "auto",
+        "image": "shopify://shop_images/BANNER_OFICIAL_PC_1_11zon.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
     "feature_chart_Fqpqk4": {
@@ -384,114 +496,6 @@
         "chart_true_false_color": ""
       }
     },
-    "image_with_text_overlay_f7wRUN": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "subheading_NhVArd": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_d8HPbU": {
-          "type": "heading",
-          "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_LMpJhB": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_FHNQmF": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "lg",
-            "text": "Button text",
-            "url": "",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_NhVArd",
-        "heading_d8HPbU",
-        "richtext_LMpJhB",
-        "button_FHNQmF"
-      ],
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": true,
-        "image_size": "auto",
-        "image": "shopify://shop_images/BANNER_OFICIAL_PC_1_11zon.webp",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "image_with_text_overlay_W7bVgi": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "subheading_6pEHGb": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_6ABqrX": {
-          "type": "heading",
-          "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_XTYE9g": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_q8a8E7": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "lg",
-            "text": "Button text",
-            "url": "",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_6pEHGb",
-        "heading_6ABqrX",
-        "richtext_XTYE9g",
-        "button_q8a8E7"
-      ],
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": true,
-        "image_size": "auto",
-        "image": "shopify://shop_images/BANNER_OFICIAL_PC_1_11zon.webp",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
     "1746147346041d1da6": {
       "type": "apps",
       "blocks": {
@@ -549,9 +553,9 @@
     "image_with_text_overlay_HKJ4EC",
     "media_with_text_BhJb33",
     "faq_rEWzGr",
-    "feature_chart_Fqpqk4",
     "image_with_text_overlay_f7wRUN",
     "image_with_text_overlay_W7bVgi",
+    "feature_chart_Fqpqk4",
     "1746147346041d1da6",
     "related-products"
   ]
