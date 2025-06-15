@@ -150,12 +150,12 @@
         "button_FXgbC4": {
           "type": "button",
           "settings": {
-            "style": "fill",
+            "style": "outline",
             "size": "base",
             "text": "In den Warenkorb",
             "url": "",
-            "background": "",
-            "text_color": ""
+            "background": "#e0e7f4",
+            "text_color": "#ffffff"
           }
         }
       },
