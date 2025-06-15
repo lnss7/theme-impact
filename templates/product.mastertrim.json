@@ -171,10 +171,46 @@
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "enable_parallax": true,
+        "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify://shop_images/Revelar_ao_Scroll_Copy_1_-_MasterTrim_11zon.webp",
         "mobile_image": "shopify://shop_images/Revelar_ao_Scroll_Copy_1_-_MasterTrim_MOBILE_11zon.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_with_text_overlay_pecc3P": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_UET8fr": {
+          "type": "heading",
+          "settings": {
+            "text": "Ein Arsenal.",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_NC7daK": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h6><em>Vom Bart bis... naja, du weißt schon wohin. Alles, was du brauchst, in einem einzigen Kit, um jede Zone deines Körpers zu meistern.</em></h6>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UET8fr",
+        "richtext_NC7daK"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/copy3_-_pc_11zon.webp",
+        "mobile_image": "shopify://shop_images/copy3_-_mobile_11zon.webp",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -549,6 +585,7 @@
     "main",
     "revealed_image_on_scroll_hG8MFp",
     "image_with_text_overlay_HKJ4EC",
+    "image_with_text_overlay_pecc3P",
     "media_with_text_BhJb33",
     "faq_rEWzGr",
     "image_with_text_overlay_f7wRUN",
