@@ -302,50 +302,70 @@
         "item_iGdXpC": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "Wird er meine Haut verletzen oder zwicken, besonders an... empfindlichen Stellen?",
+            "content": "<p>Wir wissen, das ist die Eine-Million-Euro-Frage. Der MasterTrim wurde mit hautfreundlichen Stahlklingen und einem leistungsstarken Motor entwickelt, der Haare schneidet, ohne zu ziepen. Wir empfehlen, die Haut immer zu straffen und langsam zu beginnen. Du wirst vom Komfort überrascht sein.</p>"
           }
         },
         "item_yWEhhA": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "Ist er wirklich wasserdicht? Kann ich ihn unter der Dusche benutzen?",
+            "content": "<p>Ja. Er ist IPX7-zertifiziert, was bedeutet, dass er bis zu 30 Minuten lang in 1 Meter tiefem Wasser untergetaucht werden kann. Du kannst ihn ohne Bedenken unter der Dusche verwenden. Aber bitte geh nicht mit ihm im Pool tauchen, okay?</p>"
           }
         },
         "item_MfmAej": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "Hält der Akku wirklich lange? Wie lange dauert das Aufladen?",
+            "content": "<p>Ganz ohne Übertreibung: Er lädt in nur 2 Stunden über USB auf und bietet bis zu 90 Minuten ununterbrochene Nutzung. Für den durchschnittlichen Mann bedeutet das wochenlange Nutzung mit einer einzigen Ladung. Ideal für den Alltag und für Reisen.</p>"
+          }
+        },
+        "item_8P7Dgw": {
+          "type": "item",
+          "settings": {
+            "title": "Funktioniert er auch bei dicken Haaren oder einem vollen Bart?",
+            "content": "<p>Absolut. Der Hochgeschwindigkeitsmotor (bis zu 7.000 U/min) und die scharfen Klingen sind dafür gemacht, jede Herausforderung zu meistern – vom feinsten Haar bis zum kräftigsten Bart.</p>"
+          }
+        },
+        "item_LgwUBU": {
+          "type": "item",
+          "settings": {
+            "title": "Ist er leicht zu reinigen?",
+            "content": "<p><strong>Was genau ist im Lieferumfang enthalten?</strong></p><p>Aber sicher. Wir haben das komplette Arsenal für dich zusammengestellt. Im Lieferumfang findest du:</p><ul><li><strong>1x MasterTrim Hauptgerät</strong></li></ul><p></p><ul><li><strong>6x auswechselbare Schneidköpfe:</strong></li></ul><ol><li>Breiter Haarschneide-Aufsatz</li><li>Präzisionstrimmer (für Bart & Körper)</li><li>Konturenklinge</li><li>Rasierkopf (Shaver)</li><li>Nasen- und Ohrhaartrimmer</li><li>Detail-Trimmer (für Designs & Konturen)</li></ol><p></p><ul><li><strong>8x Aufsteckkämme (Guards):</strong></li></ul><ol><li>4 Kämme für den Haarschnitt (3mm, 6mm, 9mm & 12mm)</li><li>3 Kämme für die Konturenklinge</li><li>1 Kamm für den Präzisionstrimmer</li></ol><p></p><ul><li><strong>Und alles an wichtigem Zubehör:</strong></li></ul><ol><li>Premium-Aufbewahrungstasche</li><li>USB-Ladekabel</li><li>Doppelseitiger Kamm</li><li>Reinigungsbürste</li><li>Fläschchen mit Klingenöl<br/></li></ol><p>Im Grunde alles, was du für die absolute Kontrolle über deinen Style brauchst.</p>"
           }
         }
       },
       "block_order": [
         "item_iGdXpC",
         "item_yWEhhA",
-        "item_MfmAej"
+        "item_MfmAej",
+        "item_8P7Dgw",
+        "item_LgwUBU"
+      ],
+      "custom_css": [
+        "details {font-size: 13px; font-family: \"Poppins\";}",
+        ".v-stack {font-size: 12px; font-family: \"Poppins\";}"
       ],
       "settings": {
         "full_width": true,
         "subheading": "",
-        "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "title": "Deine Fragen. Unsere Antworten.",
+        "content": "",
         "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
+        "support_hours": "Servicezeiten: Mo - Fr: 08:00 - 20:00 UhrSa, So & Feiertage: 11:00 - 22:00 Uhr",
+        "answer_time": "Durchschnittliche Antwortzeit: 12 Stunden",
         "button_text": "",
         "button_url": "",
-        "text_position": "center",
+        "text_position": "start",
         "background": "#e0e7f4",
         "background_gradient": "",
         "text_color": "#17334d",
         "heading_color": "",
-        "heading_gradient": "",
+        "heading_gradient": "linear-gradient(358deg, rgba(23, 51, 77, 1), rgba(92, 140, 180, 1) 100%)",
         "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
+        "button_text_color": "#f7f9ff",
+        "accordion_background": "#17334d",
+        "accordion_text_color": "#f7f9ff"
       }
     },
     "image_with_text_overlay_f7wRUN": {
