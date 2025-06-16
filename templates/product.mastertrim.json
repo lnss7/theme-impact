@@ -224,14 +224,7 @@
         "heading_h379Wg": {
           "type": "heading",
           "settings": {
-            "text": "Schluss mit Haaren.",
-            "heading_tag": "h1"
-          }
-        },
-        "heading_z8GHpN": {
-          "type": "heading",
-          "settings": {
-            "text": "Null Irritationen.",
+            "text": "Schluss mit Haaren. Null Irritationen.",
             "heading_tag": "h1"
           }
         },
@@ -244,18 +237,17 @@
         "button_WjnbBc": {
           "type": "button",
           "settings": {
-            "style": "fill",
+            "style": "outline",
             "size": "lg",
             "text": "In den Warenkorb",
             "url": "",
             "background": "",
-            "text_color": ""
+            "text_color": "#ffffff"
           }
         }
       },
       "block_order": [
         "heading_h379Wg",
-        "heading_z8GHpN",
         "richtext_wWwXGQ",
         "button_WjnbBc"
       ],
@@ -269,10 +261,10 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Revelar_ao_Scroll_Copy_4_-_MasterTrim_11zon.webp",
-        "mobile_image": "shopify://shop_images/Revelar_ao_Scroll_Copy_4_-_MasterTrim_MOBILE_11zon_1.webp",
+        "image": "shopify://shop_images/Revelar_ao_Scroll_Copy_4_-_MasterTrim_11zon_ab545406-1a35-41dd-a6cc-e0ee4ec7acaf.webp",
+        "mobile_image": "shopify://shop_images/Revelar_ao_Scroll_Copy_4_-_MasterTrim_MOBILE_11zon_f1ad86c6-4eae-47ab-ab47-bf32d9d71e91.webp",
         "mobile_text_position": "place-self-start-center text-center",
-        "desktop_text_position": "sm:place-self-start-center sm:text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
@@ -284,11 +276,12 @@
         "image_gpEK8m": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Revelar_ao_Scroll_Copy_5_-_MasterTrim_MOBILE_11zon.webp",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
             "icon": "none",
-            "icon_width": 48,
+            "icon_width": 44,
             "subheading": "",
             "title": "Engenharia Precisa para sua Obra de Arte.",
             "content": "<p>Não é só um aparador, é a sua ferramenta de precisão.</p><ul><li><strong>Lâminas que Respeitam sua Pele:</strong> Feitas de aço inoxidável, deslizam suavemente para um corte rente e sem irritação. Porque seu kit de ferramentas não deveria te machucar.</li><li><strong>Display de LED Inteligente:</strong> Você sempre no comando. Acompanhe a bateria e a potência em tempo real. Chega de ficar na mão no meio da missão.</li><li><strong>100% à Prova d'Água (IPX7):</strong> Leve para o banho. Sim, nós pensamos nisso. Facilita o uso, a limpeza e a sua vida.</li></ul>",
@@ -296,7 +289,7 @@
             "link_url": "",
             "background": "#ffffff",
             "background_gradient": "",
-            "text_color": "#17334d",
+            "text_color": "#ffffff",
             "text_gradient": "",
             "button_background": "",
             "button_text_color": ""
@@ -307,7 +300,8 @@
         "image_gpEK8m"
       ],
       "custom_css": [
-        "media-with-text {font-size: 14px; font-family: \"Poppins\", sans-serif;}"
+        "media-with-text {font-size: 14px; font-family: \"Poppins\", sans-serif;}",
+        "div {background-color: #17334d;}"
       ],
       "settings": {
         "full_width": true,
