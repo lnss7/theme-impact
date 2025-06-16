@@ -233,23 +233,11 @@
           "settings": {
             "content": "<h6><em>Die Power, die du brauchst.</em></h6><h6><em> Die Sanftheit, die deine Haut verdient. </em></h6><h6><em>Effektive und angenehme Haarentfernung, </em></h6><h6><em>garantiert ohne Schnitte.</em></h6>"
           }
-        },
-        "button_WjnbBc": {
-          "type": "button",
-          "settings": {
-            "style": "outline",
-            "size": "lg",
-            "text": "In den Warenkorb",
-            "url": "",
-            "background": "",
-            "text_color": "#ffffff"
-          }
         }
       },
       "block_order": [
         "heading_h379Wg",
-        "richtext_wWwXGQ",
-        "button_WjnbBc"
+        "richtext_wWwXGQ"
       ],
       "custom_css": [
         "p {margin: 0px;}",
@@ -283,8 +271,8 @@
             "icon": "none",
             "icon_width": 32,
             "subheading": "",
-            "title": "Engenharia Precisa para sua Obra de Arte.",
-            "content": "<p>Não é só um aparador, é a sua ferramenta de precisão.</p><ul><li><strong>Lâminas que Respeitam sua Pele:</strong> Feitas de aço inoxidável, deslizam suavemente para um corte rente e sem irritação. Porque seu kit de ferramentas não deveria te machucar.</li><li><strong>Display de LED Inteligente:</strong> Você sempre no comando. Acompanhe a bateria e a potência em tempo real. Chega de ficar na mão no meio da missão.</li><li><strong>100% à Prova d'Água (IPX7):</strong> Leve para o banho. Sim, nós pensamos nisso. Facilita o uso, a limpeza e a sua vida.</li></ul>",
+            "title": "Präzise Ingenieurskunst für dein Kunstwerk.",
+            "content": "<ul><li><strong>Hochleistungsmotor:</strong> Mit einem Motor, der bis zu 7.000 U/min erreicht, schneidet der MasterTrim selbst die dicksten Haare ohne Ziepen oder Haken. Echte Power für ein glattes und schnelles Finish.</li><li><strong>Intelligentes LED-Display:</strong> Du hast immer die Kontrolle. Verfolge Akkustand und Leistung in Echtzeit, damit du mitten im Einsatz nicht im Stich gelassen wirst.</li><li><strong>100 % wasserdicht (IPX7):</strong> Nimm ihn mit unter die Dusche. Ja, wir haben daran gedacht. Das erleichtert die Nutzung, die Reinigung und dein Leben.</li></ul>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
