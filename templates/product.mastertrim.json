@@ -450,60 +450,6 @@
         "text_color": ""
       }
     },
-    "image_with_text_overlay_f7wRUN": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "subheading_NhVArd": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_d8HPbU": {
-          "type": "heading",
-          "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_LMpJhB": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_FHNQmF": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "lg",
-            "text": "Button text",
-            "url": "",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_NhVArd",
-        "heading_d8HPbU",
-        "richtext_LMpJhB",
-        "button_FHNQmF"
-      ],
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": true,
-        "image_size": "auto",
-        "image": "shopify://shop_images/BANNER_OFICIAL_PC_1_11zon.webp",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
     "feature_chart_Fqpqk4": {
       "type": "feature-chart",
       "blocks": {
@@ -620,6 +566,54 @@
         "chart_true_false_color": ""
       }
     },
+    "rich_text_DByeVF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_z6hf4d": {
+          "type": "heading",
+          "settings": {
+            "text": "Selbstvertrauen kann man nicht kaufen. Das richtige Werkzeug dafür schon.",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_qnPGGG": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><em>Meistere deinen Style. Sichere dir jetzt dein komplettes Kit.</em></p>"
+          }
+        },
+        "button_9VgQN9": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "JETZT MEIN KOMPLETT-SET SICHERN",
+            "url": "",
+            "background": "#17334d",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_z6hf4d",
+        "richtext_qnPGGG",
+        "button_9VgQN9"
+      ],
+      "custom_css": [
+        "em {font-size: 14px; font-family: \"Poppins\";}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#000000",
+        "background_gradient": "linear-gradient(180deg, rgba(23, 51, 77, 1), rgba(92, 140, 180, 1) 100%)",
+        "text_color": "#ffffff"
+      }
+    },
     "1746147346041d1da6": {
       "type": "apps",
       "blocks": {
@@ -680,8 +674,8 @@
     "media_with_text_BhJb33",
     "faq_rEWzGr",
     "text_with_icons_V8Yr89",
-    "image_with_text_overlay_f7wRUN",
     "feature_chart_Fqpqk4",
+    "rich_text_DByeVF",
     "1746147346041d1da6",
     "related-products"
   ]
