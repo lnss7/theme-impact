@@ -368,6 +368,88 @@
         "accordion_text_color": "#f7f9ff"
       }
     },
+    "text_with_icons_V8Yr89": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_4CAkxU": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/ICON_1_11zon.webp",
+            "mobile_icon_width": 112,
+            "icon_width": 100,
+            "icon_background_type": "none",
+            "icon_background": "#ffffff",
+            "icon_color": "",
+            "title": "Hygiene",
+            "content": "<p>Zu viele Haare schließen Schweiß und Feuchtigkeit ein – die perfekte Brutstätte für Gerüche und Bakterien. Weniger Haare bedeuten mehr Frische und Komfort, den ganzen Tag lang.</p>"
+          }
+        },
+        "item_3Y8N6D": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/ICON_2_11zon.webp",
+            "mobile_icon_width": 112,
+            "icon_width": 100,
+            "icon_background_type": "none",
+            "icon_background": "#ffffff",
+            "icon_color": "",
+            "title": "Ästhetik",
+            "content": "<p>Wir müssen es dir nicht extra erklären. Ein gepflegter Garten lässt den Baum einfach... imposanter wirken. Punkt.</p>"
+          }
+        },
+        "item_4WHERD": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/ICON_3_11zon.webp",
+            "mobile_icon_width": 112,
+            "icon_width": 100,
+            "icon_background_type": "none",
+            "icon_background": "#ffffff",
+            "icon_color": "",
+            "title": "Komfort",
+            "content": "<p>Sag Tschüss zu Reibung und Hautirritationen, besonders beim Sport oder an heißen Tagen. Fühl dich leichter, freier und einfach wohler in deiner Haut – 24/7.</p>"
+          }
+        },
+        "item_JmPUMD": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/ICON_4_11zon.webp",
+            "mobile_icon_width": 92,
+            "icon_width": 92,
+            "icon_background_type": "none",
+            "icon_background": "#ffffff",
+            "icon_color": "",
+            "title": "Selbstvertrauen",
+            "content": "<p>Wenn du weißt, dass untenrum alles unter Kontrolle ist, ändert sich deine ganze Haltung. Das ist die Art von stillem Selbstvertrauen, das sich überall bemerkbar macht – vom Meetingraum bis ins Schlafzimmer.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_4CAkxU",
+        "item_3Y8N6D",
+        "item_4WHERD",
+        "item_JmPUMD"
+      ],
+      "custom_css": [
+        "div {font-size: 14px; font-family: \"Poppins\";}"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "title": "Mehr als nur Style. Es ist Kontrolle.",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "image_with_text_overlay_f7wRUN": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -407,60 +489,6 @@
         "heading_d8HPbU",
         "richtext_LMpJhB",
         "button_FHNQmF"
-      ],
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": true,
-        "image_size": "auto",
-        "image": "shopify://shop_images/BANNER_OFICIAL_PC_1_11zon.webp",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "image_with_text_overlay_W7bVgi": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "subheading_6pEHGb": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_6ABqrX": {
-          "type": "heading",
-          "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_XTYE9g": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_q8a8E7": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "lg",
-            "text": "Button text",
-            "url": "",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_6pEHGb",
-        "heading_6ABqrX",
-        "richtext_XTYE9g",
-        "button_q8a8E7"
       ],
       "name": "Image with text overlay",
       "settings": {
@@ -568,7 +596,7 @@
       ],
       "settings": {
         "full_width": true,
-        "subheading": "Compare",
+        "subheading": "",
         "title": "Product specification",
         "content": "<p>Give your customers useful information about your products and showcase differences between them.</p>",
         "button_text": "",
@@ -651,8 +679,8 @@
     "image_with_text_overlay_hHw73W",
     "media_with_text_BhJb33",
     "faq_rEWzGr",
+    "text_with_icons_V8Yr89",
     "image_with_text_overlay_f7wRUN",
-    "image_with_text_overlay_W7bVgi",
     "feature_chart_Fqpqk4",
     "1746147346041d1da6",
     "related-products"
