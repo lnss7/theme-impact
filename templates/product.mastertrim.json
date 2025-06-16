@@ -270,9 +270,9 @@
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify://shop_images/Revelar_ao_Scroll_Copy_4_-_MasterTrim_11zon.webp",
-        "mobile_image": "shopify://shop_images/Revelar_ao_Scroll_Copy_4_-_MasterTrim_MOBILE_11zon.webp",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "mobile_image": "shopify://shop_images/Revelar_ao_Scroll_Copy_4_-_MasterTrim_MOBILE_11zon_1.webp",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-start-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
