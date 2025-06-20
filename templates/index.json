@@ -254,15 +254,15 @@
             "show_taxes_notice": false
           }
         },
+        "description_px4gBB": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
         "separator_WeiUfm": {
           "type": "separator",
           "settings": {}
-        },
-        "liquid_BKBFYd": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n    .css-description {\n        font-family: \"Poppins\", sans-serif;\n        font-size: 0.875rem;\n        line-height: 1.5;\n        color: rgb(60, 60, 60);\n        margin-bottom: 1rem;\n    }\n\n    .css-titulo {\n        font-family: \"Poppins\", sans-serif;\n        font-size: 0.875rem;\n        line-height: 1.5;\n        color: rgb(60, 60, 60);\n        font-weight: bold;\n        margin-bottom: 0.5rem;\n        margin-top: 1rem;\n    }\n\n    .css-text {\n        list-style: disc;\n        color: black;\n        margin-left: 0.55rem;\n        font-family: \"Poppins\", sans-serif;\n    }\n\n    .css-text li::marker {\n        color: rgb(92, 140, 180);\n    }\n</style>\n<p class=\"css-1yz7e9k\">\n    <span>O Pacote Dome Pro inclui tudo o que você precisa para um barbear\n        bem-sucedido. A rotina consiste em três etapas simples: preparar a cabeça\n        para o barbear, depois barbear e, por fim, condicionar a pele.</span>\n</p>\n<h3 class=\"css-titulo\">\n    <span style=\"color: rgb(92, 140, 180)\">O PACOTE INCLUI:</span>\n</h3>\n<ul class=\"css-text\">\n    <li class=\"css-text\"><span>O barbeador de cabeça Dome Shaver™ Pro</span></li>\n    <li class=\"css-text\">\n        <span>Power Shave Gel gel de barbear para cabeça e rosto</span>\n    </li>\n    <li class=\"css-text\"><span>Dome Soother Bálsamo Pós-Barba para a Cabeça</span></li>\n    <li class=\"css-text\"><span>tampa protetora</span></li>\n    <li class=\"css-text\"><span>estojo de armazenamento</span></li>\n    <li class=\"css-text\"><span>Cabo USB-C</span></li>\n</ul>"
-          }
         },
         "variant_picker_iPMK4L": {
           "type": "variant_picker",
@@ -307,8 +307,8 @@
       "block_order": [
         "liquid_ix3Gri",
         "price_QKLtn9",
+        "description_px4gBB",
         "separator_WeiUfm",
-        "liquid_BKBFYd",
         "variant_picker_iPMK4L",
         "quantity_selector_n9Laj4",
         "buy_buttons_jzjTJg",
@@ -322,7 +322,7 @@
       ],
       "settings": {
         "full_width": true,
-        "product": "teste",
+        "product": "mastertrimm",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_bottom",
         "mobile_media_size": "expanded",
