@@ -456,10 +456,10 @@
         "headings_A8DbWJ": {
           "type": "headings",
           "settings": {
-            "heading_1": "Heading 1",
-            "heading_2": "Heading 2",
-            "heading_3": "Heading 3",
-            "heading_4": "Heading 4",
+            "heading_1": "Leistung & Energie",
+            "heading_2": "Material & Design",
+            "heading_3": "Abmessungen & Gewicht",
+            "heading_4": "Lieferumfang",
             "heading_5": "",
             "heading_6": "",
             "heading_7": "",
@@ -482,10 +482,10 @@
           "type": "values",
           "settings": {
             "product": "",
-            "value_1": "<p>Yes</p>",
-            "value_2": "<p>Yes</p>",
-            "value_3": "<p>No</p>",
-            "value_4": "<p>No</p>",
+            "value_1": "<ul><li><strong>Betriebszeit:</strong> 90 Minuten</li><li><strong>Ladezeit:</strong> 2 Stunden</li><li><strong>Akku:</strong> 600mAh Lithium-Ionen-Akku</li><li><strong>Stromversorgung:</strong> Aufladung per USB</li></ul>",
+            "value_2": "<ul><li><strong>Klingenmaterial:</strong> Edelstahl</li><li><strong>Wasserbeständigkeit:</strong> Vollständig abwaschbar (IPX7-zertifiziert)</li><li><strong>Modell:</strong> MasterTrim / 986</li></ul>",
+            "value_3": "<ul><li><strong>Gewicht (Komplett-Set):</strong> 773 g</li><li><strong>Verpackungsmaße:</strong> 25,8 cm x 16 cm x 7,5 cm</li></ul>",
+            "value_4": "<ul><li><strong>1x MasterTrim Hauptgerät</strong></li><li><strong>6x auswechselbare Schneidköpfe:</strong> (Breiter Haarschneider, Präzisionstrimmer, Konturenklinge, Rasierkopf, Nasen-/Ohrhaartrimmer, Detail-Trimmer)</li><li><strong>8x Aufsteckkämme (Guards):</strong> (4 für Haare, 3 für Konturen, 1 für Präzisionstrimmer)</li><li><strong>Wichtiges Zubehör:</strong> (Premium-Aufbewahrungstasche, USB-Ladekabel, Kamm, Reinigungsbürste, Klingenöl)</li></ul>",
             "value_5": "",
             "value_6": "",
             "value_7": "",
@@ -514,7 +514,7 @@
       "settings": {
         "full_width": true,
         "subheading": "",
-        "title": "Product specification",
+        "title": "Technische Daten",
         "content": "<p>Give your customers useful information about your products and showcase differences between them.</p>",
         "button_text": "",
         "button_url": "",
