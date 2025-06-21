@@ -1,0 +1,653 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "liquid_U7HjfC": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html>\n<head>\n    <style>\n        .product-heading {\n            font-family: 'Poppins', sans-serif;\n            line-height: 0.82;\n            letter-spacing: -0.01em;\n            font-size: 2rem;\n            color: #333; /* replacing var(--theme-ui-colors-grey700) */\n            font-weight: 700;\n            line-height: 2.1rem;\n            text-transform: uppercase; /* Transformando o texto para maiúsculas */\n            text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); /* Adicionando sombra ao texto */\n        }\n   \n        .product-ultra {\n            margin-left: 14px;\n            color: #5c8cb4;\n        }\n        \n        .performance-container {\n            display: flex;\n            flex-direction: row; /* Alterado para posicionar o SVG à direita */\n            align-items: center; /* Centraliza os itens verticalmente */\n            justify-content: space-between; /* Espaço entre os itens */\n        }\n        \n        svg {\n            color: #5c8cb4;\n            margin-left: 10px; /* Adicionado para espaçamento entre o texto e o SVG */\n        }\n    </style>\n</head>\n<body>\n    <div class=\"performance-container\">\n        <h2 class=\"product-heading\">MASTERTRIM™<span class=\"product-ultra\">&nbsp; DAS 20-IN-1 KOMPLETT-SET FÜR MÄNNER</span></h2>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"260\" height=\"110\" fill=\"none\" viewBox=\"0 0 80 71\">\n            <path fill=\"currentColor\" d=\"M5.01 29.4a.8.8 0 0 1 0-.26 35.16 35.16 0 0 1 69.8 6.08l3.58-3.83.94.88-5.26 5.62-5.22-5.66.94-.87 3.73 4a33.88 33.88 0 0 0-67.25-6 .66.66 0 0 1-.25.4.68.68 0 0 1-.46.12.5.5 0 0 1-.24-.09.5.5 0 0 1-.18-.17.7.7 0 0 1-.13-.22m68.8 11.11a.63.63 0 0 0-.48.11.67.67 0 0 0-.26.41 33.88 33.88 0 0 1-67.25-6l3.73 4 .94-.87-5.24-5.65L.01 38.1l.93.88 3.59-3.84a35.16 35.16 0 0 0 69.8 6.08.66.66 0 0 0-.11-.47.63.63 0 0 0-.41-.24M17.54 55.16a2.67 2.67 0 0 0 4.09.28l.44-.39-1.86-2.09-.67.6 1.08 1.21a1.57 1.57 0 0 1-2.37-.22c-.9-1-.62-2.11.41-3l.05-.05c1.05-.94 2.24-1 3.08-.08a1.4 1.4 0 0 1 .12 2l.8.89a2.48 2.48 0 0 0-.23-3.51 3.12 3.12 0 0 0-4.59-.21l-.05.05a3 3 0 0 0-.3 4.5zm3.2 3.13.94.62 1.3-1 2 1.37-.46 1.61 1 .69 1.81-6.53-1.3-.87zm5.42-2.94-.88 3-1.58-1.06zm1.43 7.1 1.13.4.87-2.45.72.26.71 3 1.22.43-.76-3.22a1.71 1.71 0 0 0 1.93-1.15c.44-1.24-.3-2.11-1.63-2.59l-2-.73zm2.29-2.85.7-1.93.9.32c.72.26 1.07.65.82 1.35-.23.64-.75.82-1.5.55zm4 4.89 1.12.11.66-1.53 2.44.23.36 1.64 1.23.12-1.49-6.61-1.56-.15zm3.38-5.15.65 3.07-1.89-.19zm4.67 5.6 1.08-.17-.8-4.87 3.65 4.4 1.23-.2-1-6.35-1.07.18.75 4.59-3.42-4.16-1.42.23zm9.65-2.49 1.1-.51-2.3-5 1.62-.75-.39-.86-4.35 2 .39.86 1.63-.75zm5.13-2.88 1-.71-3.8-5.2-1 .72zm3.3-2.61 2.87-3-.69-.64-2 2.16-1.37-1.29 1.56-1.65-.65-.62-1.62 1.59-1.28-1.21 1.94-2.05-.69-.65-2.76 2.91zM17.67 25.41a2.67 2.67 0 0 0-1.45-3.83l-.54-.23-1.12 2.56.83.36.64-1.49a1.57 1.57 0 0 1 .79 2.24c-.54 1.24-1.66 1.45-2.92.9h-.07c-1.29-.57-1.86-1.61-1.35-2.76a1.39 1.39 0 0 1 1.74-.94l.48-1.1a2.47 2.47 0 0 0-3.09 1.67 3.11 3.11 0 0 0 1.72 4.26h.06a3 3 0 0 0 4.28-1.64m1.71-3.48 2.55-3.31-.75-.57-1.81 2.36-1.49-1.15 1.38-1.8-.71-.55-1.39 1.8-1.39-1.08 1.72-2.24-.75-.57L14.29 18zm3.25-4 3-2.56-.62-.73-2.09 1.87-3.57-4.16-.91.78zm3.66-3.06 1.71-.9a3 3 0 0 0 1.48-4.39v-.07c-.87-1.66-2.43-2.28-4.41-1.24l-1.73.91zm.62-1.39-2.11-4 .61-.32a1.93 1.93 0 0 1 2.93 1v.06a2 2 0 0 1-.85 3zm4.2-3.6 2.32-.67-.26-.89-2.32.67zm3.44 1.51 4.86-.52-.11-1-3.1.33 2.62-5.62v-.07l-4.62.5.1.94 2.94-.32-2.7 5.65zm8.23-.12a2.35 2.35 0 0 0 2.92-2.26l.51-3.88-1.2-.15-.49 3.78c-.17 1.32-.69 1.67-1.61 1.55s-1.26-.65-1.11-1.82l.51-3.86-1.2-.16-.51 3.95a2.28 2.28 0 0 0 2.18 2.89zm3.79.6 1.11.44 1-2.41.71.28.61 3 1.2.48-.69-3.15a1.7 1.7 0 0 0 2-1.08c.48-1.22-.22-2.12-1.54-2.64l-2-.8zm2.39-2.77.76-1.9.89.35c.71.28 1 .69.77 1.37-.25.63-.77.79-1.52.5zm4.74 6.47a2.34 2.34 0 0 0 3.64-.59l2.29-3.18-1-.71-2.23 3.1c-.78 1.09-1.4 1.15-2.15.61s-.8-1.18-.11-2.14l2.28-3.16-1-.71-2.33 3.24a2.28 2.28 0 0 0 .61 3.58zm3.39-6.29a.584.584 0 1 0 .68-.95.584.584 0 0 0-.68.95m1.54 1.11a.59.59 0 1 0 .689-.958.59.59 0 0 0-.689.958m-.18 9.7a2.56 2.56 0 0 0 3.59.7l-.74-.9a1.5 1.5 0 0 1-2.09-.42c-.75-.92-.53-2 .59-2.91h.06c1.11-.91 2.26-.9 3 0a1.37 1.37 0 0 1 0 2l.77 1a2.48 2.48 0 0 0 0-3.57 3.1 3.1 0 0 0-4.52-.34v.05a3 3 0 0 0-.66 4.43zm2.22 2.88.51 1.09 2.72-1.26-1.68 3.5.59 1.29 1.88-4 3.9 1.13-.54-1.17-3.68-1 2.64-1.23-.5-1.08zM34.88 43.05h1.83l-.91-2.87zm10.4-16.26c-1.74 0-2.63 1.35-2.63 3.93v.6c0 2.62.92 3.93 2.67 3.93s2.57-1.35 2.57-4v-.56c0-2.44-.88-3.86-2.61-3.86zm14.57 10.9a20.34 20.34 0 1 1-2-11.65 20.45 20.45 0 0 1 2.01 11.7zm-24.43-4.1c0 1.12-.67 1.8-2.08 1.8a2.06 2.06 0 0 1-2.26-2.08h-2.55c.11 2.53 1.73 4.16 4.91 4.16s4.84-1.49 4.84-3.83a2.86 2.86 0 0 0-2.43-2.93A2.77 2.77 0 0 0 37.92 28c0-2-1.61-3.39-4.35-3.39s-4.48 1.68-4.62 4h2.5a1.94 1.94 0 0 1 2.06-1.88 1.51 1.51 0 0 1 1.73 1.55c0 1.07-.59 1.66-1.9 1.66h-.91v1.89h1c1.32 0 1.99.61 1.99 1.8zm-2.4 5.65h-4.6v.91h1.72v5.36h1.16v-5.27h1.71zm5.64 6.18-2-6.18h-1.5l-2.15 6.27h1.08l.49-1.53h2.43l.49 1.53zm6.38-3.23h-2.69v.86h1.56a1.5 1.5 0 0 1-1.67 1.56c-1.3 0-1.91-.91-1.91-2.23v-.07c0-1.36.7-2.26 1.91-2.26a1.35 1.35 0 0 1 1.5 1.18h1.15a2.39 2.39 0 0 0-2.67-2.09 3 3 0 0 0-3.09 3.16v.07a2.91 2.91 0 0 0 3.09 3.14 2.57 2.57 0 0 0 2.82-2.75zm5.3 2.33h-2.86v-1.81h2.18v-.87h-2.18v-1.69h2.72v-.91h-3.87v6.27h4zm.36-13.83c0-3.88-2.22-6.08-5.43-6.08s-5.45 2.29-5.45 6.13v.59c0 3.83 2.11 6.14 5.43 6.14s5.45-2.38 5.45-6.21z\"></path>\n        </svg>\n    </div>\n</body>\n</html>"
+          }
+        },
+        "bk_reviews_bk_reviews_star_section_nNWq7i": {
+          "type": "shopify://apps/bk-reviews/blocks/bk-reviews-star-section/592f39b6-a0c6-4829-a095-8e5558e58026",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_zEETwQ": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "separator_6EpN6X": {
+          "type": "separator",
+          "settings": {}
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "dropdown",
+            "size_chart_page": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "liquid_Kwdg6h": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.payment-list {\n    display: flex;\n    justify-content: center;\n    gap: 10px;\n    flex-wrap: wrap;\n}\n\n.payment-list__item {\n    width: 44px; /* Ajuste o tamanho conforme necessÃ¡rio */\n    height: auto;\n}\n</style>\n\n<div class=\"payment-list payment-icons product-payment-icons\">\n    <svg class=\"icon icon--full-color\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-labelledby=\"pi-american_express\" viewBox=\"0 0 38 24\" width=\"42\" height=\"30\"><title id=\"pi-american_express\">American Express</title><path fill=\"#000\" d=\"M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3Z\" opacity=\".07\"></path><path fill=\"#006FCF\" d=\"M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32Z\"></path><path fill=\"#FFF\" d=\"M22.012 19.936v-8.421L37 11.528v2.326l-1.732 1.852L37 17.573v2.375h-2.766l-1.47-1.622-1.46 1.628-9.292-.02Z\"></path><path fill=\"#006FCF\" d=\"M23.013 19.012v-6.57h5.572v1.513h-3.768v1.028h3.678v1.488h-3.678v1.01h3.768v1.531h-5.572Z\"></path><path fill=\"#006FCF\" d=\"m28.557 19.012 3.083-3.289-3.083-3.282h2.386l1.884 2.083 1.89-2.082H37v.051l-3.017 3.23L37 18.92v.093h-2.307l-1.917-2.103-1.898 2.104h-2.321Z\"></path><path fill=\"#FFF\" d=\"M22.71 4.04h3.614l1.269 2.881V4.04h4.46l.77 2.159.771-2.159H37v8.421H19l3.71-8.421Z\"></path><path fill=\"#006FCF\" d=\"m23.395 4.955-2.916 6.566h2l.55-1.315h2.98l.55 1.315h2.05l-2.904-6.566h-2.31Zm.25 3.777.875-2.09.873 2.09h-1.748Z\"></path><path fill=\"#006FCF\" d=\"M28.581 11.52V4.953l2.811.01L32.84 9l1.456-4.046H37v6.565l-1.74.016v-4.51l-1.644 4.494h-1.59L30.35 7.01v4.51h-1.768Z\"></path></svg>\n    <img class=\"payment-list__item\" src=\"//cdn.shopify.com/s/files/1/0590/0963/0400/t/4/assets/mastercard.svg?v=5325054530245235231\" alt=\"Mastercard\">\n    <img class=\"payment-list__item\" src=\"//cdn.shopify.com/s/files/1/0590/0963/0400/t/4/assets/visa.svg?v=4363052815883027950\" alt=\"Visa\">\n    <svg class=\"icon icon--full-color\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" x=\"0\" y=\"0\" width=\"40\" height=\"30\" viewBox=\"0 0 165.521 105.965\" xml:space=\"preserve\" aria-labelledby=\"pi-apple_pay\"><title id=\"pi-apple_pay\">Apple Pay</title><path fill=\"#000\" d=\"M150.698 0H14.823c-.566 0-1.133 0-1.698.003-.477.004-.953.009-1.43.022-1.039.028-2.087.09-3.113.274a10.51 10.51 0 0 0-2.958.975 9.932 9.932 0 0 0-4.35 4.35 10.463 10.463 0 0 0-.975 2.96C.113 9.611.052 10.658.024 11.696a70.22 70.22 0 0 0-.022 1.43C0 13.69 0 14.256 0 14.823v76.318c0 .567 0 1.132.002 1.699.003.476.009.953.022 1.43.028 1.036.09 2.084.275 3.11a10.46 10.46 0 0 0 .974 2.96 9.897 9.897 0 0 0 1.83 2.52 9.874 9.874 0 0 0 2.52 1.83c.947.483 1.917.79 2.96.977 1.025.183 2.073.245 3.112.273.477.011.953.017 1.43.02.565.004 1.132.004 1.698.004h135.875c.565 0 1.132 0 1.697-.004.476-.002.952-.009 1.431-.02 1.037-.028 2.085-.09 3.113-.273a10.478 10.478 0 0 0 2.958-.977 9.955 9.955 0 0 0 4.35-4.35c.483-.947.789-1.917.974-2.96.186-1.026.246-2.074.274-3.11.013-.477.02-.954.022-1.43.004-.567.004-1.132.004-1.699V14.824c0-.567 0-1.133-.004-1.699a63.067 63.067 0 0 0-.022-1.429c-.028-1.038-.088-2.085-.274-3.112a10.4 10.4 0 0 0-.974-2.96 9.94 9.94 0 0 0-4.35-4.35A10.52 10.52 0 0 0 156.939.3c-1.028-.185-2.076-.246-3.113-.274a71.417 71.417 0 0 0-1.431-.022C151.83 0 151.263 0 150.698 0z\"></path><path fill=\"#FFF\" d=\"M150.698 3.532l1.672.003c.452.003.905.008 1.36.02.793.022 1.719.065 2.583.22.75.135 1.38.34 1.984.648a6.392 6.392 0 0 1 2.804 2.807c.306.6.51 1.226.645 1.983.154.854.197 1.783.218 2.58.013.45.019.9.02 1.36.005.557.005 1.113.005 1.671v76.318c0 .558 0 1.114-.004 1.682-.002.45-.008.9-.02 1.35-.022.796-.065 1.725-.221 2.589a6.855 6.855 0 0 1-.645 1.975 6.397 6.397 0 0 1-2.808 2.807c-.6.306-1.228.511-1.971.645-.881.157-1.847.2-2.574.22-.457.01-.912.017-1.379.019-.555.004-1.113.004-1.669.004H14.801c-.55 0-1.1 0-1.66-.004a74.993 74.993 0 0 1-1.35-.018c-.744-.02-1.71-.064-2.584-.22a6.938 6.938 0 0 1-1.986-.65 6.337 6.337 0 0 1-1.622-1.18 6.355 6.355 0 0 1-1.178-1.623 6.935 6.935 0 0 1-.646-1.985c-.156-.863-.2-1.788-.22-2.578a66.088 66.088 0 0 1-.02-1.355l-.003-1.327V14.474l.002-1.325a66.7 66.7 0 0 1 .02-1.357c.022-.792.065-1.717.222-2.587a6.924 6.924 0 0 1 .646-1.981c.304-.598.7-1.144 1.18-1.623a6.386 6.386 0 0 1 1.624-1.18 6.96 6.96 0 0 1 1.98-.646c.865-.155 1.792-.198 2.586-.22.452-.012.905-.017 1.354-.02l1.677-.003h135.875\"></path><g><g><path fill=\"#000\" d=\"M43.508 35.77c1.404-1.755 2.356-4.112 2.105-6.52-2.054.102-4.56 1.355-6.012 3.112-1.303 1.504-2.456 3.959-2.156 6.266 2.306.2 4.61-1.152 6.063-2.858\"></path><path fill=\"#000\" d=\"M45.587 39.079c-3.35-.2-6.196 1.9-7.795 1.9-1.6 0-4.049-1.8-6.698-1.751-3.447.05-6.645 2-8.395 5.1-3.598 6.2-.95 15.4 2.55 20.45 1.699 2.5 3.747 5.25 6.445 5.151 2.55-.1 3.549-1.65 6.647-1.65 3.097 0 3.997 1.65 6.696 1.6 2.798-.05 4.548-2.5 6.247-5 1.95-2.85 2.747-5.6 2.797-5.75-.05-.05-5.396-2.101-5.446-8.251-.05-5.15 4.198-7.6 4.398-7.751-2.399-3.548-6.147-3.948-7.447-4.048\"></path></g><g><path fill=\"#000\" d=\"M78.973 32.11c7.278 0 12.347 5.017 12.347 12.321 0 7.33-5.173 12.373-12.529 12.373h-8.058V69.62h-5.822V32.11h14.062zm-8.24 19.807h6.68c5.07 0 7.954-2.729 7.954-7.46 0-4.73-2.885-7.434-7.928-7.434h-6.706v14.894z\"></path><path fill=\"#000\" d=\"M92.764 61.847c0-4.809 3.665-7.564 10.423-7.98l7.252-.442v-2.08c0-3.04-2.001-4.704-5.562-4.704-2.938 0-5.07 1.507-5.51 3.82h-5.252c.157-4.86 4.731-8.395 10.918-8.395 6.654 0 10.995 3.483 10.995 8.89v18.663h-5.38v-4.497h-.13c-1.534 2.937-4.914 4.782-8.579 4.782-5.406 0-9.175-3.222-9.175-8.057zm17.675-2.417v-2.106l-6.472.416c-3.64.234-5.536 1.585-5.536 3.95 0 2.288 1.975 3.77 5.068 3.77 3.95 0 6.94-2.522 6.94-6.03z\"></path><path fill=\"#000\" d=\"M120.975 79.652v-4.496c.364.051 1.247.103 1.715.103 2.573 0 4.029-1.09 4.913-3.899l.52-1.663-9.852-27.293h6.082l6.863 22.146h.13l6.862-22.146h5.927l-10.216 28.67c-2.34 6.577-5.017 8.735-10.683 8.735-.442 0-1.872-.052-2.261-.157z\"></path></g></g></svg>\n    <svg class=\"icon icon--full-color\" viewBox=\"0 0 38 24\" xmlns=\"http://www.w3.org/2000/svg\" width=\"42\" height=\"30\" role=\"img\" aria-labelledby=\"pi-paypal\"><title id=\"pi-paypal\">PayPal</title><path opacity=\".07\" d=\"M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z\"></path><path fill=\"#fff\" d=\"M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32\"></path><path fill=\"#003087\" d=\"M23.9 8.3c.2-1 0-1.7-.6-2.3-.6-.7-1.7-1-3.1-1h-4.1c-.3 0-.5.2-.6.5L14 15.6c0 .2.1.4.3.4H17l.4-3.4 1.8-2.2 4.7-2.1z\"></path><path fill=\"#3086C8\" d=\"M23.9 8.3l-.2.2c-.5 2.8-2.2 3.8-4.6 3.8H18c-.3 0-.5.2-.6.5l-.6 3.9-.2 1c0 .2.1.4.3.4H19c.3 0 .5-.2.5-.4v-.1l.4-2.4v-.1c0-.2.3-.4.5-.4h.3c2.1 0 3.7-.8 4.1-3.2.2-1 .1-1.8-.4-2.4-.1-.5-.3-.7-.5-.8z\"></path><path fill=\"#012169\" d=\"M23.3 8.1c-.1-.1-.2-.1-.3-.1-.1 0-.2 0-.3-.1-.3-.1-.7-.1-1.1-.1h-3c-.1 0-.2 0-.2.1-.2.1-.3.2-.3.4l-.7 4.4v.1c0-.3.3-.5.6-.5h1.3c2.5 0 4.1-1 4.6-3.8v-.2c-.1-.1-.3-.2-.5-.2h-.1z\"></path></svg>\n</div>"
+          }
+        },
+        "liquid_PkEkci": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"shipping-info\">\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600&display=swap');\n\n        body {\n            font-family: 'Maven Pro', sans-serif;\n            font-size: 11px;\n        }\n\n        .shipping-card {\n            width: 100%;\n            background-color: #f4f4f4;\n            margin: 0 auto 20px auto;\n            padding: 20px;\n            border: 1px solid #f2f2f2;\n            border-radius: 6px;\n        }\n\n        .shipping-header {\n            display: flex;\n            align-items: center;\n            border-bottom: 2px solid #e9e9e9;\n            padding-bottom: 7px;\n            margin-bottom: 7px;\n        }\n\n        .shipping-header__icon {\n            width: 28px;\n            height: 28px;\n        }\n\n        .shipping-header__text {\n            margin-left: 10px;\n            font-size: 11px;\n            color: #000;\n            font-weight: bold;\n        }\n\n        .shipping-method {\n            padding: 7px 0;\n        }\n\n        .shipping-method__row {\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n            width: 100%;\n        }\n\n        .shipping-method__name {\n            font-weight: bold;\n            font-size: 11px;\n            color: #222;\n        }\n\n        .shipping-method__name.unavailable {\n            color: #d3d3d3;\n        }\n\n        .shipping-method__price-group {\n            display: flex;\n            align-items: center;\n        }\n\n        .shipping-method__price-strike {\n            font-weight: bold;\n            color: #808080;\n            text-decoration: line-through;\n            margin-right: 7px;\n            font-size: 11px;\n        }\n\n        .shipping-method__price {\n            font-weight: bold;\n            color: #4a4a4a;\n            font-size: 11px;\n        }\n\n        .shipping-method__subtitle {\n            color: #d3d3d3;\n            margin-top: 3px;\n            font-size: 11px;\n        }\n\n        .shipping-method__subtitle.available {\n            color: #000;\n        }\n\n        .shipping-method.pickup {\n            border-top: 2px solid #e9e9e9;\n            padding-top: 14px;\n        }\n    </style>\n\n    <div class=\"shipping-card\">\n        <!-- Header -->\n        <div class=\"shipping-header\">\n            <img class=\"shipping-header__icon\" src=\"https://pester.com.br/cdn/shop/files/das.png?v=1722481897&amp;width=50\" alt=\"Shipping Icon\">\n            <div class=\"shipping-header__text\">\n                Versandoptionen für deine Region: <strong>Versand in 24 Stunden</strong>\n            </div>\n        </div>\n\n        <!-- Standard Shipping -->\n        <div class=\"shipping-method\">\n            <div class=\"shipping-method__row\">\n                <div class=\"shipping-method__name\">Standardversand</div>\n                <div class=\"shipping-method__price-group\">\n                    <span class=\"shipping-method__price-strike\">€10.00</span>\n                    <span class=\"shipping-method__price\">Gratis Versand</span>\n                </div>\n            </div>\n            <div class=\"shipping-method__subtitle available\">Lieferzeit: 4 bis 15 Werktage</div>\n        </div>\n\n        <!-- Pickup in Store -->\n        <div class=\"shipping-method pickup\">\n            <div class=\"shipping-method__row\">\n                <div class=\"shipping-method__name unavailable\">Abholung im Geschäft</div>\n                <div class=\"shipping-method__price-group\">\n                    <span class=\"shipping-method__price\" style=\"color: #d3d3d3;\">€0.00</span>\n                </div>\n            </div>\n            <div class=\"shipping-method__subtitle\">Nicht verfügbar in deiner Region</div>\n        </div>\n    </div>\n</div>"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_U7HjfC",
+        "bk_reviews_bk_reviews_star_section_nNWq7i",
+        "price",
+        "separator",
+        "description_zEETwQ",
+        "separator_6EpN6X",
+        "quantity_selector",
+        "variant_picker",
+        "buy_buttons",
+        "liquid_Kwdg6h",
+        "liquid_PkEkci"
+      ],
+      "custom_css": [
+        "div {font-size: 14px; font-family: \"Poppins\";}",
+        "sale-price {font-size: 32px; font-weight: bold; flex-direction: column; margin-bottom: -20px; color: #5c8cb4;}",
+        "price-list {font-weight: normal; font-size: 26px; flex-direction: column;}",
+        "on-sale-badge {height: 32px; width: 120px; font-size: 13px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "contained",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#272727",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "revealed_image_on_scroll_hG8MFp": {
+      "type": "revealed-image-on-scroll",
+      "custom_css": [],
+      "name": "Revealed image on scroll",
+      "settings": {
+        "image": "shopify://shop_images/mnbvcxzasdf_11zon.webp",
+        "mobile_image": "shopify://shop_images/Design_sem_nomeyt_11zon.webp",
+        "subheading": "",
+        "title": "Maximale Power",
+        "background": "",
+        "text_color_inside": "#ffffff",
+        "text_color_outside": "#17334d"
+      }
+    },
+    "image_with_text_overlay_HKJ4EC": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_4wYmML": {
+          "type": "heading",
+          "settings": {
+            "text": "Tschüss, Dschungel.",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_mBDVha": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h6><em>Übernimm die Kontrolle über dein Revier mit chirurgischer Präzision. Die Steinzeit ist vorbei, dein Körper verdient das nächste Level.</em></h6>"
+          }
+        },
+        "button_FXgbC4": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "size": "base",
+            "text": "In den Warenkorb",
+            "url": "https://auramann.de/checkouts/cn/Z2NwLXVzLWVhc3QxOjAxSlk3ODE1VkYwRTdKV05NVERZRTFWV1I3",
+            "background": "#e0e7f4",
+            "text_color": "#5c8cb4"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4wYmML",
+        "richtext_mBDVha",
+        "button_FXgbC4"
+      ],
+      "custom_css": [
+        ".h1 {margin-top: 0px; margin-bottom: -10px;}"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Revelar_ao_Scroll_Copy_1_-_MasterTrim_11zon.webp",
+        "mobile_image": "shopify://shop_images/Revelar_ao_Scroll_Copy_1_-_MasterTrim_MOBILE_11zon.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 10
+      }
+    },
+    "image_with_text_overlay_pecc3P": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_UET8fr": {
+          "type": "heading",
+          "settings": {
+            "text": "Ein Arsenal.",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_NC7daK": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h6><em>Vom Bart bis... naja, du weißt schon wohin. Alles, was du brauchst, in einem einzigen Kit, um jede Zone deines Körpers zu meistern.</em></h6>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UET8fr",
+        "richtext_NC7daK"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/copy3_-_pc_11zon.webp",
+        "mobile_image": "shopify://shop_images/copy3_-_mobile_11zon.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_with_text_overlay_hHw73W": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_h379Wg": {
+          "type": "heading",
+          "settings": {
+            "text": "Schluss mit Haaren. Null Irritationen.",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_wWwXGQ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h6><em>Die Power, die du brauchst.</em></h6><h6><em> Die Sanftheit, die deine Haut verdient. </em></h6><h6><em>Effektive und angenehme Haarentfernung, </em></h6><h6><em>garantiert ohne Schnitte.</em></h6>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_h379Wg",
+        "richtext_wWwXGQ"
+      ],
+      "custom_css": [
+        "p {margin: 0px;}",
+        "h6 {margin: 0px;}"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Revelar_ao_Scroll_Copy_4_-_MasterTrim_11zon_ab545406-1a35-41dd-a6cc-e0ee4ec7acaf.webp",
+        "mobile_image": "shopify://shop_images/Revelar_ao_Scroll_Copy_4_-_MasterTrim_MOBILE_11zon_f1ad86c6-4eae-47ab-ab47-bf32d9d71e91.webp",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "media_with_text_BhJb33": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_gpEK8m": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Revelar_ao_Scroll_Copy_5_-_MasterTrim_MOBILE_11zon.webp",
+            "media_width": 45,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 32,
+            "subheading": "",
+            "title": "Präzise Ingenieurskunst für dein Kunstwerk.",
+            "content": "<ul><li><strong>Hochleistungsmotor:</strong> Mit einem Motor, der bis zu 7.000 U/min erreicht, schneidet der MasterTrim selbst die dicksten Haare ohne Ziepen oder Haken. Echte Power für ein glattes und schnelles Finish.</li><li><strong>Intelligentes LED-Display:</strong> Du hast immer die Kontrolle. Verfolge Akkustand und Leistung in Echtzeit, damit du mitten im Einsatz nicht im Stich gelassen wirst.</li><li><strong>100 % wasserdicht (IPX7):</strong> Nimm ihn mit unter die Dusche. Ja, wir haben daran gedacht. Das erleichtert die Nutzung, die Reinigung und dein Leben.</li></ul>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_gpEK8m"
+      ],
+      "custom_css": [
+        "media-with-text {font-size: 14px; font-family: \"Poppins\", sans-serif;}",
+        "div {background-color: #17334d;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "spacing": "small"
+      }
+    },
+    "faq_rEWzGr": {
+      "type": "faq",
+      "blocks": {
+        "item_iGdXpC": {
+          "type": "item",
+          "settings": {
+            "title": "Wird er meine Haut verletzen oder zwicken, besonders an... empfindlichen Stellen?",
+            "content": "<p>Wir wissen, das ist die Eine-Million-Euro-Frage. Der MasterTrim wurde mit hautfreundlichen Stahlklingen und einem leistungsstarken Motor entwickelt, der Haare schneidet, ohne zu ziepen. Wir empfehlen, die Haut immer zu straffen und langsam zu beginnen. Du wirst vom Komfort überrascht sein.</p>"
+          }
+        },
+        "item_yWEhhA": {
+          "type": "item",
+          "settings": {
+            "title": "Ist er wirklich wasserdicht? Kann ich ihn unter der Dusche benutzen?",
+            "content": "<p>Ja. Er ist IPX7-zertifiziert, was bedeutet, dass er bis zu 30 Minuten lang in 1 Meter tiefem Wasser untergetaucht werden kann. Du kannst ihn ohne Bedenken unter der Dusche verwenden. Aber bitte geh nicht mit ihm im Pool tauchen, okay?</p>"
+          }
+        },
+        "item_MfmAej": {
+          "type": "item",
+          "settings": {
+            "title": "Hält der Akku wirklich lange? Wie lange dauert das Aufladen?",
+            "content": "<p>Ganz ohne Übertreibung: Er lädt in nur 2 Stunden über USB auf und bietet bis zu 90 Minuten ununterbrochene Nutzung. Für den durchschnittlichen Mann bedeutet das wochenlange Nutzung mit einer einzigen Ladung. Ideal für den Alltag und für Reisen.</p>"
+          }
+        },
+        "item_8P7Dgw": {
+          "type": "item",
+          "settings": {
+            "title": "Funktioniert er auch bei dicken Haaren oder einem vollen Bart?",
+            "content": "<p>Absolut. Der Hochgeschwindigkeitsmotor (bis zu 7.000 U/min) und die scharfen Klingen sind dafür gemacht, jede Herausforderung zu meistern – vom feinsten Haar bis zum kräftigsten Bart.</p>"
+          }
+        },
+        "item_LgwUBU": {
+          "type": "item",
+          "settings": {
+            "title": "Ist er leicht zu reinigen?",
+            "content": "<p><strong>Was genau ist im Lieferumfang enthalten?</strong></p><p>Aber sicher. Wir haben das komplette Arsenal für dich zusammengestellt. Im Lieferumfang findest du:</p><ul><li><strong>1x MasterTrim Hauptgerät</strong></li></ul><p></p><ul><li><strong>6x auswechselbare Schneidköpfe:</strong></li></ul><ol><li>Breiter Haarschneide-Aufsatz</li><li>Präzisionstrimmer (für Bart & Körper)</li><li>Konturenklinge</li><li>Rasierkopf (Shaver)</li><li>Nasen- und Ohrhaartrimmer</li><li>Detail-Trimmer (für Designs & Konturen)</li></ol><p></p><ul><li><strong>8x Aufsteckkämme (Guards):</strong></li></ul><ol><li>4 Kämme für den Haarschnitt (3mm, 6mm, 9mm & 12mm)</li><li>3 Kämme für die Konturenklinge</li><li>1 Kamm für den Präzisionstrimmer</li></ol><p></p><ul><li><strong>Und alles an wichtigem Zubehör:</strong></li></ul><ol><li>Premium-Aufbewahrungstasche</li><li>USB-Ladekabel</li><li>Doppelseitiger Kamm</li><li>Reinigungsbürste</li><li>Fläschchen mit Klingenöl<br/></li></ol><p>Im Grunde alles, was du für die absolute Kontrolle über deinen Style brauchst.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_iGdXpC",
+        "item_yWEhhA",
+        "item_MfmAej",
+        "item_8P7Dgw",
+        "item_LgwUBU"
+      ],
+      "custom_css": [
+        "details {font-size: 13px; font-family: \"Poppins\";}",
+        ".v-stack {font-size: 12px; font-family: \"Poppins\";}"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Deine Fragen. Unsere Antworten.",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "Servicezeiten: Mo - Fr: 08:00 - 20:00 UhrSa, So & Feiertage: 11:00 - 22:00 Uhr",
+        "answer_time": "Durchschnittliche Antwortzeit: 12 Stunden",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#e0e7f4",
+        "background_gradient": "",
+        "text_color": "#17334d",
+        "heading_color": "",
+        "heading_gradient": "linear-gradient(358deg, rgba(23, 51, 77, 1), rgba(92, 140, 180, 1) 100%)",
+        "button_background": "",
+        "button_text_color": "#f7f9ff",
+        "accordion_background": "#17334d",
+        "accordion_text_color": "#f7f9ff"
+      }
+    },
+    "text_with_icons_V8Yr89": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_4CAkxU": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/ICON_1_11zon.webp",
+            "mobile_icon_width": 112,
+            "icon_width": 100,
+            "icon_background_type": "none",
+            "icon_background": "#ffffff",
+            "icon_color": "",
+            "title": "Hygiene",
+            "content": "<p>Zu viele Haare schließen Schweiß und Feuchtigkeit ein – die perfekte Brutstätte für Gerüche und Bakterien. Weniger Haare bedeuten mehr Frische und Komfort, den ganzen Tag lang.</p>"
+          }
+        },
+        "item_3Y8N6D": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/ICON_2_11zon.webp",
+            "mobile_icon_width": 112,
+            "icon_width": 100,
+            "icon_background_type": "none",
+            "icon_background": "#ffffff",
+            "icon_color": "",
+            "title": "Ästhetik",
+            "content": "<p>Wir müssen es dir nicht extra erklären. Ein gepflegter Garten lässt den Baum einfach... imposanter wirken. Punkt.</p>"
+          }
+        },
+        "item_4WHERD": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/ICON_3_11zon.webp",
+            "mobile_icon_width": 112,
+            "icon_width": 100,
+            "icon_background_type": "none",
+            "icon_background": "#ffffff",
+            "icon_color": "",
+            "title": "Komfort",
+            "content": "<p>Sag Tschüss zu Reibung und Hautirritationen, besonders beim Sport oder an heißen Tagen. Fühl dich leichter, freier und einfach wohler in deiner Haut – 24/7.</p>"
+          }
+        },
+        "item_JmPUMD": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/ICON_4_11zon.webp",
+            "mobile_icon_width": 92,
+            "icon_width": 92,
+            "icon_background_type": "none",
+            "icon_background": "#ffffff",
+            "icon_color": "",
+            "title": "Selbstvertrauen",
+            "content": "<p>Wenn du weißt, dass untenrum alles unter Kontrolle ist, ändert sich deine ganze Haltung. Das ist die Art von stillem Selbstvertrauen, das sich überall bemerkbar macht – vom Meetingraum bis ins Schlafzimmer.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_4CAkxU",
+        "item_3Y8N6D",
+        "item_4WHERD",
+        "item_JmPUMD"
+      ],
+      "custom_css": [
+        "div {font-size: 14px; font-family: \"Poppins\";}"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "title": "Mehr als nur Style. Es ist Kontrolle.",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "feature_chart_Fqpqk4": {
+      "type": "feature-chart",
+      "blocks": {
+        "headings_A8DbWJ": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Leistung & Energie",
+            "heading_2": "Material & Design",
+            "heading_3": "Abmessungen & Gewicht",
+            "heading_4": "Lieferumfang",
+            "heading_5": "",
+            "heading_6": "",
+            "heading_7": "",
+            "heading_8": "",
+            "heading_9": "",
+            "heading_10": "",
+            "heading_11": "",
+            "heading_12": "",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": ""
+          }
+        },
+        "values_pPdUta": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<ul><li><strong>Betriebszeit:</strong> 90 Minuten</li><li><strong>Ladezeit:</strong> 2 Stunden</li><li><strong>Akku:</strong> 600mAh Lithium-Ionen-Akku</li><li><strong>Stromversorgung:</strong> Aufladung per USB</li></ul>",
+            "value_2": "<ul><li><strong>Klingenmaterial:</strong> Edelstahl</li><li><strong>Wasserbeständigkeit:</strong> Vollständig abwaschbar (IPX7-zertifiziert)</li><li><strong>Modell:</strong> MasterTrim / 986</li></ul>",
+            "value_3": "<ul><li><strong>Gewicht (Komplett-Set):</strong> 773 g</li><li><strong>Verpackungsmaße:</strong> 25,8 cm x 16 cm x 7,5 cm</li></ul>",
+            "value_4": "<ul><li><strong>1x MasterTrim Hauptgerät</strong></li><li><strong>6x auswechselbare Schneidköpfe:</strong> (Breiter Haarschneider, Präzisionstrimmer, Konturenklinge, Rasierkopf, Nasen-/Ohrhaartrimmer, Detail-Trimmer)</li><li><strong>8x Aufsteckkämme (Guards):</strong> (4 für Haare, 3 für Konturen, 1 für Präzisionstrimmer)</li><li><strong>Wichtiges Zubehör:</strong> (Premium-Aufbewahrungstasche, USB-Ladekabel, Kamm, Reinigungsbürste, Klingenöl)</li></ul>",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_A8DbWJ",
+        "values_pPdUta"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Technische Daten",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "max_rows": 5,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "view_product": "View",
+        "viewing_product": "",
+        "show_product_swatch": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "rich_text_DByeVF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_z6hf4d": {
+          "type": "heading",
+          "settings": {
+            "text": "Selbstvertrauen kann man nicht kaufen. Das richtige Werkzeug dafür schon.",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_qnPGGG": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><em>Meistere deinen Style. Sichere dir jetzt dein komplettes Kit.</em></p>"
+          }
+        },
+        "button_9VgQN9": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "JETZT MEIN KOMPLETT-SET SICHERN",
+            "url": "https://auramann.de/checkouts/cn/Z2NwLXVzLWVhc3QxOjAxSlk3ODE1VkYwRTdKV05NVERZRTFWV1I3",
+            "background": "#17334d",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_z6hf4d",
+        "richtext_qnPGGG",
+        "button_9VgQN9"
+      ],
+      "custom_css": [
+        "em {font-size: 14px; font-family: \"Poppins\";}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#000000",
+        "background_gradient": "linear-gradient(180deg, rgba(23, 51, 77, 1), rgba(92, 140, 180, 1) 100%)",
+        "text_color": "#ffffff"
+      }
+    },
+    "1746147346041d1da6": {
+      "type": "apps",
+      "blocks": {
+        "bk_reviews_bk_reviews_review_section_rjUiJa": {
+          "type": "shopify://apps/bk-reviews/blocks/bk-reviews-review-section/592f39b6-a0c6-4829-a095-8e5558e58026",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "bk_reviews_bk_reviews_review_section_rjUiJa"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "custom_css": [
+        "div {font-size: 15px; font-family: \"Poppins\";}"
+      ],
+      "settings": {
+        "recommendations_count": 6,
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Angebote der Woche",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "revealed_image_on_scroll_hG8MFp",
+    "image_with_text_overlay_HKJ4EC",
+    "image_with_text_overlay_pecc3P",
+    "image_with_text_overlay_hHw73W",
+    "media_with_text_BhJb33",
+    "faq_rEWzGr",
+    "text_with_icons_V8Yr89",
+    "feature_chart_Fqpqk4",
+    "rich_text_DByeVF",
+    "1746147346041d1da6",
+    "related-products"
+  ]
+}
