@@ -15,6 +15,32 @@
         "content_width": "80ch"
       }
     },
+    "rich_text_rcUm6G": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_F7BMGp": {
+          "type": "heading",
+          "settings": {
+            "text": "Über uns",
+            "heading_tag": "h0",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_F7BMGp"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "rich_text_aTyKE8": {
       "type": "rich-text",
       "blocks": {
@@ -157,6 +183,7 @@
   },
   "order": [
     "main",
+    "rich_text_rcUm6G",
     "rich_text_aTyKE8",
     "rich_text_c8t74M",
     "rich_text_g8cfJi",
