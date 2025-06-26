@@ -189,56 +189,6 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
-    "shop_the_look_wBtPpq": {
-      "type": "shop-the-look",
-      "blocks": {
-        "product_C6wiQj": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "horizontal_position": 52,
-            "vertical_position": 25
-          }
-        },
-        "product_NYz49d": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "horizontal_position": 75,
-            "vertical_position": 53
-          }
-        },
-        "product_bU7V4Y": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "horizontal_position": 33,
-            "vertical_position": 73
-          }
-        }
-      },
-      "block_order": [
-        "product_C6wiQj",
-        "product_NYz49d",
-        "product_bU7V4Y"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "title": "Shop the look",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": "",
-        "product_card_mobile_background": "",
-        "product_card_mobile_text_color": "",
-        "background_dots": "#ffffff"
-      }
-    },
     "featured_product_X7DazC": {
       "type": "featured-product",
       "blocks": {
@@ -421,7 +371,7 @@
       ],
       "settings": {
         "full_width": true,
-        "product": "teste",
+        "product": "der-buschtrimmer-1-0-intimrasierer-fur-manner-auramann",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_bottom",
         "mobile_media_size": "expanded",
@@ -520,7 +470,7 @@
       ],
       "settings": {
         "full_width": true,
-        "product": "teste",
+        "product": "der-buschtrimmer-2-0-sicherer-intimrasierer-fur-manner",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_bottom",
         "mobile_media_size": "expanded",
@@ -670,7 +620,6 @@
     "slideshow_8Nxbkx",
     "slideshow_M4G3rE",
     "slideshow_WegGEz",
-    "shop_the_look_wBtPpq",
     "featured_product_X7DazC",
     "featured_product_n6z9kH",
     "featured_product_G969HJ",
