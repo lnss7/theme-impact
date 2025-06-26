@@ -650,7 +650,7 @@
       "name": "Shop the look",
       "settings": {
         "full_width": true,
-        "stack_mobile": true,
+        "stack_mobile": false,
         "image": "shopify://shop_images/BANNERS_PC_-_AURAMANN.png",
         "title": "Shop the look",
         "content": "",
@@ -663,7 +663,7 @@
         "product_card_text_color": "",
         "product_card_mobile_background": "",
         "product_card_mobile_text_color": "",
-        "background_dots": "#FFF"
+        "background_dots": "#ffffff"
       }
     }
   },
