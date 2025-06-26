@@ -621,7 +621,7 @@
           "type": "product",
           "settings": {
             "product": "der-buschtrimmer-2-0-sicherer-intimrasierer-fur-manner",
-            "horizontal_position": 52,
+            "horizontal_position": 59,
             "vertical_position": 25
           }
         },
@@ -629,16 +629,16 @@
           "type": "product",
           "settings": {
             "product": "auramann-edgefix-folienrasierer-fur-empfindliche-haut",
-            "horizontal_position": 75,
-            "vertical_position": 53
+            "horizontal_position": 71,
+            "vertical_position": 70
           }
         },
         "product_ebGbBV": {
           "type": "product",
           "settings": {
             "product": "mastertrim-das-20-in-1-multigrooming-set-fur-herren",
-            "horizontal_position": 33,
-            "vertical_position": 73
+            "horizontal_position": 28,
+            "vertical_position": 62
           }
         }
       },
