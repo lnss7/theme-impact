@@ -613,6 +613,58 @@
         "background": "#f2f2f2",
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
+    },
+    "shop_the_look_FwUyzF": {
+      "type": "shop-the-look",
+      "blocks": {
+        "product_TGjyWr": {
+          "type": "product",
+          "settings": {
+            "product": "der-buschtrimmer-2-0-sicherer-intimrasierer-fur-manner",
+            "horizontal_position": 52,
+            "vertical_position": 25
+          }
+        },
+        "product_xMN4ji": {
+          "type": "product",
+          "settings": {
+            "product": "auramann-edgefix-folienrasierer-fur-empfindliche-haut",
+            "horizontal_position": 75,
+            "vertical_position": 53
+          }
+        },
+        "product_ebGbBV": {
+          "type": "product",
+          "settings": {
+            "product": "mastertrim-das-20-in-1-multigrooming-set-fur-herren",
+            "horizontal_position": 33,
+            "vertical_position": 73
+          }
+        }
+      },
+      "block_order": [
+        "product_TGjyWr",
+        "product_xMN4ji",
+        "product_ebGbBV"
+      ],
+      "name": "Shop the look",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "image": "shopify://shop_images/BANNERS_PC_-_AURAMANN.png",
+        "title": "Shop the look",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "product_card_mobile_background": "",
+        "product_card_mobile_text_color": "",
+        "background_dots": "#FFF"
+      }
     }
   },
   "order": [
@@ -624,6 +676,7 @@
     "featured_product_n6z9kH",
     "featured_product_G969HJ",
     "testimonials_V9fLJq",
-    "slideshow_6yHCH3"
+    "slideshow_6yHCH3",
+    "shop_the_look_FwUyzF"
   ]
 }
