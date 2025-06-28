@@ -311,6 +311,12 @@
             "collapse_content": false
           }
         },
+        "text_CTtHct": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"/products/der-buschtrimmer-1-0-intimrasierer-fur-manner-auramann\" title=\"Der Buschtrimmer 1.0\"><em>Details anzeigen</em></a></p>"
+          }
+        },
         "variant_picker_NqVP83": {
           "type": "variant_picker",
           "settings": {
@@ -352,6 +358,7 @@
         "price_GiRHFb",
         "separator_R3TqUJ",
         "description_Gt6FaC",
+        "text_CTtHct",
         "variant_picker_NqVP83",
         "quantity_selector_wMNqPU",
         "buy_buttons_V7btbt",
@@ -405,6 +412,12 @@
             "collapse_content": false
           }
         },
+        "text_HAMDxe": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"/products/der-buschtrimmer-2-0-sicherer-intimrasierer-fur-manner\" title=\"Der Buschtrimmer 2.0\"><em>Details anzeigen</em></a></p>"
+          }
+        },
         "variant_picker_Q6ak6k": {
           "type": "variant_picker",
           "settings": {
@@ -446,6 +459,7 @@
         "price_bPb6Gz",
         "separator_iXeYeN",
         "description_frCVVr",
+        "text_HAMDxe",
         "variant_picker_Q6ak6k",
         "quantity_selector_rka99X",
         "buy_buttons_xLcY3a",
