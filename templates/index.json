@@ -210,6 +210,12 @@
             "collapse_content": false
           }
         },
+        "text_NpTmNV": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"/products/mastertrim-das-20-in-1-multigrooming-set-fur-herren\" title=\"Der MasterTrim™ - Das 20-in-1 Komplett-Set für Männer\"><em>Details anzeigen</em></a></p>"
+          }
+        },
         "separator_WeiUfm": {
           "type": "separator",
           "settings": {}
@@ -254,6 +260,7 @@
         "liquid_ix3Gri",
         "price_QKLtn9",
         "description_px4gBB",
+        "text_NpTmNV",
         "separator_WeiUfm",
         "variant_picker_iPMK4L",
         "quantity_selector_n9Laj4",
