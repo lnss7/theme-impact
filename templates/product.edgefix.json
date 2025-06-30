@@ -97,7 +97,7 @@
         "div {font-size: 14px; font-family: \"Poppins\";}",
         "sale-price {font-size: 32px; font-weight: bold; flex-direction: column; margin-bottom: -20px; color: #5c8cb4;}",
         "price-list {font-weight: normal; font-size: 26px; flex-direction: column;}",
-        "on-sale-badge {height: 32px; width: 120px; font-size: 13px;}"
+        "on-sale-badge {height: 32px; width: auto; font-size: 13px;}"
       ],
       "settings": {
         "full_width": true,
