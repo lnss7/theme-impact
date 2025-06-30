@@ -119,6 +119,7 @@
     },
     "revealed_image_on_scroll_hG8MFp": {
       "type": "revealed-image-on-scroll",
+      "disabled": true,
       "custom_css": [],
       "name": "Revealed image on scroll",
       "settings": {
@@ -164,6 +165,7 @@
         "richtext_mBDVha",
         "button_FXgbC4"
       ],
+      "disabled": true,
       "custom_css": [
         ".h1 {margin-top: 0px; margin-bottom: -10px;}"
       ],
@@ -203,6 +205,7 @@
         "heading_UET8fr",
         "richtext_NC7daK"
       ],
+      "disabled": true,
       "name": "Image with text overlay",
       "settings": {
         "full_width": true,
@@ -239,6 +242,7 @@
         "heading_h379Wg",
         "richtext_wWwXGQ"
       ],
+      "disabled": true,
       "custom_css": [
         "p {margin: 0px;}",
         "h6 {margin: 0px;}"
@@ -287,6 +291,7 @@
       "block_order": [
         "image_gpEK8m"
       ],
+      "disabled": true,
       "custom_css": [
         "media-with-text {font-size: 14px; font-family: \"Poppins\", sans-serif;}",
         "div {background-color: #17334d;}"
@@ -342,6 +347,7 @@
         "item_8P7Dgw",
         "item_LgwUBU"
       ],
+      "disabled": true,
       "custom_css": [
         "details {font-size: 13px; font-family: \"Poppins\";}",
         ".v-stack {font-size: 12px; font-family: \"Poppins\";}"
@@ -434,6 +440,7 @@
         "item_4WHERD",
         "item_JmPUMD"
       ],
+      "disabled": true,
       "custom_css": [
         "div {font-size: 14px; font-family: \"Poppins\";}"
       ],
@@ -511,6 +518,7 @@
         "headings_A8DbWJ",
         "values_pPdUta"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "subheading": "",
@@ -572,6 +580,7 @@
         "richtext_qnPGGG",
         "button_9VgQN9"
       ],
+      "disabled": true,
       "custom_css": [
         "em {font-size: 14px; font-family: \"Poppins\";}"
       ],
