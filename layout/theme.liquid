@@ -65,6 +65,10 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
       {%- sections 'header-group' -%}
       {%- sections 'overlay-group' -%}
 
+    {% if handle contains 'der-auramann-kodex' %}
+<a data-encoded-tag-name="meta" data-encoded-tag-value="" data-encoded-attr-name="cm9ib3Rz" data-encoded-attr-content="bm9pbmRleA=="></a>
+{% endif %}
+
       {%- if settings.cart_type == 'popover' -%}
         <cart-notification-drawer open-from="bottom" class="quick-buy-drawer drawer"></cart-notification-drawer>
       {%- endif -%}
