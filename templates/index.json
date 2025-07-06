@@ -268,6 +268,10 @@
         "separator_6w9x7P",
         "liquid_QjxJtX"
       ],
+      "custom_css": [
+        "sale-price {font-size: 26px; font-weight: bold; flex-direction: column; margin-bottom: -20px; color: #5c8cb4;}",
+        "price-list {font-weight: normal; font-size: 22px; flex-direction: column;}"
+      ],
       "settings": {
         "full_width": true,
         "product": "der-mastertrim™-14-in-1-grooming-kit-gratis-reiseetui",
