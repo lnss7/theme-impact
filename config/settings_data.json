@@ -63,7 +63,14 @@
     "favicon": "shopify://shop_images/FAVICONog.svg",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
-    "content_for_index": []
+    "content_for_index": [],
+    "blocks": {
+      "7758523191409427962": {
+        "type": "shopify://apps/avada-seo-suite/blocks/avada-seo/15507c6e-1aa3-45d3-b698-7e175e033440",
+        "disabled": true,
+        "settings": {}
+      }
+    }
   },
   "presets": {
     "Sound": {
