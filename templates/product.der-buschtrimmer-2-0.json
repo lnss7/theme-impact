@@ -117,128 +117,105 @@
         "input_text_color": ""
       }
     },
-    "slideshow_rAnwyt": {
-      "type": "slideshow",
+    "image_with_text_overlay_7qTmqf": {
+      "type": "image-with-text-overlay",
       "blocks": {
-        "image_KxzLjb": {
-          "type": "image",
+        "heading_qfjfeC": {
+          "type": "heading",
           "settings": {
-            "image": "shopify://shop_images/1_11zon_2.webp",
-            "mobile_image": "shopify://shop_images/1_11zon_1.webp",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "Ein Andenken an deinen letzten Versuch?",
-            "heading_tag": "h2",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
+            "text": "Ein Andenken an deinen letzten Versuch?",
+            "heading_tag": "h1"
           }
         }
       },
       "block_order": [
-        "image_KxzLjb"
+        "heading_qfjfeC"
       ],
-      "name": "Slideshow",
+      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
         "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
+        "image": "shopify://shop_images/1_11zon_2.webp",
+        "mobile_image": "shopify://shop_images/1_11zon_1.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
-    "slideshow_pWLYyF": {
-      "type": "slideshow",
+    "image_with_text_overlay_zYkpbE": {
+      "type": "image-with-text-overlay",
       "blocks": {
-        "image_bEaBeD": {
-          "type": "image",
+        "heading_WYiKXp": {
+          "type": "heading",
           "settings": {
-            "image": "shopify://shop_images/2_11zon_2.webp",
-            "mobile_image": "shopify://shop_images/2_11zon_1.webp",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "Der Sommer kommt. Kein Stress.",
-            "heading_tag": "h1",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
+            "text": "Der Sommer kommt. Kein Stress.",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_RG7gTf": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>...wenn man das richtige Werkzeug hat.</h5>"
           }
         }
       },
       "block_order": [
-        "image_bEaBeD"
+        "heading_WYiKXp",
+        "richtext_RG7gTf"
       ],
-      "name": "Slideshow",
+      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
         "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
+        "image": "shopify://shop_images/2_11zon_2.webp",
+        "mobile_image": "shopify://shop_images/2_11zon_1.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
-    "slideshow_y9KKdY": {
-      "type": "slideshow",
+    "image_with_text_overlay_NJBPEa": {
+      "type": "image-with-text-overlay",
       "blocks": {
-        "image_G4kmkj": {
-          "type": "image",
+        "heading_Ya9ErX": {
+          "type": "heading",
           "settings": {
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide 1",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
+            "text": "Dein treuer Begleiter.",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_nnDVJz": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Ob auf Reisen, vor einem wichtigen Date oder für die tägliche Routine – der Buschtrimmer 2.0 ist dank langer Akkulaufzeit und USB-Ladefunktion immer einsatzbereit. Er lässt dich nicht im Stich. Niemals.</strong></p>"
           }
         }
       },
       "block_order": [
-        "image_G4kmkj"
+        "heading_Ya9ErX",
+        "richtext_nnDVJz"
       ],
-      "name": "Slideshow",
+      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
         "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
+        "image": "shopify://shop_images/3_11zon_2.webp",
+        "mobile_image": "shopify://shop_images/3_11zon_1.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
     "media_with_text_BhJb33": {
@@ -583,9 +560,9 @@
   },
   "order": [
     "main",
-    "slideshow_rAnwyt",
-    "slideshow_pWLYyF",
-    "slideshow_y9KKdY",
+    "image_with_text_overlay_7qTmqf",
+    "image_with_text_overlay_zYkpbE",
+    "image_with_text_overlay_NJBPEa",
     "media_with_text_BhJb33",
     "faq_rEWzGr",
     "feature_chart_Fqpqk4",
