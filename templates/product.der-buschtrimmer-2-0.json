@@ -211,7 +211,7 @@
         "image_size": "auto",
         "image": "shopify://shop_images/3_11zon_2.webp",
         "mobile_image": "shopify://shop_images/3_11zon_1.webp",
-        "mobile_text_position": "place-self-center text-center",
+        "mobile_text_position": "place-self-end-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
@@ -230,14 +230,14 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "title": "Scharf, wo es sein muss. Sanft, wo es zählt.",
+            "content": "<p>Unsere Keramik-Stahl-Hybridklingen schneiden jedes Haar präzise, ohne deine Haut auch nur zu zögern. Kein Ziepen, keine Schnitte. Nur Perfektion.</p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
             "background_gradient": "",
-            "text_color": "#17334d",
-            "text_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "linear-gradient(0deg, rgba(92, 140, 180, 1), rgba(255, 255, 255, 1) 100%)",
             "button_background": "",
             "button_text_color": ""
           }
@@ -246,7 +246,48 @@
       "block_order": [
         "image_gpEK8m"
       ],
-      "disabled": true,
+      "custom_css": [
+        "media-with-text {font-size: 14px; font-family: \"Poppins\", sans-serif;}",
+        "div {background-color: #17334d;}"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": true,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_A7CLzY": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_9hPbMp": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Scharf, wo es sein muss. Sanft, wo es zählt.",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "linear-gradient(0deg, rgba(92, 140, 180, 1) 4%, rgba(255, 255, 255, 1) 100%)",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_9hPbMp"
+      ],
+      "custom_css": [
+        "media-with-text {font-size: 14px; font-family: \"Poppins\", sans-serif;}",
+        "div {background-color: #17334d;}"
+      ],
       "name": "Media with text",
       "settings": {
         "full_width": true,
@@ -564,6 +605,7 @@
     "image_with_text_overlay_zYkpbE",
     "image_with_text_overlay_NJBPEa",
     "media_with_text_BhJb33",
+    "media_with_text_A7CLzY",
     "faq_rEWzGr",
     "feature_chart_Fqpqk4",
     "slideshow_aiHarV",
