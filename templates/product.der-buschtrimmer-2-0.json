@@ -373,23 +373,23 @@
       "settings": {
         "full_width": true,
         "subheading": "",
-        "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "title": "Deine Fragen. Unsere Antworten.",
+        "content": "",
         "team_avatar_width": 160,
         "support_hours": "Servicezeiten: Mo - Fr: 08:00 - 20:00 UhrSa, So & Feiertage: 11:00 - 22:00 Uhr",
         "answer_time": "Durchschnittliche Antwortzeit: 12 Stunden",
         "button_text": "",
         "button_url": "",
-        "text_position": "center",
+        "text_position": "start",
         "background": "#e0e7f4",
         "background_gradient": "",
         "text_color": "#17334d",
         "heading_color": "",
-        "heading_gradient": "",
+        "heading_gradient": "linear-gradient(358deg, rgba(23, 51, 77, 1), rgba(92, 140, 180, 1) 100%)",
         "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
+        "button_text_color": "#f7f9ff",
+        "accordion_background": "#17334d",
+        "accordion_text_color": "#f7f9ff"
       }
     },
     "feature_chart_Fqpqk4": {
