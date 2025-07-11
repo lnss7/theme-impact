@@ -231,6 +231,52 @@
         "overlay_opacity": 0
       }
     },
+    "image_with_text_overlay_b6d84x": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "liquid_EgiCzh": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"display: flex; justify-content: center; margin-bottom: -20px;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0935/7069/5492/files/Diamond_PDP.svg?v=1752262642\" alt=\"Ícone de Diamante\" width=\"50\" height=\"50\">\n</div>"
+          }
+        },
+        "heading_6MPrxE": {
+          "type": "heading",
+          "settings": {
+            "text": "Anti-Schnitt-Technologie™",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_39PTz8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Hattest du jemals Angst vor \"Unfällen\" im Intimbereich? Der Buschtrimmer 2.0 wurde genau dafür entwickelt, dieses Problem zu lösen. Seine fortschrittliche Technologie mit speziell justierten Klingen schützt deine Haut aktiv, damit du dich ohne Sorgen und mit absolutem Selbstvertrauen pflegen kannst.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_EgiCzh",
+        "heading_6MPrxE",
+        "richtext_39PTz8"
+      ],
+      "custom_css": [
+        ".text-center{margin-top: 35px;}"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/COPY_DER_BUSCHTRIMMER_2.0_-_AURAMANN_PC_11zon.webp",
+        "mobile_image": "shopify://shop_images/COPY_DER_BUSCHTRIMMER_2.0_-_AURAMANN_MOBILE_11zon.webp",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#e0e7f4",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "image_with_text_overlay_7qTmqf": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -828,6 +874,7 @@
     "revealed_image_on_scroll_wTEWh4",
     "rich_text_QJVbJ6",
     "image_with_text_overlay_yUgAx4",
+    "image_with_text_overlay_b6d84x",
     "image_with_text_overlay_7qTmqf",
     "image_with_text_overlay_zYkpbE",
     "media_with_text_BhJb33",
