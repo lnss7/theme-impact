@@ -336,7 +336,7 @@
       ],
       "custom_css": [
         "media-with-text {font-size: 14px; font-family: \"Poppins\", sans-serif;}",
-        "div {background-color: #17334d;}"
+        "div {background-color: #17334d; margin-bottom: 30px;}"
       ],
       "name": "Media with text",
       "settings": {
@@ -351,26 +351,27 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
-            "icon_background_type": "circle",
+            "custom_icon": "shopify://shop_images/ICON_1_11zon.webp",
+            "mobile_icon_width": 112,
+            "icon_width": 100,
+            "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Free shipping",
-            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
+            "title": "Hygiene",
+            "content": "<p>Zu viele Haare schließen Schweiß und Feuchtigkeit ein – die perfekte Brutstätte für Gerüche und Bakterien. Weniger Haare bedeuten mehr Frische und Komfort, den ganzen Tag lang.</p>"
           }
         },
         "item_FXdyr4": {
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
-            "icon_background_type": "circle",
+            "mobile_icon_width": 112,
+            "icon_width": 100,
+            "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Customer service",
-            "content": "<p>We are available from monday to friday to answer your questions.</p>"
+            "title": "Ästhetik",
+            "content": "<p>Wir müssen es dir nicht extra erklären. Ein gepflegter Garten lässt den Baum einfach... imposanter wirken. Punkt.</p>"
           }
         },
         "item_j7m3AX": {
@@ -382,8 +383,8 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "Secure payment",
-            "content": "<p>Your payment information is processed securely.</p>"
+            "title": "Selbstvertrauen",
+            "content": "<p>Wenn du weißt, dass untenrum alles unter Kontrolle ist, ändert sich deine ganze Haltung. Das ist die Art von stillem Selbstvertrauen, das sich überall bemerkbar macht – vom Meetingraum bis ins Schlafzimmer.</p>"
           }
         }
       },
@@ -393,16 +394,17 @@
         "item_j7m3AX"
       ],
       "custom_css": [
-        "div {margin-top: 12px; margin-bottom: 0px; font-size: 14px; font-family: \"Poppins\";}"
+        "div {font-size: 14px; font-family: \"Poppins\";}",
+        "scroll-carousel {margin-top: -20px; margin-bottom: -20px;}"
       ],
       "name": "Text with icons",
       "settings": {
         "full_width": true,
-        "stack_on_mobile": false,
-        "title": "",
+        "stack_on_mobile": true,
+        "title": "Mehr als nur Style. Es ist Kontrolle.",
         "heading_tag": "h5",
         "text_alignment": "center",
-        "icon_spacing": "medium",
+        "icon_spacing": "small",
         "background": "",
         "background_gradient": "",
         "text_color": ""
