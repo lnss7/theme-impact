@@ -336,12 +336,25 @@
       ],
       "custom_css": [
         "media-with-text {font-size: 14px; font-family: \"Poppins\", sans-serif;}",
-        "div {background-color: #17334d; margin-bottom: 30px;}"
+        "div {background-color: #17334d;}"
       ],
       "name": "Media with text",
       "settings": {
         "full_width": true,
         "spacing": "small"
+      }
+    },
+    "custom_liquid_3DdaBG": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "text_with_icons_Vd7crf": {
@@ -411,13 +424,12 @@
         "item_j7m3AX"
       ],
       "custom_css": [
-        "div {font-size: 14px; font-family: \"Poppins\";}",
-        "scroll-carousel {margin-top: -20px; margin-bottom: -20px;}"
+        "div {font-size: 14px; font-family: \"Poppins\";}"
       ],
       "name": "Text with icons",
       "settings": {
         "full_width": true,
-        "stack_on_mobile": true,
+        "stack_on_mobile": false,
         "title": "Mehr als nur Style. Es ist Kontrolle.",
         "heading_tag": "h5",
         "text_alignment": "center",
@@ -743,6 +755,7 @@
     "media_with_text_BhJb33",
     "media_with_text_A7CLzY",
     "media_with_text_8MFBzz",
+    "custom_liquid_3DdaBG",
     "text_with_icons_Vd7crf",
     "faq_rEWzGr",
     "feature_chart_Fqpqk4",
