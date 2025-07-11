@@ -364,7 +364,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "custom_icon": "shopify://shop_images/ICONS_11zon.webp",
+            "custom_icon": "shopify://shop_images/5_11zon_1.webp",
             "mobile_icon_width": 108,
             "icon_width": 108,
             "icon_background_type": "none",
@@ -378,7 +378,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "custom_icon": "shopify://shop_images/ICON_1_11zon.webp",
+            "custom_icon": "shopify://shop_images/ICON_1_11zon_24db7e74-741e-4c54-932b-63268b6229fe.webp",
             "mobile_icon_width": 112,
             "icon_width": 100,
             "icon_background_type": "none",
@@ -392,7 +392,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "custom_icon": "shopify://shop_images/ICON_2_11zon.webp",
+            "custom_icon": "shopify://shop_images/ICON_2_11zon_72315842-b3b0-442b-a8a7-2a1b546682b3.webp",
             "mobile_icon_width": 112,
             "icon_width": 100,
             "icon_background_type": "none",
@@ -406,7 +406,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "custom_icon": "shopify://shop_images/ICON_4_11zon.webp",
+            "custom_icon": "shopify://shop_images/ICON_4_11zon_f4496f61-4494-4f1f-a739-bd3b2c2d05b5.webp",
             "mobile_icon_width": 92,
             "icon_width": 92,
             "icon_background_type": "none",
@@ -434,9 +434,9 @@
         "heading_tag": "h5",
         "text_alignment": "center",
         "icon_spacing": "small",
-        "background": "",
+        "background": "#e0e7f4",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "#17334d"
       }
     },
     "faq_rEWzGr": {
