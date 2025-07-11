@@ -365,7 +365,10 @@
         "item_yWEhhA",
         "item_MfmAej"
       ],
-      "disabled": true,
+      "custom_css": [
+        "details {font-size: 13px; font-family: \"Poppins\";}",
+        ".v-stack {font-size: 12px; font-family: \"Poppins\";}"
+      ],
       "name": "FAQ",
       "settings": {
         "full_width": true,
@@ -373,8 +376,8 @@
         "title": "FAQ",
         "content": "<p>Use this text to share information about your product or shipping policies.</p>",
         "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
+        "support_hours": "Servicezeiten: Mo - Fr: 08:00 - 20:00 UhrSa, So & Feiertage: 11:00 - 22:00 Uhr",
+        "answer_time": "Durchschnittliche Antwortzeit: 12 Stunden",
         "button_text": "",
         "button_url": "",
         "text_position": "center",
