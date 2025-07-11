@@ -347,6 +347,20 @@
     "text_with_icons_Vd7crf": {
       "type": "text-with-icons",
       "blocks": {
+        "item_eFYFzb": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/ICONS_11zon.webp",
+            "mobile_icon_width": 108,
+            "icon_width": 108,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Stille Stärke.",
+            "content": "<p>Unser Hochleistungsmotor arbeitet kraftvoll und doch bemerkenswert leise. Du bekommst die ganze Power ohne das nervige Geräusch. Dein Ritual, ungestört.</p>"
+          }
+        },
         "item_bjzaq8": {
           "type": "item",
           "settings": {
@@ -391,6 +405,7 @@
         }
       },
       "block_order": [
+        "item_eFYFzb",
         "item_bjzaq8",
         "item_FXdyr4",
         "item_j7m3AX"
