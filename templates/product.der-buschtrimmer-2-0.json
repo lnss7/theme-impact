@@ -117,6 +117,54 @@
         "input_text_color": ""
       }
     },
+    "rich_text_eqVTjT": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_aV3kLQ": {
+          "type": "icon",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/FAVICONog.svg",
+            "icon_width": 64,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": ""
+          }
+        },
+        "heading_6Jaej6": {
+          "type": "heading",
+          "settings": {
+            "text": "Für die Kronjuwelen.",
+            "heading_tag": "h1",
+            "text_color": "#e0e7f4",
+            "gradient": ""
+          }
+        },
+        "richtext_ETQcrp": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Hochpräziser Trimmer für den Mann. Mit unserer Skin-Safe-Technologie ist <strong>Der Buschtrimmer 2.0</strong> ideal für den Intimbereich und den ganzen Körper.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_aV3kLQ",
+        "heading_6Jaej6",
+        "richtext_ETQcrp"
+      ],
+      "custom_css": [
+        "div {font-size: 14px; font-family: \"Poppins\";}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "linear-gradient(228deg, rgba(23, 51, 77, 1) 14%, rgba(92, 140, 180, 1) 83%)",
+        "text_color": "#e0e7f4"
+      }
+    },
     "image_with_text_overlay_7qTmqf": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -749,6 +797,7 @@
   },
   "order": [
     "main",
+    "rich_text_eqVTjT",
     "image_with_text_overlay_7qTmqf",
     "image_with_text_overlay_zYkpbE",
     "image_with_text_overlay_NJBPEa",
