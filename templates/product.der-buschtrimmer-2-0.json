@@ -165,46 +165,50 @@
         "text_color": "#e0e7f4"
       }
     },
-    "rich_text_gCQddr": {
+    "revealed_image_on_scroll_wTEWh4": {
+      "type": "revealed-image-on-scroll",
+      "name": "Revealed image on scroll",
+      "settings": {
+        "image": "shopify://shop_images/REVELED_TO_SCROLL_11zon.webp",
+        "mobile_image": "shopify://shop_images/REVELED_TO_SCROLL_-_MOBILE__11zon.webp",
+        "subheading": "",
+        "title": "Reveal text on scroll",
+        "background": "",
+        "text_color_inside": "#ffffff",
+        "text_color_outside": "#000000"
+      }
+    },
+    "rich_text_QJVbJ6": {
       "type": "rich-text",
       "blocks": {
-        "icon_n9kwTx": {
-          "type": "icon",
-          "settings": {
-            "icon": "picto-coupon",
-            "custom_icon": "shopify://shop_images/FAVICONog.svg",
-            "icon_width": 64,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": ""
-          }
-        },
-        "heading_7bf9rr": {
+        "heading_AnMYeb": {
           "type": "heading",
           "settings": {
-            "text": "Für die Kronjuwelen.",
-            "heading_tag": "h1",
+            "text": "WARUM IST DER BUSCHTRIMMER 2.0 DER BESTE INTIMTRIMMER FÜR MÄNNER?",
+            "heading_tag": "h3",
             "text_color": "#e0e7f4",
             "gradient": ""
           }
         },
-        "richtext_NUGKDA": {
+        "richtext_M9jFfR": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Hochpräziser Trimmer für den Mann. Mit unserer Skin-Safe-Technologie ist <strong>Der Buschtrimmer 2.0</strong> ideal für den Intimbereich und den ganzen Körper.</p>"
+            "content": "<p>Ob für die Vorder- oder die Rückseite, der Buschtrimmer 2.0 ist das entscheidende Werkzeug für dein Grooming. Der Grund ist einfach: AuraMann versteht, was du wirklich brauchst:</p>"
           }
         }
       },
       "block_order": [
-        "icon_n9kwTx",
-        "heading_7bf9rr",
-        "richtext_NUGKDA"
+        "heading_AnMYeb",
+        "richtext_M9jFfR"
+      ],
+      "custom_css": [
+        "div {font-size: 14px; font-family: \"Poppins\";}"
       ],
       "name": "Rich text",
       "settings": {
         "full_width": true,
         "content_width": "small",
-        "text_position": "start",
+        "text_position": "center",
         "background": "",
         "background_gradient": "linear-gradient(228deg, rgba(23, 51, 77, 1) 14%, rgba(92, 140, 180, 1) 83%)",
         "text_color": "#e0e7f4"
@@ -843,7 +847,8 @@
   "order": [
     "main",
     "rich_text_eqVTjT",
-    "rich_text_gCQddr",
+    "revealed_image_on_scroll_wTEWh4",
+    "rich_text_QJVbJ6",
     "image_with_text_overlay_7qTmqf",
     "image_with_text_overlay_zYkpbE",
     "image_with_text_overlay_NJBPEa",
