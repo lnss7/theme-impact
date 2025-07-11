@@ -224,7 +224,8 @@
         "image_gpEK8m": {
           "type": "image",
           "settings": {
-            "media_width": 50,
+            "image": "shopify://shop_images/1_11zon_3.webp",
+            "media_width": 45,
             "media_position": "start",
             "text_position": "place-self-center text-center",
             "icon": "none",
@@ -262,7 +263,8 @@
         "image_9hPbMp": {
           "type": "image",
           "settings": {
-            "media_width": 50,
+            "image": "shopify://shop_images/2_11zon_3.webp",
+            "media_width": 45,
             "media_position": "end",
             "text_position": "place-self-center text-center",
             "icon": "none",
@@ -283,6 +285,45 @@
       },
       "block_order": [
         "image_9hPbMp"
+      ],
+      "custom_css": [
+        "media-with-text {font-size: 14px; font-family: \"Poppins\", sans-serif;}",
+        "div {background-color: #17334d;}"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": true,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_8MFBzz": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_Ykyr8T": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_11zon_3.webp",
+            "media_width": 45,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Wir bringen Licht ins Dunkel.",
+            "content": "<p>Das integrierte LED-Licht leuchtet selbst die schwierigsten Stellen präzise aus. Keine Ausreden mehr für ungenaue Ergebnisse.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "linear-gradient(0deg, rgba(92, 140, 180, 1) 4%, rgba(255, 255, 255, 1) 100%)",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Ykyr8T"
       ],
       "custom_css": [
         "media-with-text {font-size: 14px; font-family: \"Poppins\", sans-serif;}",
@@ -606,6 +647,7 @@
     "image_with_text_overlay_NJBPEa",
     "media_with_text_BhJb33",
     "media_with_text_A7CLzY",
+    "media_with_text_8MFBzz",
     "faq_rEWzGr",
     "feature_chart_Fqpqk4",
     "slideshow_aiHarV",
