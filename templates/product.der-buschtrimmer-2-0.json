@@ -260,7 +260,7 @@
         "richtext_39PTz8"
       ],
       "custom_css": [
-        ".text-center{margin-top: 35px;}"
+        ".text-center {margin-top: 35px;}"
       ],
       "name": "Image with text overlay",
       "settings": {
@@ -272,6 +272,45 @@
         "mobile_image": "shopify://shop_images/COPY_DER_BUSCHTRIMMER_2.0_-_AURAMANN_MOBILE_11zon.webp",
         "mobile_text_position": "place-self-start-center text-center",
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#e0e7f4",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_with_text_overlay_JTC6qL": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_3wh7Fz": {
+          "type": "heading",
+          "settings": {
+            "text": "GEBAUT FÜR DEINE HAND.",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_b9W8qk": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Vergiss unhandliche Geräte. Der Buschtrimmer 2.0 wurde geformt, um wie eine natürliche Verlängerung deiner Hand zu agieren. Der rutschfeste Griff und die ausbalancierte Form geben dir die nötige Sicherheit, um jede Kontur präzise zu meistern.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3wh7Fz",
+        "richtext_b9W8qk"
+      ],
+      "custom_css": [
+        ".text-center {margin-top: 35px;}"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/COPY_DER_BUSCHTRIMMER_2.0_PC_design_11zon.webp",
+        "mobile_image": "shopify://shop_images/COPY_DER_BUSCHTRIMMER_2.0_design_11zon.webp",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center-end sm:text-end",
         "text_color": "#e0e7f4",
         "overlay_color": "#000000",
         "overlay_opacity": 30
@@ -875,6 +914,7 @@
     "rich_text_QJVbJ6",
     "image_with_text_overlay_yUgAx4",
     "image_with_text_overlay_b6d84x",
+    "image_with_text_overlay_JTC6qL",
     "image_with_text_overlay_7qTmqf",
     "image_with_text_overlay_zYkpbE",
     "media_with_text_BhJb33",
