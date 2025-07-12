@@ -518,73 +518,6 @@
         "text_color": ""
       }
     },
-    "press_dX6PgV": {
-      "type": "press",
-      "blocks": {
-        "quote_cWt89F": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 50,
-            "author": "Lukas",
-            "content": "Ich war echt skeptisch, ob man einen extra 'Intimtrimmer' braucht. Bisher musste mein Barttrimmer ran (mit gemischtem Erfolg...). Aber der Buschtrimmer 2.0 ist eine andere Welt. Kein Ziepen, kein Stress und das LED-Licht ist überraschend nützlich. Hätte ich nicht gedacht. Klare Empfehlung.",
-            "show_rating": true,
-            "rating": 5
-          }
-        },
-        "quote_REKDqd": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "Max",
-            "content": "Der Trimmer liegt super in der Hand, fühlt sich wertig an und der Motor ist erstaunlich leise. Ich benutze ihn unter der Dusche, was die ganze Sache viel einfacher macht. Die Reinigung ist ein Witz – einfach abspülen. Der Akku hält ewig. Das ist deutsche Ingenieurskunst, die man fühlt. Jeden Cent wert",
-            "show_rating": true,
-            "rating": 4
-          }
-        },
-        "quote_9tbMTr": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "Tom",
-            "content": "Kein Schnickschnack. Einfach ein Trimmer, der funktioniert. Schneidet sauber, keine Schnitte bisher. Akku per USB-C laden ist mega praktisch. Das Licht ist nützlich. Passt. Mehr gibt's nicht zu sagen.",
-            "show_rating": true,
-            "rating": 5
-          }
-        },
-        "quote_9fCLBE": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "Lena",
-            "content": "Gekauft für meinen Freund, um sein Gejammer über Schnittwunden zu beenden. Mission erfüllt! Er sagt, er ist super sicher und ich kann bestätigen: Das Ergebnis ist sehr... ansprechend. ;) Absolute Win-Win-Situation. Mädels, klare Kaufempfehlung!",
-            "show_rating": true,
-            "rating": 4
-          }
-        }
-      },
-      "block_order": [
-        "quote_cWt89F",
-        "quote_REKDqd",
-        "quote_9tbMTr",
-        "quote_9fCLBE"
-      ],
-      "custom_css": [
-        "blockquote {font-size: 14px; font-weight: 400;}",
-        ".press__author {font-size: 20px; font-weight: 600;}"
-      ],
-      "name": "Press",
-      "settings": {
-        "full_width": false,
-        "content_size": "small",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
-      }
-    },
     "testimonials_xjHpXF": {
       "type": "testimonials",
       "blocks": {
@@ -593,10 +526,10 @@
           "settings": {
             "round_avatar": true,
             "show_rating": true,
-            "rating": 4,
-            "author": "John S.",
-            "title": "Testimonial 1",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "rating": 5,
+            "author": "",
+            "title": "Lukas",
+            "content": "<p>Ich war echt skeptisch, ob man einen extra 'Intimtrimmer' braucht. Bisher musste mein Barttrimmer ran (mit gemischtem Erfolg...). Aber der Buschtrimmer 2.0 ist eine andere Welt. Kein Ziepen, kein Stress und das LED-Licht ist überraschend nützlich. Hätte ich nicht gedacht. Klare Empfehlung.</p>"
           }
         },
         "testimonial_VpD8zD": {
@@ -605,9 +538,9 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 5,
-            "author": "Mary U.",
-            "title": "Testimonial 2",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "author": "",
+            "title": "Max",
+            "content": "<p>Der Trimmer liegt super in der Hand, fühlt sich wertig an und der Motor ist erstaunlich leise. Ich benutze ihn unter der Dusche, was die ganze Sache viel einfacher macht. Die Reinigung ist ein Witz – einfach abspülen. Der Akku hält ewig. Das ist deutsche Ingenieurskunst, die man fühlt. Jeden Cent wert</p>"
           }
         },
         "testimonial_pjUGeV": {
@@ -615,24 +548,36 @@
           "settings": {
             "round_avatar": true,
             "show_rating": true,
-            "rating": 4,
-            "author": "Joshua A.",
-            "title": "Testimonial 3",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "rating": 5,
+            "author": "",
+            "title": "Tom",
+            "content": "<p>Kein Schnickschnack. Einfach ein Trimmer, der funktioniert. Schneidet sauber, keine Schnitte bisher. Akku per USB-C laden ist mega praktisch. Das Licht ist nützlich. Passt. Mehr gibt's nicht zu sagen.</p>"
+          }
+        },
+        "testimonial_EAGFJW": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Lena",
+            "content": "<p>Gekauft für meinen Freund, um sein Gejammer über Schnittwunden zu beenden. Mission erfüllt! Er sagt, er ist super sicher und ich kann bestätigen: Das Ergebnis ist sehr... ansprechend. ;) Absolute Win-Win-Situation. Mädels, klare Kaufempfehlung!</p>"
           }
         }
       },
       "block_order": [
         "testimonial_KwMgfM",
         "testimonial_VpD8zD",
-        "testimonial_pjUGeV"
+        "testimonial_pjUGeV",
+        "testimonial_EAGFJW"
       ],
       "name": "Testimonials",
       "settings": {
         "full_width": true,
         "stack_testimonials": false,
         "subheading": "",
-        "title": "Testimonials",
+        "title": "",
         "content": "",
         "link_url": "",
         "link_text": "",
@@ -967,7 +912,6 @@
     "media_with_text_A7CLzY",
     "media_with_text_8MFBzz",
     "custom_liquid_3DdaBG",
-    "press_dX6PgV",
     "testimonials_xjHpXF",
     "faq_rEWzGr",
     "feature_chart_Fqpqk4",
