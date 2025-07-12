@@ -590,6 +590,42 @@
         "testimonial_card_text_color": ""
       }
     },
+    "image_with_text_overlay_z4KAPw": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_QkXbYW": {
+          "type": "heading",
+          "settings": {
+            "text": "So verwendest du deinen Buschtrimmer 2.0 richtig",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_3WHmPN": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Sich um sich selbst zu kümmern war noch nie so einfach und sicher. Mit dem <strong>Buschtrimmer 2.0</strong> wird das Trimmen deines Intimbereichs (und viel mehr) zu einem schnellen und effizienten Erlebnis.</p><p>Hier erfährst du, wie du ihn richtig anwendest, um die besten Ergebnisse zu erzielen:</p><p><strong>1. Lade deinen Buschtrimmer zu 100 % auf:</strong><br/>Schließe den Trimmer per USB an und lade ihn vollständig auf. Eine volle Ladung sorgt für bis zu 90 Minuten ununterbrochene Power.</p><p><strong>2. Wähle den idealen Kamm oder Aufsatz:</strong><br/>Verwende den mitgelieferten verstellbaren Kamm, um deinen Schnitt individuell anzupassen. Bevorzugst du ein glattes Finish oder einen eher dezenten Look? Du entscheidest.</p><p><strong>3. Bereite den Bereich vor:</strong><br/>Stelle sicher, dass die Haut vor der Anwendung sauber und trocken ist. Der Buschtrimmer 2.0 ist zwar wasserdicht, aber saubere Haut reduziert Irritationen und lässt die Klinge besser gleiten.</p><p><strong>4. Trimme mit Selbstvertrauen:</strong><br/>Schalte das Gerät ein, halte es fest und gleite sanft gegen die Haarwuchsrichtung für einen gleichmäßigeren Schnitt.</p><p><strong>5. Tipps für die empfindlichsten Zonen:</strong><br/>Gehe im Intimbereich langsam und mit kurzen Bewegungen vor. Die Anti-Schnitt-Technologie sorgt für zusätzliche Sicherheit und Sanftheit.</p><p><strong>6. Abschluss und Reinigung:</strong><br/>Spüle den Buschtrimmer 2.0 nach Gebrauch einfach unter fließendem Wasser ab. Verwende die Reinigungsbürste, um eine vollständige Hygiene zu gewährleisten.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QkXbYW",
+        "richtext_3WHmPN"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/COPY_MODO_DE_USAR-_AURAMANN_PC_11zon.webp",
+        "mobile_image": "shopify://shop_images/MODO_DE_USAR_MOBILE__11zon.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#e0e7f4",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "faq_rEWzGr": {
       "type": "faq",
       "blocks": {
@@ -913,6 +949,7 @@
     "media_with_text_8MFBzz",
     "custom_liquid_3DdaBG",
     "testimonials_xjHpXF",
+    "image_with_text_overlay_z4KAPw",
     "faq_rEWzGr",
     "feature_chart_Fqpqk4",
     "slideshow_aiHarV",
