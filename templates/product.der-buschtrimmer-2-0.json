@@ -330,6 +330,7 @@
       "block_order": [
         "heading_qfjfeC"
       ],
+      "disabled": true,
       "custom_css": [
         ".h1 {margin-top: 0px; margin-bottom: -10px;}"
       ],
@@ -341,45 +342,6 @@
         "image_size": "auto",
         "image": "shopify://shop_images/1_11zon_2.webp",
         "mobile_image": "shopify://shop_images/1_11zon_1.webp",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "image_with_text_overlay_zYkpbE": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_WYiKXp": {
-          "type": "heading",
-          "settings": {
-            "text": "Der Sommer kommt. Kein Stress.",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_RG7gTf": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h6>...wenn man das richtige Werkzeug hat.</h6>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_WYiKXp",
-        "richtext_RG7gTf"
-      ],
-      "custom_css": [
-        ".h1 {margin-top: 0px; margin-bottom: -10px;}"
-      ],
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/2_11zon_2.webp",
-        "mobile_image": "shopify://shop_images/2_11zon_1.webp",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -426,6 +388,45 @@
         "spacing": "small"
       }
     },
+    "media_with_text_trrcpL": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_N63pcw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/tecnologia_a_proca_de_cortes.png",
+            "media_width": 45,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Was ist das Geheimnis unserer Anti-Schnitt-Technologie?",
+            "content": "<p>Die Magie des Buschtrimmer 2.0 liegt in der cleveren Kombination aus abgerundeten Keramikklingen und einem intelligenten Schneidsystem. Diese Technologie reduziert Reibung und verhindert Ziepen, Schnitte und Irritationen. Das ist Sicherheit, die man in jedem Detail spürt.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "linear-gradient(0deg, rgba(92, 140, 180, 1), rgba(255, 255, 255, 1) 100%)",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_N63pcw"
+      ],
+      "custom_css": [
+        "media-with-text {font-size: 14px; font-family: \"Poppins\", sans-serif;}",
+        "div {background-color: #17334d;}"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": true,
+        "spacing": "small"
+      }
+    },
     "media_with_text_A7CLzY": {
       "type": "media-with-text",
       "blocks": {
@@ -434,7 +435,7 @@
           "settings": {
             "image": "shopify://shop_images/2_11zon_3.webp",
             "media_width": 45,
-            "media_position": "end",
+            "media_position": "start",
             "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
@@ -473,7 +474,7 @@
           "settings": {
             "image": "shopify://shop_images/3_11zon_3.webp",
             "media_width": 45,
-            "media_position": "start",
+            "media_position": "end",
             "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
@@ -517,86 +518,131 @@
         "text_color": ""
       }
     },
-    "text_with_icons_Vd7crf": {
-      "type": "text-with-icons",
+    "press_dX6PgV": {
+      "type": "press",
       "blocks": {
-        "item_eFYFzb": {
-          "type": "item",
+        "quote_cWt89F": {
+          "type": "quote",
           "settings": {
-            "icon": "picto-coupon",
-            "custom_icon": "shopify://shop_images/5_11zon_1.webp",
-            "mobile_icon_width": 108,
-            "icon_width": 108,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Stille Stärke.",
-            "content": "<p>Unser Hochleistungsmotor arbeitet kraftvoll und doch bemerkenswert leise. Du bekommst die ganze Power ohne das nervige Geräusch. Dein Ritual, ungestört.</p>"
+            "logo_width": 50,
+            "author": "Lukas",
+            "content": "Ich war echt skeptisch, ob man einen extra 'Intimtrimmer' braucht. Bisher musste mein Barttrimmer ran (mit gemischtem Erfolg...). Aber der Buschtrimmer 2.0 ist eine andere Welt. Kein Ziepen, kein Stress und das LED-Licht ist überraschend nützlich. Hätte ich nicht gedacht. Klare Empfehlung.",
+            "show_rating": true,
+            "rating": 5
           }
         },
-        "item_bjzaq8": {
-          "type": "item",
+        "quote_REKDqd": {
+          "type": "quote",
           "settings": {
-            "icon": "picto-coupon",
-            "custom_icon": "shopify://shop_images/ICON_1_11zon_24db7e74-741e-4c54-932b-63268b6229fe.webp",
-            "mobile_icon_width": 112,
-            "icon_width": 100,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Hygiene",
-            "content": "<p>Zu viele Haare schließen Schweiß und Feuchtigkeit ein – die perfekte Brutstätte für Gerüche und Bakterien. Weniger Haare bedeuten mehr Frische und Komfort, den ganzen Tag lang.</p>"
+            "logo_width": 100,
+            "author": "Max",
+            "content": "Der Trimmer liegt super in der Hand, fühlt sich wertig an und der Motor ist erstaunlich leise. Ich benutze ihn unter der Dusche, was die ganze Sache viel einfacher macht. Die Reinigung ist ein Witz – einfach abspülen. Der Akku hält ewig. Das ist deutsche Ingenieurskunst, die man fühlt. Jeden Cent wert",
+            "show_rating": true,
+            "rating": 4
           }
         },
-        "item_FXdyr4": {
-          "type": "item",
+        "quote_9tbMTr": {
+          "type": "quote",
           "settings": {
-            "icon": "picto-coupon",
-            "custom_icon": "shopify://shop_images/ICON_2_11zon_72315842-b3b0-442b-a8a7-2a1b546682b3.webp",
-            "mobile_icon_width": 112,
-            "icon_width": 100,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Ästhetik",
-            "content": "<p>Wir müssen es dir nicht extra erklären. Ein gepflegter Garten lässt den Baum einfach... imposanter wirken. Punkt.</p>"
+            "logo_width": 100,
+            "author": "Tom",
+            "content": "Kein Schnickschnack. Einfach ein Trimmer, der funktioniert. Schneidet sauber, keine Schnitte bisher. Akku per USB-C laden ist mega praktisch. Das Licht ist nützlich. Passt. Mehr gibt's nicht zu sagen.",
+            "show_rating": true,
+            "rating": 5
           }
         },
-        "item_j7m3AX": {
-          "type": "item",
+        "quote_9fCLBE": {
+          "type": "quote",
           "settings": {
-            "icon": "picto-coupon",
-            "custom_icon": "shopify://shop_images/ICON_4_11zon_f4496f61-4494-4f1f-a739-bd3b2c2d05b5.webp",
-            "mobile_icon_width": 92,
-            "icon_width": 92,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Selbstvertrauen",
-            "content": "<p>Wenn du weißt, dass untenrum alles unter Kontrolle ist, ändert sich deine ganze Haltung. Das ist die Art von stillem Selbstvertrauen, das sich überall bemerkbar macht – vom Meetingraum bis ins Schlafzimmer.</p>"
+            "logo_width": 100,
+            "author": "Lena",
+            "content": "Gekauft für meinen Freund, um sein Gejammer über Schnittwunden zu beenden. Mission erfüllt! Er sagt, er ist super sicher und ich kann bestätigen: Das Ergebnis ist sehr... ansprechend. ;) Absolute Win-Win-Situation. Mädels, klare Kaufempfehlung!",
+            "show_rating": true,
+            "rating": 4
           }
         }
       },
       "block_order": [
-        "item_eFYFzb",
-        "item_bjzaq8",
-        "item_FXdyr4",
-        "item_j7m3AX"
+        "quote_cWt89F",
+        "quote_REKDqd",
+        "quote_9tbMTr",
+        "quote_9fCLBE"
       ],
       "custom_css": [
-        "div {font-size: 14px; font-family: \"Poppins\";}"
+        "blockquote {font-size: 14px; font-weight: 400;}",
+        ".press__author {font-size: 20px; font-weight: 600;}"
       ],
-      "name": "Text with icons",
+      "name": "Press",
+      "settings": {
+        "full_width": false,
+        "content_size": "small",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "testimonials_xjHpXF": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_KwMgfM": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "John S.",
+            "title": "Testimonial 1",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_VpD8zD": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Mary U.",
+            "title": "Testimonial 2",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_pjUGeV": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Joshua A.",
+            "title": "Testimonial 3",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_KwMgfM",
+        "testimonial_VpD8zD",
+        "testimonial_pjUGeV"
+      ],
+      "name": "Testimonials",
       "settings": {
         "full_width": true,
-        "stack_on_mobile": true,
-        "title": "Mehr als nur Style. Es ist Kontrolle.",
-        "heading_tag": "h5",
-        "text_alignment": "center",
-        "icon_spacing": "small",
-        "background": "#e0e7f4",
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "Testimonials",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
         "background_gradient": "",
-        "text_color": "#17334d"
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
       }
     },
     "faq_rEWzGr": {
@@ -916,12 +962,13 @@
     "image_with_text_overlay_b6d84x",
     "image_with_text_overlay_JTC6qL",
     "image_with_text_overlay_7qTmqf",
-    "image_with_text_overlay_zYkpbE",
     "media_with_text_BhJb33",
+    "media_with_text_trrcpL",
     "media_with_text_A7CLzY",
     "media_with_text_8MFBzz",
     "custom_liquid_3DdaBG",
-    "text_with_icons_Vd7crf",
+    "press_dX6PgV",
+    "testimonials_xjHpXF",
     "faq_rEWzGr",
     "feature_chart_Fqpqk4",
     "slideshow_aiHarV",
