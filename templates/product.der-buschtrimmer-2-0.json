@@ -633,29 +633,45 @@
         "item_iGdXpC": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "1. Okay, Klartext: Wie sicher ist er wirklich für die Kronjuwelen?",
+            "content": "<p>Er wurde genau dafür gebaut. Unsere Skin-Safe™ Technologie mit abgerundeten Keramikklingen ist darauf ausgelegt, Haare zu schneiden, nicht die Haut. Kombiniert mit dem LED-Licht, das alles ausleuchtet, minimierst du das Risiko. Aber sei kein Barbar: Geh es langsam an.</p>"
           }
         },
         "item_yWEhhA": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "2. Kann ich ihn auch für meinen Bart benutzen?",
+            "content": "<p>Technisch gesehen, ja. Aber mal im Ernst: Würdest du die Schuhe, mit denen du durch den Wald gelaufen bist, auf dein Kopfkissen legen? Wir empfehlen dringend ein separates Werkzeug für dein Gesicht. Behandle beide Regionen mit dem Respekt, den sie verdienen.</p>"
           }
         },
         "item_MfmAej": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "3. Wie lange hält der Akku wirklich, bevor er mich im Stich lässt?",
+            "content": "<p>Der Lithium-Ionen-Akku liefert 90 Minuten konstante Power. Genug Zeit, um ein Meisterwerk zu schaffen. Oder zwei.</p>"
+          }
+        },
+        "item_c7dQ9Q": {
+          "type": "item",
+          "settings": {
+            "title": "4. Wie stelle ich die Schnittlänge ein? Bin ich auf eine Länge festgelegt?",
+            "content": "<p>Ganz und gar nicht. Du hast die volle Kontrolle. Der Buschtrimmer 2.0 kommt mit verschiedenen Aufsteckkämmen, damit du genau den Look kreieren kannst, den du willst. Ob kurz, kürzer oder fast glatt – du definierst die Regeln.</p>"
+          }
+        },
+        "item_9pn3q6": {
+          "type": "item",
+          "settings": {
+            "title": "5. Mein Haar ist ziemlich dicht. Packt der Motor das wirklich?",
+            "content": "<p>Unser 7.000-U/min-Hochleistungsmotor ist kein Spielzeug. Er wurde entwickelt, um mühelos und ohne Ziepen durch jede Art von \"Buschwerk\" zu gleiten. Er fragt nicht, er macht einfach.</p>"
           }
         }
       },
       "block_order": [
         "item_iGdXpC",
         "item_yWEhhA",
-        "item_MfmAej"
+        "item_MfmAej",
+        "item_c7dQ9Q",
+        "item_9pn3q6"
       ],
       "custom_css": [
         "details {font-size: 13px; font-family: \"Poppins\";}",
@@ -665,7 +681,7 @@
       "settings": {
         "full_width": true,
         "subheading": "",
-        "title": "Deine Fragen. Unsere Antworten.",
+        "title": "Du hast Fragen. Wir haben die (ehrlichen) Antworten.",
         "content": "",
         "team_avatar_width": 160,
         "support_hours": "Servicezeiten: Mo - Fr: 08:00 - 20:00 UhrSa, So & Feiertage: 11:00 - 22:00 Uhr",
