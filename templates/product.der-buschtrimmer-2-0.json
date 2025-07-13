@@ -805,6 +805,54 @@
         "chart_true_false_color": ""
       }
     },
+    "rich_text_rfebt8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qzMery": {
+          "type": "heading",
+          "settings": {
+            "text": "Bist du bereit, es richtig zu machen?",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_8dc8m6": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Hör auf zu improvisieren. Hol dir das Werkzeug, das für diese Aufgabe gebaut wurde.</p>"
+          }
+        },
+        "button_m6Ebqf": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Jetzt kaufen",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_qzMery",
+        "richtext_8dc8m6",
+        "button_m6Ebqf"
+      ],
+      "custom_css": [
+        "div {font-size: 14px; font-family: \"Poppins\";}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#000000",
+        "background_gradient": "linear-gradient(18deg, rgba(23, 51, 77, 1) 13%, rgba(92, 140, 180, 1) 86%)",
+        "text_color": "#ffffff"
+      }
+    },
     "1746147346041d1da6": {
       "type": "apps",
       "blocks": {
@@ -875,6 +923,7 @@
     "faq_rEWzGr",
     "image_with_text_overlay_4LmNLx",
     "feature_chart_Fqpqk4",
+    "rich_text_rfebt8",
     "1746147346041d1da6",
     "related-products"
   ]
