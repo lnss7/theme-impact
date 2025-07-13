@@ -839,7 +839,7 @@
           "type": "button",
           "settings": {
             "style": "fill",
-            "size": "base",
+            "size": "lg",
             "text": "Jetzt kaufen",
             "url": "https://auramann.de/checkouts/cn/Z2NwLXVzLWVhc3QxOjAxSlk4SkNaUVdWWTI5MEtYMUpKV1BLTktY/information?preview_theme_id=181389066564",
             "background": "",
