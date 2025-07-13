@@ -292,11 +292,23 @@
           "settings": {
             "content": "<p><strong>Vergiss unhandliche Geräte. Der Buschtrimmer 2.0 wurde geformt, um wie eine natürliche Verlängerung deiner Hand zu agieren. Der rutschfeste Griff und die ausbalancierte Form geben dir die nötige Sicherheit, um jede Kontur präzise zu meistern.</strong></p>"
           }
+        },
+        "button_33GxfV": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "In den Warenkorb",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
         "heading_3wh7Fz",
-        "richtext_b9W8qk"
+        "richtext_b9W8qk",
+        "button_33GxfV"
       ],
       "custom_css": [
         ".text-center {margin-top: 35px;}"
@@ -481,14 +493,14 @@
             "subheading": "",
             "title": "Wir bringen Licht ins Dunkel.",
             "content": "<p>Das integrierte LED-Licht leuchtet selbst die schwierigsten Stellen präzise aus. Keine Ausreden mehr für ungenaue Ergebnisse.</p>",
-            "link_text": "",
+            "link_text": "In den Warenkorb",
             "link_url": "",
-            "background": "#ffffff",
+            "background": "#17334d",
             "background_gradient": "",
             "text_color": "#ffffff",
             "text_gradient": "linear-gradient(0deg, rgba(92, 140, 180, 1) 4%, rgba(255, 255, 255, 1) 100%)",
-            "button_background": "",
-            "button_text_color": ""
+            "button_background": "#5c8cb4ff",
+            "button_text_color": "#ffffff"
           }
         }
       },
@@ -497,7 +509,7 @@
       ],
       "custom_css": [
         "media-with-text {font-size: 14px; font-family: \"Poppins\", sans-serif;}",
-        "div {background-color: #17334d;}"
+        ".section-full {background-color: #17334d;}"
       ],
       "name": "Media with text",
       "settings": {
