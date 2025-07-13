@@ -700,16 +700,33 @@
         "accordion_text_color": "#f7f9ff"
       }
     },
+    "image_with_text_overlay_4LmNLx": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Ein_dichter_Dschungel_beherbergt_allerlei_Bakterien_und_unerwunschte_Kreaturen..webp",
+        "mobile_image": "shopify://shop_images/COPY_DER_BUSCHTRIMMER_2.0_final_-_AURAMANN_MOBILE_11zon.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "feature_chart_Fqpqk4": {
       "type": "feature-chart",
       "blocks": {
         "headings_A8DbWJ": {
           "type": "headings",
           "settings": {
-            "heading_1": "Heading 1",
-            "heading_2": "Heading 2",
-            "heading_3": "Heading 3",
-            "heading_4": "Heading 4",
+            "heading_1": "Klinge & Performance",
+            "heading_2": "Akku & Energie",
+            "heading_3": "Design & Material",
+            "heading_4": "Im Lieferumfang enthalten:",
             "heading_5": "",
             "heading_6": "",
             "heading_7": "",
@@ -728,42 +745,14 @@
             "heading_20": ""
           }
         },
-        "values_pPdUta": {
-          "type": "values",
-          "settings": {
-            "product": "",
-            "value_1": "<p>Yes</p>",
-            "value_2": "<p>Yes</p>",
-            "value_3": "<p>No</p>",
-            "value_4": "<p>No</p>",
-            "value_5": "",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": "",
-            "value_11": "",
-            "value_12": "",
-            "value_13": "",
-            "value_14": "",
-            "value_15": "",
-            "value_16": "",
-            "value_17": "",
-            "value_18": "",
-            "value_19": "",
-            "value_20": "",
-            "view_button_background": "",
-            "view_button_text_color": ""
-          }
-        },
         "values_r3WXjc": {
           "type": "values",
           "settings": {
             "product": "",
-            "value_1": "<p>No</p>",
-            "value_2": "<p>Yes</p>",
-            "value_3": "<p>Yes</p>",
-            "value_4": "<p>No</p>",
+            "value_1": "<ul><li><strong>Klingentechnologie:</strong> Skin-Safe™ Keramikklinge</li><li><strong>LED-Licht:</strong> Ja, integriert für maximale Sichtbarkeit</li></ul>",
+            "value_2": "<ul><li><strong>Laufzeit:</strong> ca. 90 Minuten</li><li><strong>Ladezeit:</strong> ca. 90 Minuten</li><li><strong>Akku:</strong> 600mAh Lithium-Ionen-Akku (Modell 14500)</li><li><strong>Aufladung:</strong> USB-C (1m Kabel inklusive)</li><li><strong>Nennleistung:</strong> 5W</li></ul>",
+            "value_3": "<ul><li><strong>Schutzklasse:</strong> 100% wasserdicht (IPX7-zertifiziert)</li><li><strong>Farbe:</strong> Schwarz</li><li><strong>Abmessungen (Gerät):</strong> 15,5 cm x 3,5 cm x 3 cm</li><li><strong>Gewicht (Gerät):</strong> 127 g</li></ul>",
+            "value_4": "<ul><li>1x Der Buschtrimmer 2.0</li><li>1x Aufsteckkamm (montiert)</li><li>1x Ladestation</li><li>1x USB-C-Ladekabel</li><li>1x Reinigungsbürste</li><li>1x Bedienungsanleitung</li></ul>",
             "value_5": "",
             "value_6": "",
             "value_7": "",
@@ -787,16 +776,14 @@
       },
       "block_order": [
         "headings_A8DbWJ",
-        "values_pPdUta",
         "values_r3WXjc"
       ],
-      "disabled": true,
       "name": "Feature chart",
       "settings": {
         "full_width": true,
-        "subheading": "Compare",
-        "title": "Product specification",
-        "content": "<p>Give your customers useful information about your products and showcase differences between them.</p>",
+        "subheading": "",
+        "title": "Technische Daten",
+        "content": "",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
@@ -806,98 +793,16 @@
         "view_product": "View",
         "viewing_product": "",
         "show_product_swatch": true,
-        "background": "",
+        "background": "#e0e7f4",
         "background_gradient": "",
         "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "chart_background": "",
+        "heading_color": "#5c8cb4",
+        "heading_gradient": "linear-gradient(0deg, rgba(23, 51, 77, 1), rgba(92, 140, 180, 1) 100%)",
+        "button_background": "#000000",
+        "button_text_color": "#f7f9ff",
+        "chart_background": "#f7f9ff",
         "chart_text_color": "",
         "chart_true_false_color": ""
-      }
-    },
-    "slideshow_aiHarV": {
-      "type": "slideshow",
-      "blocks": {
-        "image_E3C6HE": {
-          "type": "image",
-          "settings": {
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide 1",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_E3C6HE"
-      ],
-      "disabled": true,
-      "name": "Slideshow",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
-      }
-    },
-    "slideshow_qpg6nV": {
-      "type": "slideshow",
-      "blocks": {
-        "image_pxCHzY": {
-          "type": "image",
-          "settings": {
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide 1",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_pxCHzY"
-      ],
-      "disabled": true,
-      "name": "Slideshow",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
       }
     },
     "1746147346041d1da6": {
@@ -968,9 +873,8 @@
     "testimonials_xjHpXF",
     "image_with_text_overlay_z4KAPw",
     "faq_rEWzGr",
+    "image_with_text_overlay_4LmNLx",
     "feature_chart_Fqpqk4",
-    "slideshow_aiHarV",
-    "slideshow_qpg6nV",
     "1746147346041d1da6",
     "related-products"
   ]
