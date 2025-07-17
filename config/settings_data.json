@@ -70,6 +70,11 @@
         "type": "shopify://apps/avada-seo-suite/blocks/avada-seo/15507c6e-1aa3-45d3-b698-7e175e033440",
         "disabled": false,
         "settings": {}
+      },
+      "8329602812678528339": {
+        "type": "shopify://apps/bk-reviews/blocks/bk-reviews-embed/592f39b6-a0c6-4829-a095-8e5558e58026",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
