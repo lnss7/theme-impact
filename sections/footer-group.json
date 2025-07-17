@@ -58,9 +58,7 @@
         "tab_k8wpTa",
         "tab_fL6nUD"
       ],
-      "custom_css": [
-        "div {margin-top: 0px; font-size: 14px;}"
-      ],
+      "custom_css": [],
       "name": "Tabs",
       "settings": {
         "full_width": true,
