@@ -152,9 +152,7 @@
         "heading_6Jaej6",
         "richtext_ETQcrp"
       ],
-      "custom_css": [
-        "div {font-size: 14px;}"
-      ],
+      "custom_css": [],
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -167,6 +165,7 @@
     },
     "revealed_image_on_scroll_wTEWh4": {
       "type": "revealed-image-on-scroll",
+      "custom_css": [],
       "name": "Revealed image on scroll",
       "settings": {
         "image": "shopify://shop_images/REVELED_TO_SCROLL_11zon.webp",
@@ -202,7 +201,7 @@
         "richtext_M9jFfR"
       ],
       "custom_css": [
-        "div {font-size: 14px; font-family: \"Poppins\"; margin-bottom: -10px;}"
+        "div {margin-bottom: -10px;}"
       ],
       "name": "Rich text",
       "settings": {
@@ -391,7 +390,6 @@
         "image_gpEK8m"
       ],
       "custom_css": [
-        "media-with-text {font-size: 14px; font-family: \"Poppins\", sans-serif;}",
         "div {background-color: #17334d;}"
       ],
       "name": "Media with text",
@@ -430,7 +428,6 @@
         "image_N63pcw"
       ],
       "custom_css": [
-        "media-with-text {font-size: 14px; font-family: \"Poppins\", sans-serif;}",
         "div {background-color: #17334d;}"
       ],
       "name": "Media with text",
@@ -469,7 +466,6 @@
         "image_9hPbMp"
       ],
       "custom_css": [
-        "media-with-text {font-size: 14px; font-family: \"Poppins\", sans-serif;}",
         "div {background-color: #17334d;}"
       ],
       "name": "Media with text",
@@ -508,7 +504,6 @@
         "image_Ykyr8T"
       ],
       "custom_css": [
-        "media-with-text {font-size: 14px; font-family: \"Poppins\", sans-serif;}",
         ".section-full {background-color: #17334d;}"
       ],
       "name": "Media with text",
@@ -686,7 +681,6 @@
         "item_9pn3q6"
       ],
       "custom_css": [
-        "details {font-size: 13px; font-family: \"Poppins\";}",
         ".v-stack {font-size: 12px; font-family: \"Poppins\";}"
       ],
       "name": "FAQ",
@@ -852,9 +846,7 @@
         "richtext_8dc8m6",
         "button_m6Ebqf"
       ],
-      "custom_css": [
-        "div {font-size: 14px; font-family: \"Poppins\";}"
-      ],
+      "custom_css": [],
       "name": "Rich text",
       "settings": {
         "full_width": true,
