@@ -35,7 +35,7 @@
       {%- if image != blank -%}
         {{- image | image_url: width: image.width | image_tag: loading: 'lazy', sizes: '270px', widths: '270,540,810', class: 'gift-card__image' -}}
       {%- else -%}
-        <img src="{{ 'gift-card/card.svg' | shopify_asset_url }}" alt="" class="gift-card__image" width="270" height="180" loading="lazy">
+        <img src="{{ 'gift-card/card.svg' | shopify_asset_url }}" alt="" class="gift-card__image" width="270" height="180">
       {%- endif -%}
 
       <h1 class="h2 text-center">{{ 'gift_card.general.title' | t }}</h1>
@@ -101,7 +101,7 @@
 
                 {%- if gift_card.pass_url -%}
                   <a href="{{ gift_card.pass_url }}">
-                    <img src="{{ 'gift-card/add-to-apple-wallet.svg' | shopify_asset_url }}" width="145" height="45" alt="{{ 'gift_card.issued.add_to_apple_wallet' | t }}" loading="lazy">
+                    <img src="{{ 'gift-card/add-to-apple-wallet.svg' | shopify_asset_url }}" width="145" height="45" alt="{{ 'gift_card.issued.add_to_apple_wallet' | t }}">
                   </a>
                 {%- endif -%}
               </div>

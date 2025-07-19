@@ -41,12 +41,12 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     {{ 'local-fonts.css.liquid' | asset_url | stylesheet_tag }}
 
     <script type="module" src="{{ 'vendor.min.js' | asset_url }}"></script>
-    <script type="module" src="{{ 'theme.aio.min.js' | asset_url }}"></script>
-    <script type="module" src="{{ 'sections.aio.min.js' | asset_url }}"></script>
+    <script type="module" src="{{ 'theme.js' | asset_url }}"></script>
+    <script type="module" src="{{ 'sections.js' | asset_url }}"></script>
 
     {{ content_for_header }}
 
-    <link rel="preload" href="{{ 'theme.aio.min.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="{{ 'theme.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="{{ 'theme.aio.min.css' | asset_url }}"></noscript>
 </head>
 
