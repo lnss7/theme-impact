@@ -163,18 +163,41 @@
         "text_color": "#e0e7f4"
       }
     },
-    "revealed_image_on_scroll_wTEWh4": {
-      "type": "revealed-image-on-scroll",
+    "image_with_text_overlay_ggX9L9": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_XYAXen": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_XdMQXM": {
+          "type": "heading",
+          "settings": {
+            "text": "Dein treuer Begleiter",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_XYAXen",
+        "heading_XdMQXM"
+      ],
       "custom_css": [],
-      "name": "Revealed image on scroll",
+      "name": "Image with text overlay",
       "settings": {
-        "image": "shopify://shop_images/REVELED_TO_SCROLL_11zon.webp",
-        "mobile_image": "shopify://shop_images/REVELED_TO_SCROLL_-_MOBILE__11zon.webp",
-        "subheading": "",
-        "title": "Dein treuer Begleiter.",
-        "background": "",
-        "text_color_inside": "#ffffff",
-        "text_color_outside": "#000000"
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/REVELED_TO_SCROLL_11zon_59714b3d-3991-48e8-806e-38f8816c2a8b.webp",
+        "mobile_image": "shopify://shop_images/REVELED_TO_SCROLL_-_MOBILE__11zon_8b692e7a-ccbb-4f95-8880-a253b0f099a1.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
     "rich_text_QJVbJ6": {
@@ -909,7 +932,7 @@
   "order": [
     "main",
     "rich_text_eqVTjT",
-    "revealed_image_on_scroll_wTEWh4",
+    "image_with_text_overlay_ggX9L9",
     "rich_text_QJVbJ6",
     "image_with_text_overlay_yUgAx4",
     "image_with_text_overlay_b6d84x",
