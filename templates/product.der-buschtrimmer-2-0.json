@@ -166,12 +166,6 @@
     "image_with_text_overlay_ggX9L9": {
       "type": "image-with-text-overlay",
       "blocks": {
-        "subheading_XYAXen": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
         "heading_XdMQXM": {
           "type": "heading",
           "settings": {
@@ -181,7 +175,6 @@
         }
       },
       "block_order": [
-        "subheading_XYAXen",
         "heading_XdMQXM"
       ],
       "custom_css": [],
